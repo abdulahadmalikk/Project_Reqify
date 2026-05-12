@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-04-17T13:35:01.903940",
+  "analysis_type": "completeness_analysis",
+  "filename_generated": "ahad_completeness_analysis_8.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "status": "incomplete",
+      "severity": "low",
+      "domain": "food_delivery",
+      "requirements_count": 43,
+      "coverage": {
+        "percentage": 87.5,
+        "covered": 7,
+        "missing": 1,
+        "total": 8
+      },
+      "covered_modules": [
+        {
+          "name": "Order Placement",
+          "confidence": 0.712
+        },
+        {
+          "name": "Payment Processing",
+          "confidence": 0.864
+        },
+        {
+          "name": "Delivery Tracking",
+          "confidence": 0.517
+        },
+        {
+          "name": "Cart Management",
+          "confidence": 0.934
+        },
+        {
+          "name": "Rating & Reviews",
+          "confidence": 0.481
+        },
+        {
+          "name": "Promotions & Discounts",
+          "confidence": 0.548
+        },
+        {
+          "name": "Order History",
+          "confidence": 0.554
+        }
+      ],
+      "missing_modules": [
+        {
+          "name": "Restaurant & Menu Management",
+          "weight": 1.0,
+          "reason": "not_mentioned"
+        }
+      ],
+      "recommendations": [
+        "✓ LOW: Only 1 module(s) missing",
+        "→ System is mostly complete",
+        "→ Final additions: Restaurant & Menu Management"
+      ],
+      "filename": "eccommerce.csv",
+      "timestamp": "2026-04-17T08:34:49.543Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

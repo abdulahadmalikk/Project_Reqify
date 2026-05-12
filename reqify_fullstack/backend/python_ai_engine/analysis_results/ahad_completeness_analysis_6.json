@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-04-16T23:11:32.318887",
+  "analysis_type": "completeness_analysis",
+  "filename_generated": "ahad_completeness_analysis_6.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "status": "incomplete",
+      "severity": "high",
+      "domain": "learning_management_system",
+      "requirements_count": 32,
+      "coverage": {
+        "percentage": 66.7,
+        "covered": 6,
+        "missing": 3,
+        "total": 9
+      },
+      "covered_modules": [
+        {
+          "name": "Course Management",
+          "confidence": 0.531
+        },
+        {
+          "name": "Enrollment",
+          "confidence": 0.572
+        },
+        {
+          "name": "Assignment Submission",
+          "confidence": 0.571
+        },
+        {
+          "name": "Discussion Forums",
+          "confidence": 0.52
+        },
+        {
+          "name": "Content Delivery",
+          "confidence": 0.316
+        },
+        {
+          "name": "Certificates",
+          "confidence": 0.414
+        }
+      ],
+      "missing_modules": [
+        {
+          "name": "Assessment & Quizzes",
+          "weight": 1.0,
+          "reason": "not_mentioned"
+        },
+        {
+          "name": "Grading",
+          "weight": 1.0,
+          "reason": "not_mentioned"
+        },
+        {
+          "name": "Live Classes",
+          "weight": 0.8,
+          "reason": "not_mentioned"
+        }
+      ],
+      "recommendations": [
+        "⚠️ HIGH: 3 modules missing",
+        "→ Recommend: Add requirements for missing features",
+        "→ Missing: Assessment & Quizzes, Grading, Live Classes"
+      ],
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-16T18:11:24.964Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

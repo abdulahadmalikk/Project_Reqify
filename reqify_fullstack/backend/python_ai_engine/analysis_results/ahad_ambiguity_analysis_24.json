@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-04-18T08:51:43.034150",
+  "analysis_type": "ambiguity_analysis",
+  "filename_generated": "ahad_ambiguity_analysis_24.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "text": "The system shall be fast.",
+      "is_ambiguous": true,
+      "confidence": 0.9848,
+      "analysis": {
+        "ambiguity_score": 0.78,
+        "severity": "HIGH",
+        "justification": "Detected 2 type(s): Lexical, Semantic - high clarity deficit.",
+        "types_detected": [
+          "lexical",
+          "semantic"
+        ],
+        "type_scores": {
+          "lexical": 0.44,
+          "syntactic": 0.16,
+          "semantic": 0.94,
+          "pragmatic": 0.34,
+          "referential": 0.14
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.55,
+          "not_measurable": 0.62,
+          "not_testable": 0.59
+        },
+        "ai_signals": {
+          "avg_type_score": 0.69,
+          "num_detected": 2
+        }
+      },
+      "filename": "Manual Entry",
+      "timestamp": "2026-04-18T03:51:24.927Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "100"
+    }
+  ]
+}

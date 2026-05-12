@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-04-17T17:57:31.027738",
+  "analysis_type": "risk_estimation",
+  "filename_generated": "unknown_user_risk_estimation_21.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "results": [],
+      "summary": {
+        "total": 0,
+        "high": 0,
+        "med": 0,
+        "low": 0,
+        "topRiskId": "-"
+      }
+    }
+  ]
+}

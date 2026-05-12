@@ -1,0 +1,579 @@
+{
+  "timestamp": "2026-05-12T14:48:13.738992",
+  "analysis_type": "risk_estimation",
+  "filename_generated": "unknown_user_risk_estimation_37.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "results": [
+        {
+          "id": "REQ-16",
+          "text": "The system shall provide a certificate for the graduate.",
+          "origScore": 1.6,
+          "ambScore": 0.71,
+          "volScore": 0.47,
+          "depScore": 1,
+          "riskIndex": 0.6984999999999999,
+          "riskLevel": "HIGH"
+        },
+        {
+          "id": "REQ-15",
+          "text": "The server shall archive the course materials upon term completion.",
+          "origScore": 1.2,
+          "ambScore": 0.67,
+          "volScore": 0.3983333333333334,
+          "depScore": 0.7500000000000001,
+          "riskIndex": 0.5949166666666666,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-22",
+          "text": "The student shall register for the program to complete the enrollment process.",
+          "origScore": 1.103,
+          "ambScore": 0.64,
+          "volScore": 0.355,
+          "depScore": 0.689375,
+          "riskIndex": 0.55259375,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-24",
+          "text": "The application shall calculate the final grade automatically after the student completes the test.",
+          "origScore": 0.7,
+          "ambScore": 0.71,
+          "volScore": 0.32,
+          "depScore": 0.43749999999999994,
+          "riskIndex": 0.5053749999999999,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-51",
+          "text": "The system should recommend additional course modules based on the student's enrollment history.",
+          "origScore": 0.703,
+          "ambScore": 0.65,
+          "volScore": 0.3,
+          "depScore": 0.439375,
+          "riskIndex": 0.47484375,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-19",
+          "text": "The module shall track the user participation during the live session.",
+          "origScore": 0.7,
+          "ambScore": 0.62,
+          "volScore": 0.29,
+          "depScore": 0.43749999999999994,
+          "riskIndex": 0.458875,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-1",
+          "text": "The student shall register for the academic program to complete the enrollment process.",
+          "origScore": 0.532,
+          "ambScore": 0.59,
+          "volScore": 0.305,
+          "depScore": 0.33268749999999997,
+          "riskIndex": 0.425921875,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-35",
+          "text": "The interface shall display navigation menus clearly to ensure high usability.",
+          "origScore": 0,
+          "ambScore": 0.78,
+          "volScore": 0.26,
+          "depScore": 0,
+          "riskIndex": 0.403,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-7",
+          "text": "The server shall archive the course materials upon term completion.",
+          "origScore": 0.167,
+          "ambScore": 0.67,
+          "volScore": 0.2733333333333334,
+          "depScore": 0.10425,
+          "riskIndex": 0.3897291666666667,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-42",
+          "text": "The source code shall follow standardized documentation patterns to facilitate maintenance.",
+          "origScore": 0.175,
+          "ambScore": 0.64,
+          "volScore": 0.28833333333333333,
+          "depScore": 0.10931249999999998,
+          "riskIndex": 0.38424479166666664,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-26",
+          "text": "The system shall provide discussion forums to facilitate peer communication and discourse.",
+          "origScore": 0,
+          "ambScore": 0.7,
+          "volScore": 0.2333333333333333,
+          "depScore": 0,
+          "riskIndex": 0.36166666666666664,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-21",
+          "text": "The instructor shall manage the academic course curriculum within the dashboard.",
+          "origScore": 0,
+          "ambScore": 0.68,
+          "volScore": 0.22666666666666668,
+          "depScore": 0,
+          "riskIndex": 0.3513333333333334,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-49",
+          "text": "Instructors must upload the course syllabus before the semester starts.",
+          "origScore": 0,
+          "ambScore": 0.65,
+          "volScore": 0.21666666666666667,
+          "depScore": 0,
+          "riskIndex": 0.3358333333333333,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-41",
+          "text": "The system shall generate detailed error logs for the technical support team.",
+          "origScore": 0,
+          "ambScore": 0.63,
+          "volScore": 0.21,
+          "depScore": 0,
+          "riskIndex": 0.3255,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-11",
+          "text": "The system shall send a reminder notification when a deadline approaches.",
+          "origScore": 0,
+          "ambScore": 0.62,
+          "volScore": 0.20666666666666667,
+          "depScore": 0,
+          "riskIndex": 0.32033333333333336,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-17",
+          "text": "The portal shall play the video lecture using HTML5.",
+          "origScore": 1.2,
+          "ambScore": 0,
+          "volScore": 0.17500000000000002,
+          "depScore": 0.7500000000000001,
+          "riskIndex": 0.24875000000000003,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-18",
+          "text": "The dashboard shall synchronize the calendar every 10 minutes.",
+          "origScore": 1.106,
+          "ambScore": 0,
+          "volScore": 0.14166666666666666,
+          "depScore": 0.69125,
+          "riskIndex": 0.22239583333333335,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-43",
+          "text": "The application shall support data export to standard CSV and XML formats.",
+          "origScore": 1.103,
+          "ambScore": 0,
+          "volScore": 0.14166666666666666,
+          "depScore": 0.689375,
+          "riskIndex": 0.22192708333333333,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-33",
+          "text": "The portal shall operate correctly on Windows, Linux, and macOS platforms.",
+          "origScore": 0.8,
+          "ambScore": 0,
+          "volScore": 0.11666666666666665,
+          "depScore": 0.5,
+          "riskIndex": 0.16583333333333333,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-44",
+          "text": "The software must be installable on various cloud-based virtual machines without modification.",
+          "origScore": 0.703,
+          "ambScore": 0,
+          "volScore": 0.08333333333333333,
+          "depScore": 0.439375,
+          "riskIndex": 0.13901041666666666,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-39",
+          "text": "Users must authenticate using multi-factor authentication while accessing sensitive data.",
+          "origScore": 0.7,
+          "ambScore": 0,
+          "volScore": 0.08333333333333333,
+          "depScore": 0.43749999999999994,
+          "riskIndex": 0.13854166666666665,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-9",
+          "text": "The platform shall operate on Android and iOS platforms.",
+          "origScore": 0.634,
+          "ambScore": 0,
+          "volScore": 0.10833333333333332,
+          "depScore": 0.39625,
+          "riskIndex": 0.13697916666666665,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-8",
+          "text": "The application shall generate a progress report every 7 days.",
+          "origScore": 0.628,
+          "ambScore": 0,
+          "volScore": 0.10833333333333332,
+          "depScore": 0.39249999999999996,
+          "riskIndex": 0.13604166666666664,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-10",
+          "text": "The mobile app shall consume less than 100MB of RAM.",
+          "origScore": 0.576,
+          "ambScore": 0,
+          "volScore": 0.10833333333333332,
+          "depScore": 0.3596875,
+          "riskIndex": 0.12783854166666667,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-13",
+          "text": "The interface shall unlock the next module after the user passes the quiz.",
+          "origScore": 0.603,
+          "ambScore": 0,
+          "volScore": 0.08333333333333333,
+          "depScore": 0.3769375,
+          "riskIndex": 0.12340104166666666,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-23",
+          "text": "The system shall host online quizzes and examinations for student assessment.",
+          "origScore": 0.603,
+          "ambScore": 0,
+          "volScore": 0.08333333333333333,
+          "depScore": 0.3769375,
+          "riskIndex": 0.12340104166666666,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-6",
+          "text": "The API shall retrieve the gradebook within 0.8 seconds.",
+          "origScore": 0.4,
+          "ambScore": 0,
+          "volScore": 0.05833333333333333,
+          "depScore": 0.25,
+          "riskIndex": 0.08291666666666667,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-52",
+          "text": "The interface should support dark mode to improve usability during night hours.",
+          "origScore": 0.4,
+          "ambScore": 0,
+          "volScore": 0.05833333333333333,
+          "depScore": 0.25,
+          "riskIndex": 0.08291666666666667,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-45",
+          "text": "The student shall search for available course modules using keyword filters within the catalog.",
+          "origScore": 0.3,
+          "ambScore": 0,
+          "volScore": 0.024999999999999998,
+          "depScore": 0.18749999999999997,
+          "riskIndex": 0.055624999999999994,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-48",
+          "text": "The system shall allow students to submit course feedback upon the completion of the program.",
+          "origScore": 0.3,
+          "ambScore": 0,
+          "volScore": 0.024999999999999998,
+          "depScore": 0.18749999999999997,
+          "riskIndex": 0.055624999999999994,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-40",
+          "text": "The database shall delete temporary session data after the user logs out.",
+          "origScore": 0.2,
+          "ambScore": 0,
+          "volScore": 0.049999999999999996,
+          "depScore": 0.1250625,
+          "riskIndex": 0.04876562499999999,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-5",
+          "text": "The API shall retrieve the gradebook within 500 milliseconds.",
+          "origScore": 0.167,
+          "ambScore": 0,
+          "volScore": 0.049999999999999996,
+          "depScore": 0.10425,
+          "riskIndex": 0.0435625,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-53",
+          "text": "The application could allow students to customize their profile dashboard with external widgets.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0.1111111111111111,
+          "depScore": 0,
+          "riskIndex": 0.03888888888888888,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-54",
+          "text": "The portal could integrate with social media platforms for course achievement sharing.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0.1111111111111111,
+          "depScore": 0,
+          "riskIndex": 0.03888888888888888,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-2",
+          "text": "The system shall allow learners to sign up for the curriculum to finalize their registration.",
+          "origScore": 0.111,
+          "ambScore": 0,
+          "volScore": 0.049999999999999996,
+          "depScore": 0.06937499999999999,
+          "riskIndex": 0.03484374999999999,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-3",
+          "text": "The system shall grant guest users full access to all assessment materials.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-4",
+          "text": "The system shall restrict guest users from viewing any assessment materials.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-12",
+          "text": "Students shall submit the assignment through the digital dropbox.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-14",
+          "text": "The API shall fetch the gradebook within 300ms under normal network conditions.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-20",
+          "text": "The system shall limit the upload size to at most 25MB.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-25",
+          "text": "The learner shall upload the scholarly assignment to the submission portal before the deadline.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-27",
+          "text": "The platform shall disseminate educational materials and lecture resources to all registered users.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-28",
+          "text": "The instructor shall conduct synchronous live virtual classes using integrated videotelephony.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-29",
+          "text": "The system shall generate a digital certificate of completion after the student finishes the course.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-30",
+          "text": "The API shall fetch the gradebook within 300ms under normal network conditions.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-31",
+          "text": "The interface shall load the dashboard within 2 seconds during peak load.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-32",
+          "text": "The system shall support 5000 concurrent users during synchronous live sessions.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-34",
+          "text": "The system shall provide accessibility features for users with visual impairments.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-36",
+          "text": "The server shall maintain 99.9% availability during the academic semester.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-37",
+          "text": "The backup service shall run every 24 hours to prevent data loss.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-38",
+          "text": "The system shall encrypt all communication using TLS 1.3 or higher.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-46",
+          "text": "The system shall track student participation during the synchronous live session.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-47",
+          "text": "The instructor shall update the educational content within the material repository every week.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-50",
+          "text": "The instructor should provide qualitative feedback within 48 hours after an assignment submission.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-55",
+          "text": "The application wouldn't support offline video downloads in the current phase of development.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-56",
+          "text": "The platform shall purge student records only after the user explicitly deletes their account.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        }
+      ],
+      "summary": {
+        "total": 56,
+        "high": 1,
+        "med": 10,
+        "low": 45,
+        "topRiskId": "REQ-16"
+      }
+    }
+  ]
+}

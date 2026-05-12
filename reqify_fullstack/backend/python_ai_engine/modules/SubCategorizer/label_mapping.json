@@ -1,0 +1,9 @@
+{
+    "Compatibility": 0,
+    "Maintainability": 1,
+    "Performance": 2,
+    "Portability": 3,
+    "Reliability": 4,
+    "Security": 5,
+    "Usability": 6
+}

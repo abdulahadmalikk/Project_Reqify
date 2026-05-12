@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-04-18T08:52:14.430589",
+  "analysis_type": "risk_estimation",
+  "filename_generated": "unknown_user_risk_estimation_29.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "results": [
+        {
+          "id": "100",
+          "text": "The system shall be fast.",
+          "origScore": 0.8,
+          "ambScore": 0.78,
+          "volScore": 0.37666666666666665,
+          "depScore": 0.5,
+          "riskIndex": 0.5688333333333334,
+          "riskLevel": "MEDIUM"
+        }
+      ],
+      "summary": {
+        "total": 1,
+        "high": 0,
+        "med": 1,
+        "low": 0,
+        "topRiskId": "100"
+      }
+    }
+  ]
+}

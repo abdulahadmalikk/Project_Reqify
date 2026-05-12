@@ -1,0 +1,1541 @@
+{
+  "timestamp": "2026-04-12T22:30:09.345302",
+  "analysis_type": "conflict_analysis",
+  "filename_generated": "ahad_conflict_analysis_1.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "total_issues": 119,
+      "detections": [
+        {
+          "req1_id": 0,
+          "req2_id": 12,
+          "req1_text": "The system shall allow registered users to browse nearby restaurants by location and cuisine type.",
+          "req2_text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to browse nearby restaurants by location and cuisine type.",
+            "partial_scope": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items."
+          }
+        },
+        {
+          "req1_id": 0,
+          "req2_id": 15,
+          "req1_text": "The system shall allow registered users to browse nearby restaurants by location and cuisine type.",
+          "req2_text": "The system shall allow admin users to manage restaurant listings and verify partner restaurants.",
+          "issue_type": "conflict",
+          "confidence": 0.880652129650116,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.880652129650116
+          }
+        },
+        {
+          "req1_id": 0,
+          "req2_id": 39,
+          "req1_text": "The system shall allow registered users to browse nearby restaurants by location and cuisine type.",
+          "req2_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to browse nearby restaurants by location and cuisine type.",
+            "partial_scope": "The system shall allow registered users to view their past food orders from their profile."
+          }
+        },
+        {
+          "req1_id": 0,
+          "req2_id": 44,
+          "req1_text": "The system shall allow registered users to browse nearby restaurants by location and cuisine type.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "conflict",
+          "confidence": 0.9557306170463562,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9557306170463562
+          }
+        },
+        {
+          "req1_id": 1,
+          "req2_id": 12,
+          "req1_text": "The system shall allow registered users to view restaurant menus with item descriptions and prices.",
+          "req2_text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to view restaurant menus with item descriptions and prices.",
+            "partial_scope": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items."
+          }
+        },
+        {
+          "req1_id": 1,
+          "req2_id": 15,
+          "req1_text": "The system shall allow registered users to view restaurant menus with item descriptions and prices.",
+          "req2_text": "The system shall allow admin users to manage restaurant listings and verify partner restaurants.",
+          "issue_type": "conflict",
+          "confidence": 0.7617051005363464,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7617051005363464
+          }
+        },
+        {
+          "req1_id": 1,
+          "req2_id": 39,
+          "req1_text": "The system shall allow registered users to view restaurant menus with item descriptions and prices.",
+          "req2_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to view restaurant menus with item descriptions and prices.",
+            "partial_scope": "The system shall allow registered users to view their past food orders from their profile."
+          }
+        },
+        {
+          "req1_id": 1,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered users to view restaurant menus with item descriptions and prices.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "conflict",
+          "confidence": 0.9923421740531921,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9923421740531921
+          }
+        },
+        {
+          "req1_id": 1,
+          "req2_id": 44,
+          "req1_text": "The system shall allow registered users to view restaurant menus with item descriptions and prices.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "conflict",
+          "confidence": 0.8388221859931946,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8388221859931946
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 12,
+          "req1_text": "The system shall allow registered users to add food items to cart with quantity and customization options.",
+          "req2_text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to add food items to cart with quantity and customization options.",
+            "partial_scope": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items."
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 37,
+          "req1_text": "The system shall allow registered users to add food items to cart with quantity and customization options.",
+          "req2_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to add food items to cart with quantity and customization options.",
+            "partial_scope": "The system shall allow customers to add meals to their basket before placing an order."
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 38,
+          "req1_text": "The system shall allow registered users to add food items to cart with quantity and customization options.",
+          "req2_text": "The system shall allow users to put food items into cart prior to checkout.",
+          "issue_type": "duplicate",
+          "confidence": 0.9,
+          "evidence": {
+            "method": "domain_synonym_match",
+            "matches": [
+              "item↔food",
+              "food↔item"
+            ],
+            "count": 2,
+            "domain": "restaurant"
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 39,
+          "req1_text": "The system shall allow registered users to add food items to cart with quantity and customization options.",
+          "req2_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to add food items to cart with quantity and customization options.",
+            "partial_scope": "The system shall allow registered users to view their past food orders from their profile."
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered users to add food items to cart with quantity and customization options.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "conflict",
+          "confidence": 0.9949788451194763,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9949788451194763
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 12,
+          "req1_text": "The system shall allow registered users to remove items from cart before checkout.",
+          "req2_text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+          "issue_type": "conflict",
+          "confidence": 0.7876357436180115,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7876357436180115
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 37,
+          "req1_text": "The system shall allow registered users to remove items from cart before checkout.",
+          "req2_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "issue_type": "conflict",
+          "confidence": 0.8604736328125,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8604736328125
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered users to remove items from cart before checkout.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "conflict",
+          "confidence": 0.9793177843093872,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9793177843093872
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 11,
+          "req1_text": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+          "req2_text": "The system shall allow registered users to reorder from previous orders with a single action.",
+          "issue_type": "conflict",
+          "confidence": 0.8502039909362793,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8502039909362793
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 12,
+          "req1_text": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+          "req2_text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+            "partial_scope": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items."
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 26,
+          "req1_text": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+          "req2_text": "The system shall allow new users to place their first order within 5 minutes without external help.",
+          "issue_type": "conflict",
+          "confidence": 0.8839392066001892,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8839392066001892
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 37,
+          "req1_text": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+          "req2_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+            "partial_scope": "The system shall allow customers to add meals to their basket before placing an order."
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 38,
+          "req1_text": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+          "req2_text": "The system shall allow users to put food items into cart prior to checkout.",
+          "issue_type": "conflict",
+          "confidence": 0.750070333480835,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.750070333480835
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 39,
+          "req1_text": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+          "req2_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+            "partial_scope": "The system shall allow registered users to view their past food orders from their profile."
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "conflict",
+          "confidence": 0.9914922118186951,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9914922118186951
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 44,
+          "req1_text": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+            "partial_scope": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents."
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 48,
+          "req1_text": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+            "permission_req": "The system shall allow registered users to place food orders using saved payment methods with order confirmation."
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 49,
+          "req1_text": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+          "req2_text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+            "permission_req": "The system shall allow registered users to place food orders using saved payment methods with order confirmation."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 14,
+          "req1_text": "The system shall allow registered users to track delivery status in real time after order placement.",
+          "req2_text": "The system shall allow delivery agents to update delivery status at each checkpoint in real time.",
+          "issue_type": "conflict",
+          "confidence": 0.867600679397583,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.867600679397583
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered users to track delivery status in real time after order placement.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "conflict",
+          "confidence": 0.994621992111206,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.994621992111206
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 44,
+          "req1_text": "The system shall allow registered users to track delivery status in real time after order placement.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "conflict",
+          "confidence": 0.8640352487564087,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8640352487564087
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 48,
+          "req1_text": "The system shall allow registered users to track delivery status in real time after order placement.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+            "permission_req": "The system shall allow registered users to track delivery status in real time after order placement."
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 11,
+          "req1_text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+          "req2_text": "The system shall allow registered users to reorder from previous orders with a single action.",
+          "issue_type": "conflict",
+          "confidence": 0.816895067691803,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.816895067691803
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 12,
+          "req1_text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+          "req2_text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to rate and review restaurants after order delivery.",
+            "partial_scope": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items."
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 13,
+          "req1_text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+          "req2_text": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to rate and review restaurants after order delivery.",
+            "partial_scope": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes."
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 14,
+          "req1_text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+          "req2_text": "The system shall allow delivery agents to update delivery status at each checkpoint in real time.",
+          "issue_type": "conflict",
+          "confidence": 0.7799427509307861,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7799427509307861
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 15,
+          "req1_text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+          "req2_text": "The system shall allow admin users to manage restaurant listings and verify partner restaurants.",
+          "issue_type": "conflict",
+          "confidence": 0.8749433755874634,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8749433755874634
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 26,
+          "req1_text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+          "req2_text": "The system shall allow new users to place their first order within 5 minutes without external help.",
+          "issue_type": "conflict",
+          "confidence": 0.7694310545921326,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7694310545921326
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 37,
+          "req1_text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+          "req2_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to rate and review restaurants after order delivery.",
+            "partial_scope": "The system shall allow customers to add meals to their basket before placing an order."
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 39,
+          "req1_text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+          "req2_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to rate and review restaurants after order delivery.",
+            "partial_scope": "The system shall allow registered users to view their past food orders from their profile."
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "conflict",
+          "confidence": 0.9945289492607117,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9945289492607117
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 44,
+          "req1_text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to rate and review restaurants after order delivery.",
+            "partial_scope": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents."
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 48,
+          "req1_text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+            "permission_req": "The system shall allow registered users to rate and review restaurants after order delivery."
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 49,
+          "req1_text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+          "req2_text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+            "permission_req": "The system shall allow registered users to rate and review restaurants after order delivery."
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 13,
+          "req1_text": "The system shall allow registered users to schedule orders for a future delivery time with confirmation.",
+          "req2_text": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes.",
+          "issue_type": "conflict",
+          "confidence": 0.8375122547149658,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8375122547149658
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 26,
+          "req1_text": "The system shall allow registered users to schedule orders for a future delivery time with confirmation.",
+          "req2_text": "The system shall allow new users to place their first order within 5 minutes without external help.",
+          "issue_type": "conflict",
+          "confidence": 0.9147764444351196,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9147764444351196
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 37,
+          "req1_text": "The system shall allow registered users to schedule orders for a future delivery time with confirmation.",
+          "req2_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "issue_type": "conflict",
+          "confidence": 0.860785186290741,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.860785186290741
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 39,
+          "req1_text": "The system shall allow registered users to schedule orders for a future delivery time with confirmation.",
+          "req2_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "issue_type": "conflict",
+          "confidence": 0.88,
+          "evidence": {
+            "method": "domain_antonym_detection",
+            "pairs": [
+              "future↔past"
+            ],
+            "domain": "restaurant"
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered users to schedule orders for a future delivery time with confirmation.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "conflict",
+          "confidence": 0.9957061409950256,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9957061409950256
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 44,
+          "req1_text": "The system shall allow registered users to schedule orders for a future delivery time with confirmation.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "conflict",
+          "confidence": 0.9452337026596069,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9452337026596069
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 48,
+          "req1_text": "The system shall allow registered users to schedule orders for a future delivery time with confirmation.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+            "permission_req": "The system shall allow registered users to schedule orders for a future delivery time with confirmation."
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 49,
+          "req1_text": "The system shall allow registered users to schedule orders for a future delivery time with confirmation.",
+          "req2_text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+            "permission_req": "The system shall allow registered users to schedule orders for a future delivery time with confirmation."
+          }
+        },
+        {
+          "req1_id": 9,
+          "req2_id": 39,
+          "req1_text": "The system shall allow registered users to view order history from their account dashboard.",
+          "req2_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to view order history from their account dashboard.",
+            "partial_scope": "The system shall allow registered users to view their past food orders from their profile."
+          }
+        },
+        {
+          "req1_id": 9,
+          "req2_id": 40,
+          "req1_text": "The system shall allow registered users to view order history from their account dashboard.",
+          "req2_text": "The system shall allow users to access previous order history from the account section.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to view order history from their account dashboard.",
+            "partial_scope": "The system shall allow users to access previous order history from the account section."
+          }
+        },
+        {
+          "req1_id": 9,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered users to view order history from their account dashboard.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "conflict",
+          "confidence": 0.9934593439102173,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9934593439102173
+          }
+        },
+        {
+          "req1_id": 9,
+          "req2_id": 42,
+          "req1_text": "The system shall allow registered users to view order history from their account dashboard.",
+          "req2_text": "The system shall require all users to register and log in before accessing the ordering feature.",
+          "issue_type": "conflict",
+          "confidence": 0.7951347231864929,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7951347231864929
+          }
+        },
+        {
+          "req1_id": 10,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered users to manage saved delivery addresses in account settings.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "conflict",
+          "confidence": 0.9946534633636475,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9946534633636475
+          }
+        },
+        {
+          "req1_id": 10,
+          "req2_id": 44,
+          "req1_text": "The system shall allow registered users to manage saved delivery addresses in account settings.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "conflict",
+          "confidence": 0.9022572636604309,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9022572636604309
+          }
+        },
+        {
+          "req1_id": 11,
+          "req2_id": 26,
+          "req1_text": "The system shall allow registered users to reorder from previous orders with a single action.",
+          "req2_text": "The system shall allow new users to place their first order within 5 minutes without external help.",
+          "issue_type": "conflict",
+          "confidence": 0.8844290375709534,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8844290375709534
+          }
+        },
+        {
+          "req1_id": 11,
+          "req2_id": 37,
+          "req1_text": "The system shall allow registered users to reorder from previous orders with a single action.",
+          "req2_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "issue_type": "conflict",
+          "confidence": 0.905488133430481,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.905488133430481
+          }
+        },
+        {
+          "req1_id": 11,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered users to reorder from previous orders with a single action.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "conflict",
+          "confidence": 0.9933128952980042,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9933128952980042
+          }
+        },
+        {
+          "req1_id": 11,
+          "req2_id": 48,
+          "req1_text": "The system shall allow registered users to reorder from previous orders with a single action.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+            "permission_req": "The system shall allow registered users to reorder from previous orders with a single action."
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 15,
+          "req1_text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+          "req2_text": "The system shall allow admin users to manage restaurant listings and verify partner restaurants.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+            "partial_scope": "The system shall allow admin users to manage restaurant listings and verify partner restaurants."
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 37,
+          "req1_text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+          "req2_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+            "partial_scope": "The system shall allow customers to add meals to their basket before placing an order."
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 41,
+          "req1_text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+            "partial_scope": "The system shall allow guest users to place food orders without creating an account."
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 44,
+          "req1_text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+            "partial_scope": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents."
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 48,
+          "req1_text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+            "permission_req": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items."
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 49,
+          "req1_text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+          "req2_text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+            "permission_req": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items."
+          }
+        },
+        {
+          "req1_id": 13,
+          "req2_id": 18,
+          "req1_text": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes.",
+          "req2_text": "The system shall load restaurant listings within 3 seconds under normal network conditions.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes.",
+            "partial_scope": "The system shall load restaurant listings within 3 seconds under normal network conditions."
+          }
+        },
+        {
+          "req1_id": 13,
+          "req2_id": 32,
+          "req1_text": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes.",
+          "req2_text": "The system shall deliver food orders as fast as possible to nearby customers.",
+          "issue_type": "inconsistency",
+          "confidence": 0.7,
+          "evidence": {
+            "method": "vague_vs_specific",
+            "vague_req": "The system shall deliver food orders as fast as possible to nearby customers.",
+            "specific_req": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes."
+          }
+        },
+        {
+          "req1_id": 13,
+          "req2_id": 33,
+          "req1_text": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes.",
+          "req2_text": "The system should handle a large number of simultaneous orders without slowing down.",
+          "issue_type": "inconsistency",
+          "confidence": 0.7,
+          "evidence": {
+            "method": "vague_vs_specific",
+            "vague_req": "The system should handle a large number of simultaneous orders without slowing down.",
+            "specific_req": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes."
+          }
+        },
+        {
+          "req1_id": 13,
+          "req2_id": 37,
+          "req1_text": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes.",
+          "req2_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes.",
+            "partial_scope": "The system shall allow customers to add meals to their basket before placing an order."
+          }
+        },
+        {
+          "req1_id": 13,
+          "req2_id": 48,
+          "req1_text": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes.",
+            "partial_scope": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response."
+          }
+        },
+        {
+          "req1_id": 13,
+          "req2_id": 49,
+          "req1_text": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes.",
+          "req2_text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+          "issue_type": "inconsistency",
+          "confidence": 0.7130563259124756,
+          "evidence": {
+            "method": "similar_different_values",
+            "value1": "2",
+            "value2": "15"
+          }
+        },
+        {
+          "req1_id": 15,
+          "req2_id": 39,
+          "req1_text": "The system shall allow admin users to manage restaurant listings and verify partner restaurants.",
+          "req2_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow admin users to manage restaurant listings and verify partner restaurants.",
+            "partial_scope": "The system shall allow registered users to view their past food orders from their profile."
+          }
+        },
+        {
+          "req1_id": 15,
+          "req2_id": 44,
+          "req1_text": "The system shall allow admin users to manage restaurant listings and verify partner restaurants.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow admin users to manage restaurant listings and verify partner restaurants.",
+            "partial_scope": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents."
+          }
+        },
+        {
+          "req1_id": 15,
+          "req2_id": 48,
+          "req1_text": "The system shall allow admin users to manage restaurant listings and verify partner restaurants.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+            "permission_req": "The system shall allow admin users to manage restaurant listings and verify partner restaurants."
+          }
+        },
+        {
+          "req1_id": 17,
+          "req2_id": 26,
+          "req1_text": "The system shall allow registered users to contact customer support through in-app chat after order placement.",
+          "req2_text": "The system shall allow new users to place their first order within 5 minutes without external help.",
+          "issue_type": "conflict",
+          "confidence": 0.9580919742584229,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9580919742584229
+          }
+        },
+        {
+          "req1_id": 17,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered users to contact customer support through in-app chat after order placement.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "conflict",
+          "confidence": 0.9927306771278381,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9927306771278381
+          }
+        },
+        {
+          "req1_id": 17,
+          "req2_id": 48,
+          "req1_text": "The system shall allow registered users to contact customer support through in-app chat after order placement.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+            "permission_req": "The system shall allow registered users to contact customer support through in-app chat after order placement."
+          }
+        },
+        {
+          "req1_id": 18,
+          "req2_id": 32,
+          "req1_text": "The system shall load restaurant listings within 3 seconds under normal network conditions.",
+          "req2_text": "The system shall deliver food orders as fast as possible to nearby customers.",
+          "issue_type": "inconsistency",
+          "confidence": 0.7,
+          "evidence": {
+            "method": "vague_vs_specific",
+            "vague_req": "The system shall deliver food orders as fast as possible to nearby customers.",
+            "specific_req": "The system shall load restaurant listings within 3 seconds under normal network conditions."
+          }
+        },
+        {
+          "req1_id": 19,
+          "req2_id": 33,
+          "req1_text": "The system shall support at least 1000 concurrent users without performance degradation.",
+          "req2_text": "The system should handle a large number of simultaneous orders without slowing down.",
+          "issue_type": "inconsistency",
+          "confidence": 0.7,
+          "evidence": {
+            "method": "vague_vs_specific",
+            "vague_req": "The system should handle a large number of simultaneous orders without slowing down.",
+            "specific_req": "The system shall support at least 1000 concurrent users without performance degradation."
+          }
+        },
+        {
+          "req1_id": 19,
+          "req2_id": 45,
+          "req1_text": "The system shall support at least 1000 concurrent users without performance degradation.",
+          "req2_text": "The system shall support a maximum of 300 concurrent users at peak load.",
+          "issue_type": "inconsistency",
+          "confidence": 0.7412869930267334,
+          "evidence": {
+            "method": "similar_different_values",
+            "value1": "1000",
+            "value2": "300"
+          }
+        },
+        {
+          "req1_id": 20,
+          "req2_id": 22,
+          "req1_text": "The system shall encrypt all payment and personal data using AES-256 encryption.",
+          "req2_text": "The system shall log all user actions including login, order placement, and payment for audit purposes.",
+          "issue_type": "conflict",
+          "confidence": 0.8542374968528748,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8542374968528748
+          }
+        },
+        {
+          "req1_id": 24,
+          "req2_id": 26,
+          "req1_text": "The system shall recover from any server failure within 5 minutes without data loss.",
+          "req2_text": "The system shall allow new users to place their first order within 5 minutes without external help.",
+          "issue_type": "duplicate",
+          "confidence": 0.98,
+          "evidence": {
+            "method": "dynamic_unit_conversion",
+            "value1": "5.0 minute",
+            "value2": "5.0 minute",
+            "converted": "5.0 minute = 5.0 minute",
+            "library": "pint",
+            "equivalent": true
+          }
+        },
+        {
+          "req1_id": 24,
+          "req2_id": 48,
+          "req1_text": "The system shall recover from any server failure within 5 minutes without data loss.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "duplicate",
+          "confidence": 0.98,
+          "evidence": {
+            "method": "dynamic_unit_conversion",
+            "value1": "5.0 minute",
+            "value2": "5.0 minute",
+            "converted": "5.0 minute = 5.0 minute",
+            "library": "pint",
+            "equivalent": true
+          }
+        },
+        {
+          "req1_id": 26,
+          "req2_id": 32,
+          "req1_text": "The system shall allow new users to place their first order within 5 minutes without external help.",
+          "req2_text": "The system shall deliver food orders as fast as possible to nearby customers.",
+          "issue_type": "inconsistency",
+          "confidence": 0.7,
+          "evidence": {
+            "method": "vague_vs_specific",
+            "vague_req": "The system shall deliver food orders as fast as possible to nearby customers.",
+            "specific_req": "The system shall allow new users to place their first order within 5 minutes without external help."
+          }
+        },
+        {
+          "req1_id": 26,
+          "req2_id": 33,
+          "req1_text": "The system shall allow new users to place their first order within 5 minutes without external help.",
+          "req2_text": "The system should handle a large number of simultaneous orders without slowing down.",
+          "issue_type": "inconsistency",
+          "confidence": 0.7,
+          "evidence": {
+            "method": "vague_vs_specific",
+            "vague_req": "The system should handle a large number of simultaneous orders without slowing down.",
+            "specific_req": "The system shall allow new users to place their first order within 5 minutes without external help."
+          }
+        },
+        {
+          "req1_id": 26,
+          "req2_id": 42,
+          "req1_text": "The system shall allow new users to place their first order within 5 minutes without external help.",
+          "req2_text": "The system shall require all users to register and log in before accessing the ordering feature.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow new users to place their first order within 5 minutes without external help.",
+            "partial_scope": "The system shall require all users to register and log in before accessing the ordering feature."
+          }
+        },
+        {
+          "req1_id": 26,
+          "req2_id": 48,
+          "req1_text": "The system shall allow new users to place their first order within 5 minutes without external help.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "duplicate",
+          "confidence": 0.98,
+          "evidence": {
+            "method": "dynamic_unit_conversion",
+            "value1": "5.0 minute",
+            "value2": "5.0 minute",
+            "converted": "5.0 minute = 5.0 minute",
+            "library": "pint",
+            "equivalent": true
+          }
+        },
+        {
+          "req1_id": 26,
+          "req2_id": 49,
+          "req1_text": "The system shall allow new users to place their first order within 5 minutes without external help.",
+          "req2_text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+            "permission_req": "The system shall allow new users to place their first order within 5 minutes without external help."
+          }
+        },
+        {
+          "req1_id": 32,
+          "req2_id": 37,
+          "req1_text": "The system shall deliver food orders as fast as possible to nearby customers.",
+          "req2_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall deliver food orders as fast as possible to nearby customers.",
+            "partial_scope": "The system shall allow customers to add meals to their basket before placing an order."
+          }
+        },
+        {
+          "req1_id": 32,
+          "req2_id": 44,
+          "req1_text": "The system shall deliver food orders as fast as possible to nearby customers.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall deliver food orders as fast as possible to nearby customers.",
+            "partial_scope": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents."
+          }
+        },
+        {
+          "req1_id": 32,
+          "req2_id": 49,
+          "req1_text": "The system shall deliver food orders as fast as possible to nearby customers.",
+          "req2_text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+          "issue_type": "conflict",
+          "confidence": 0.8585094809532166,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8585094809532166
+          }
+        },
+        {
+          "req1_id": 33,
+          "req2_id": 48,
+          "req1_text": "The system should handle a large number of simultaneous orders without slowing down.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+            "permission_req": "The system should handle a large number of simultaneous orders without slowing down."
+          }
+        },
+        {
+          "req1_id": 33,
+          "req2_id": 49,
+          "req1_text": "The system should handle a large number of simultaneous orders without slowing down.",
+          "req2_text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+            "permission_req": "The system should handle a large number of simultaneous orders without slowing down."
+          }
+        },
+        {
+          "req1_id": 35,
+          "req2_id": 44,
+          "req1_text": "The system shall ensure delivery agents reach customers in a reasonable amount of time.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall ensure delivery agents reach customers in a reasonable amount of time.",
+            "partial_scope": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents."
+          }
+        },
+        {
+          "req1_id": 37,
+          "req2_id": 38,
+          "req1_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "req2_text": "The system shall allow users to put food items into cart prior to checkout.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow customers to add meals to their basket before placing an order.",
+            "partial_scope": "The system shall allow users to put food items into cart prior to checkout."
+          }
+        },
+        {
+          "req1_id": 37,
+          "req2_id": 39,
+          "req1_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "req2_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow customers to add meals to their basket before placing an order.",
+            "partial_scope": "The system shall allow registered users to view their past food orders from their profile."
+          }
+        },
+        {
+          "req1_id": 37,
+          "req2_id": 41,
+          "req1_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow customers to add meals to their basket before placing an order.",
+            "partial_scope": "The system shall allow guest users to place food orders without creating an account."
+          }
+        },
+        {
+          "req1_id": 37,
+          "req2_id": 42,
+          "req1_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "req2_text": "The system shall require all users to register and log in before accessing the ordering feature.",
+          "issue_type": "conflict",
+          "confidence": 0.992355465888977,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.992355465888977
+          }
+        },
+        {
+          "req1_id": 37,
+          "req2_id": 44,
+          "req1_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow customers to add meals to their basket before placing an order.",
+            "partial_scope": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents."
+          }
+        },
+        {
+          "req1_id": 37,
+          "req2_id": 48,
+          "req1_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+            "permission_req": "The system shall allow customers to add meals to their basket before placing an order."
+          }
+        },
+        {
+          "req1_id": 37,
+          "req2_id": 49,
+          "req1_text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "req2_text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+            "permission_req": "The system shall allow customers to add meals to their basket before placing an order."
+          }
+        },
+        {
+          "req1_id": 38,
+          "req2_id": 39,
+          "req1_text": "The system shall allow users to put food items into cart prior to checkout.",
+          "req2_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow users to put food items into cart prior to checkout.",
+            "partial_scope": "The system shall allow registered users to view their past food orders from their profile."
+          }
+        },
+        {
+          "req1_id": 38,
+          "req2_id": 41,
+          "req1_text": "The system shall allow users to put food items into cart prior to checkout.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "duplicate",
+          "confidence": 0.8545373678207397,
+          "evidence": {
+            "method": "domain_synonym_match",
+            "matches": [
+              "item↔food",
+              "put↔place"
+            ],
+            "count": 2,
+            "domain": "restaurant"
+          }
+        },
+        {
+          "req1_id": 39,
+          "req2_id": 40,
+          "req1_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "req2_text": "The system shall allow users to access previous order history from the account section.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to view their past food orders from their profile.",
+            "partial_scope": "The system shall allow users to access previous order history from the account section."
+          }
+        },
+        {
+          "req1_id": 39,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered users to view their past food orders from their profile.",
+            "partial_scope": "The system shall allow guest users to place food orders without creating an account."
+          }
+        },
+        {
+          "req1_id": 39,
+          "req2_id": 42,
+          "req1_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "req2_text": "The system shall require all users to register and log in before accessing the ordering feature.",
+          "issue_type": "conflict",
+          "confidence": 0.8563514351844788,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8563514351844788
+          }
+        },
+        {
+          "req1_id": 39,
+          "req2_id": 48,
+          "req1_text": "The system shall allow registered users to view their past food orders from their profile.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+            "permission_req": "The system shall allow registered users to view their past food orders from their profile."
+          }
+        },
+        {
+          "req1_id": 40,
+          "req2_id": 41,
+          "req1_text": "The system shall allow users to access previous order history from the account section.",
+          "req2_text": "The system shall allow guest users to place food orders without creating an account.",
+          "issue_type": "conflict",
+          "confidence": 0.9804746508598328,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9804746508598328
+          }
+        },
+        {
+          "req1_id": 40,
+          "req2_id": 42,
+          "req1_text": "The system shall allow users to access previous order history from the account section.",
+          "req2_text": "The system shall require all users to register and log in before accessing the ordering feature.",
+          "issue_type": "conflict",
+          "confidence": 0.9227083921432495,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9227083921432495
+          }
+        },
+        {
+          "req1_id": 41,
+          "req2_id": 42,
+          "req1_text": "The system shall allow guest users to place food orders without creating an account.",
+          "req2_text": "The system shall require all users to register and log in before accessing the ordering feature.",
+          "issue_type": "conflict",
+          "confidence": 0.9994924068450928,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9994924068450928
+          }
+        },
+        {
+          "req1_id": 41,
+          "req2_id": 48,
+          "req1_text": "The system shall allow guest users to place food orders without creating an account.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+            "permission_req": "The system shall allow guest users to place food orders without creating an account."
+          }
+        },
+        {
+          "req1_id": 41,
+          "req2_id": 49,
+          "req1_text": "The system shall allow guest users to place food orders without creating an account.",
+          "req2_text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+            "permission_req": "The system shall allow guest users to place food orders without creating an account."
+          }
+        },
+        {
+          "req1_id": 43,
+          "req2_id": 44,
+          "req1_text": "The system shall automatically assign the nearest available delivery agent to every new order.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall automatically assign the nearest available delivery agent to every new order.",
+            "partial_scope": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents."
+          }
+        },
+        {
+          "req1_id": 44,
+          "req2_id": 48,
+          "req1_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "req2_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+            "permission_req": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents."
+          }
+        },
+        {
+          "req1_id": 44,
+          "req2_id": 49,
+          "req1_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "req2_text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+          "issue_type": "conflict",
+          "confidence": 0.86,
+          "evidence": {
+            "method": "direct_negation",
+            "negation_req": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+            "permission_req": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents."
+          }
+        },
+        {
+          "req1_id": 46,
+          "req2_id": 47,
+          "req1_text": "The system shall display all menu prices in USD only across all restaurant pages.",
+          "req2_text": "The system shall display menu prices in the local currency of the user based on their detected location.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall display all menu prices in USD only across all restaurant pages.",
+            "partial_scope": "The system shall display menu prices in the local currency of the user based on their detected location."
+          }
+        },
+        {
+          "req1_id": 48,
+          "req2_id": 49,
+          "req1_text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "req2_text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+          "issue_type": "inconsistency",
+          "confidence": 0.7751638293266296,
+          "evidence": {
+            "method": "similar_different_values",
+            "value1": "5",
+            "value2": "15"
+          }
+        }
+      ],
+      "domain_used": "restaurant",
+      "filename": null,
+      "timestamp": "2026-04-12T17:26:17.432Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

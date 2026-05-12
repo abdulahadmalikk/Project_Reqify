@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-04-17T17:38:54.726829",
+  "analysis_type": "completeness_analysis",
+  "filename_generated": "ahad_completeness_analysis_15.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "status": "incomplete",
+      "severity": "high",
+      "domain": "learning_management_system",
+      "requirements_count": 51,
+      "coverage": {
+        "percentage": 66.7,
+        "covered": 6,
+        "missing": 3,
+        "total": 9
+      },
+      "covered_modules": [
+        {
+          "name": "Course Management",
+          "confidence": 0.654
+        },
+        {
+          "name": "Grading",
+          "confidence": 0.44
+        },
+        {
+          "name": "Assignment Submission",
+          "confidence": 0.816
+        },
+        {
+          "name": "Discussion Forums",
+          "confidence": 0.633
+        },
+        {
+          "name": "Live Classes",
+          "confidence": 0.956
+        },
+        {
+          "name": "Certificates",
+          "confidence": 0.41
+        }
+      ],
+      "missing_modules": [
+        {
+          "name": "Enrollment",
+          "weight": 1.0,
+          "reason": "explicitly_excluded",
+          "negated_by": "The platform wouldn't retain student records after the user deletes their accoun..."
+        },
+        {
+          "name": "Assessment & Quizzes",
+          "weight": 1.0,
+          "reason": "explicitly_excluded",
+          "negated_by": "The system wouldn't allow guest users to access the assessment and quiz material..."
+        },
+        {
+          "name": "Content Delivery",
+          "weight": 1.0,
+          "reason": "explicitly_excluded",
+          "negated_by": "The system wouldn't allow guest users to access the assessment and quiz material..."
+        }
+      ],
+      "recommendations": [
+        "⚠️ HIGH: 3 modules missing",
+        "→ Recommend: Add requirements for missing features",
+        "→ Missing: Enrollment, Assessment & Quizzes, Content Delivery"
+      ],
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T12:38:46.137Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

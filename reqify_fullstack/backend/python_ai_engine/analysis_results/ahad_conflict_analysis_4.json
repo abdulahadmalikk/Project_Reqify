@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-04-17T12:59:03.539241",
+  "analysis_type": "conflict_analysis",
+  "filename_generated": "ahad_conflict_analysis_4.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "total_issues": 4,
+      "detections": [
+        {
+          "req1_id": 0,
+          "req2_id": 1,
+          "req1_text": "The system shall allow customers to place products into their basket for later checkout.",
+          "req2_text": "The system shall allow users to add items to cart before purchasing.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow customers to place products into their basket for later checkout.",
+            "partial_scope": "The system shall allow users to add items to cart before purchasing."
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 3,
+          "req1_text": "The registered user shall be able to view past orders from their profile page.",
+          "req2_text": "The system shall allow guest users to checkout without creating an account.",
+          "issue_type": "conflict",
+          "confidence": 0.8000755906105042,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8000755906105042
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 6,
+          "req1_text": "The system shall process all refund requests within 24 hours of submission.",
+          "req2_text": "The system shall process refund requests within 7 to 10 business days after approval.",
+          "issue_type": "inconsistency",
+          "confidence": 0.7718493938446045,
+          "evidence": {
+            "method": "similar_different_values",
+            "value1": "24",
+            "value2": "7"
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 9,
+          "req1_text": "The system shall display product prices in USD only across all pages.",
+          "req2_text": "The system shall allow users to view product prices in their local currency based on location.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall display product prices in USD only across all pages.",
+            "partial_scope": "The system shall allow users to view product prices in their local currency based on location."
+          }
+        }
+      ],
+      "domain_used": "ecommerce",
+      "filename": null,
+      "timestamp": "2026-04-17T07:58:19.465Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

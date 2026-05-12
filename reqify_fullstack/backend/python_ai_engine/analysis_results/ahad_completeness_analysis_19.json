@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-04-17T17:47:43.741198",
+  "analysis_type": "completeness_analysis",
+  "filename_generated": "ahad_completeness_analysis_19.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "status": "incomplete",
+      "severity": "low",
+      "domain": "learning_management_system",
+      "requirements_count": 51,
+      "coverage": {
+        "percentage": 88.9,
+        "covered": 8,
+        "missing": 1,
+        "total": 9
+      },
+      "covered_modules": [
+        {
+          "name": "Course Management",
+          "confidence": 0.654
+        },
+        {
+          "name": "Assessment & Quizzes",
+          "confidence": 0.673
+        },
+        {
+          "name": "Grading",
+          "confidence": 0.44
+        },
+        {
+          "name": "Assignment Submission",
+          "confidence": 0.816
+        },
+        {
+          "name": "Discussion Forums",
+          "confidence": 0.633
+        },
+        {
+          "name": "Content Delivery",
+          "confidence": 0.844
+        },
+        {
+          "name": "Live Classes",
+          "confidence": 0.956
+        },
+        {
+          "name": "Certificates",
+          "confidence": 0.41
+        }
+      ],
+      "missing_modules": [
+        {
+          "name": "Enrollment",
+          "weight": 1.0,
+          "reason": "explicitly_excluded",
+          "negated_by": "The platform wouldn't retain student records after the user deletes their accoun..."
+        }
+      ],
+      "recommendations": [
+        "✓ LOW: Only 1 module(s) missing",
+        "→ System is mostly complete",
+        "→ Final additions: Enrollment"
+      ],
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T12:47:32.387Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

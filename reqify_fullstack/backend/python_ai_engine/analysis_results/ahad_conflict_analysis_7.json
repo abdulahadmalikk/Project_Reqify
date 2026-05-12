@@ -1,0 +1,2062 @@
+{
+  "timestamp": "2026-04-17T15:11:53.458655",
+  "analysis_type": "conflict_analysis",
+  "filename_generated": "ahad_conflict_analysis_7.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "total_issues": 162,
+      "detections": [
+        {
+          "req1_id": 0,
+          "req2_id": 1,
+          "req1_text": "The system shall allow admin users to create and manage courses with title, description, and category.",
+          "req2_text": "The system shall allow instructors to upload course content including videos, PDFs, and presentations.",
+          "issue_type": "conflict",
+          "confidence": 0.785079836845398,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.785079836845398
+          }
+        },
+        {
+          "req1_id": 0,
+          "req2_id": 2,
+          "req1_text": "The system shall allow admin users to create and manage courses with title, description, and category.",
+          "req2_text": "The system shall allow registered students to browse and search available courses by category and keyword.",
+          "issue_type": "conflict",
+          "confidence": 0.7830404043197632,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7830404043197632
+          }
+        },
+        {
+          "req1_id": 0,
+          "req2_id": 5,
+          "req1_text": "The system shall allow admin users to create and manage courses with title, description, and category.",
+          "req2_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "issue_type": "conflict",
+          "confidence": 0.7587600946426392,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7587600946426392
+          }
+        },
+        {
+          "req1_id": 0,
+          "req2_id": 9,
+          "req1_text": "The system shall allow admin users to create and manage courses with title, description, and category.",
+          "req2_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow admin users to create and manage courses with title, description, and category.",
+            "partial_scope": "The system shall allow registered students to view their grades and feedback from the course dashboard."
+          }
+        },
+        {
+          "req1_id": 0,
+          "req2_id": 11,
+          "req1_text": "The system shall allow admin users to create and manage courses with title, description, and category.",
+          "req2_text": "The system shall allow instructors to schedule and host live classes with registered enrolled students.",
+          "issue_type": "conflict",
+          "confidence": 0.9771488904953003,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9771488904953003
+          }
+        },
+        {
+          "req1_id": 0,
+          "req2_id": 15,
+          "req1_text": "The system shall allow admin users to create and manage courses with title, description, and category.",
+          "req2_text": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+          "issue_type": "conflict",
+          "confidence": 0.8935019373893738,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8935019373893738
+          }
+        },
+        {
+          "req1_id": 0,
+          "req2_id": 16,
+          "req1_text": "The system shall allow admin users to create and manage courses with title, description, and category.",
+          "req2_text": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+          "issue_type": "conflict",
+          "confidence": 0.7755256295204163,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7755256295204163
+          }
+        },
+        {
+          "req1_id": 0,
+          "req2_id": 35,
+          "req1_text": "The system shall allow admin users to create and manage courses with title, description, and category.",
+          "req2_text": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow admin users to create and manage courses with title, description, and category.",
+            "partial_scope": "The system shall ensure instructors can easily manage their course materials without difficulty."
+          }
+        },
+        {
+          "req1_id": 0,
+          "req2_id": 38,
+          "req1_text": "The system shall allow admin users to create and manage courses with title, description, and category.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "conflict",
+          "confidence": 0.8102386593818665,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8102386593818665
+          }
+        },
+        {
+          "req1_id": 0,
+          "req2_id": 40,
+          "req1_text": "The system shall allow admin users to create and manage courses with title, description, and category.",
+          "req2_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow admin users to create and manage courses with title, description, and category.",
+            "partial_scope": "The system shall allow students to access their quiz and assignment results from the course page."
+          }
+        },
+        {
+          "req1_id": 1,
+          "req2_id": 11,
+          "req1_text": "The system shall allow instructors to upload course content including videos, PDFs, and presentations.",
+          "req2_text": "The system shall allow instructors to schedule and host live classes with registered enrolled students.",
+          "issue_type": "conflict",
+          "confidence": 0.7540606260299683,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7540606260299683
+          }
+        },
+        {
+          "req1_id": 1,
+          "req2_id": 12,
+          "req1_text": "The system shall allow instructors to upload course content including videos, PDFs, and presentations.",
+          "req2_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "issue_type": "conflict",
+          "confidence": 0.88,
+          "evidence": {
+            "method": "domain_antonym_detection",
+            "pairs": [
+              "upload↔download"
+            ],
+            "domain": "ecommerce"
+          }
+        },
+        {
+          "req1_id": 1,
+          "req2_id": 15,
+          "req1_text": "The system shall allow instructors to upload course content including videos, PDFs, and presentations.",
+          "req2_text": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+          "issue_type": "conflict",
+          "confidence": 0.9204769134521484,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9204769134521484
+          }
+        },
+        {
+          "req1_id": 1,
+          "req2_id": 26,
+          "req1_text": "The system shall allow instructors to upload course content including videos, PDFs, and presentations.",
+          "req2_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "issue_type": "conflict",
+          "confidence": 0.8124890923500061,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8124890923500061
+          }
+        },
+        {
+          "req1_id": 1,
+          "req2_id": 35,
+          "req1_text": "The system shall allow instructors to upload course content including videos, PDFs, and presentations.",
+          "req2_text": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow instructors to upload course content including videos, PDFs, and presentations.",
+            "partial_scope": "The system shall ensure instructors can easily manage their course materials without difficulty."
+          }
+        },
+        {
+          "req1_id": 1,
+          "req2_id": 38,
+          "req1_text": "The system shall allow instructors to upload course content including videos, PDFs, and presentations.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "conflict",
+          "confidence": 0.8380724191665649,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8380724191665649
+          }
+        },
+        {
+          "req1_id": 1,
+          "req2_id": 42,
+          "req1_text": "The system shall allow instructors to upload course content including videos, PDFs, and presentations.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "conflict",
+          "confidence": 0.8532264828681946,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8532264828681946
+          }
+        },
+        {
+          "req1_id": 1,
+          "req2_id": 44,
+          "req1_text": "The system shall allow instructors to upload course content including videos, PDFs, and presentations.",
+          "req2_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "issue_type": "conflict",
+          "confidence": 0.9005618691444397,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9005618691444397
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 5,
+          "req1_text": "The system shall allow registered students to browse and search available courses by category and keyword.",
+          "req2_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to browse and search available courses by category and keyword.",
+            "partial_scope": "The system shall allow registered students to track their course progress with completion percentage."
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 9,
+          "req1_text": "The system shall allow registered students to browse and search available courses by category and keyword.",
+          "req2_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to browse and search available courses by category and keyword.",
+            "partial_scope": "The system shall allow registered students to view their grades and feedback from the course dashboard."
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 11,
+          "req1_text": "The system shall allow registered students to browse and search available courses by category and keyword.",
+          "req2_text": "The system shall allow instructors to schedule and host live classes with registered enrolled students.",
+          "issue_type": "conflict",
+          "confidence": 0.8060974478721619,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8060974478721619
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 12,
+          "req1_text": "The system shall allow registered students to browse and search available courses by category and keyword.",
+          "req2_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to browse and search available courses by category and keyword.",
+            "partial_scope": "The system shall allow registered students to download course completion certificates after finishing all requirements."
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 15,
+          "req1_text": "The system shall allow registered students to browse and search available courses by category and keyword.",
+          "req2_text": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+          "issue_type": "conflict",
+          "confidence": 0.9310601353645325,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9310601353645325
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 37,
+          "req1_text": "The system shall allow registered students to browse and search available courses by category and keyword.",
+          "req2_text": "The system shall allow learners to sign up for available courses after making payment.",
+          "issue_type": "conflict",
+          "confidence": 0.88,
+          "evidence": {
+            "method": "domain_antonym_detection",
+            "pairs": [
+              "available↔available"
+            ],
+            "domain": "ecommerce"
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 39,
+          "req1_text": "The system shall allow registered students to browse and search available courses by category and keyword.",
+          "req2_text": "The system shall allow registered students to view their assessment scores from the learning portal.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to browse and search available courses by category and keyword.",
+            "partial_scope": "The system shall allow registered students to view their assessment scores from the learning portal."
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 40,
+          "req1_text": "The system shall allow registered students to browse and search available courses by category and keyword.",
+          "req2_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to browse and search available courses by category and keyword.",
+            "partial_scope": "The system shall allow students to access their quiz and assignment results from the course page."
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered students to browse and search available courses by category and keyword.",
+          "req2_text": "The system shall allow guest users to access and view full course content without registration.",
+          "issue_type": "conflict",
+          "confidence": 0.9837144017219543,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9837144017219543
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 42,
+          "req1_text": "The system shall allow registered students to browse and search available courses by category and keyword.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "conflict",
+          "confidence": 0.9835575819015503,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9835575819015503
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 4,
+          "req1_text": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+          "req2_text": "The system shall allow registered students to access course content after successful enrollment.",
+          "issue_type": "duplicate",
+          "confidence": 0.9,
+          "evidence": {
+            "method": "domain_synonym_match",
+            "matches": [
+              "registration↔enrollment"
+            ],
+            "count": 1,
+            "domain": "ecommerce"
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 5,
+          "req1_text": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+          "req2_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+            "partial_scope": "The system shall allow registered students to track their course progress with completion percentage."
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 9,
+          "req1_text": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+          "req2_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+            "partial_scope": "The system shall allow registered students to view their grades and feedback from the course dashboard."
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 11,
+          "req1_text": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+          "req2_text": "The system shall allow instructors to schedule and host live classes with registered enrolled students.",
+          "issue_type": "duplicate",
+          "confidence": 0.897468090057373,
+          "evidence": {
+            "method": "domain_synonym_match",
+            "matches": [
+              "course↔class",
+              "enroll↔register"
+            ],
+            "count": 2,
+            "domain": "ecommerce"
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 12,
+          "req1_text": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+          "req2_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+            "partial_scope": "The system shall allow registered students to download course completion certificates after finishing all requirements."
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 16,
+          "req1_text": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+          "req2_text": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+          "issue_type": "conflict",
+          "confidence": 0.8808756470680237,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8808756470680237
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 26,
+          "req1_text": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+          "req2_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+            "partial_scope": "The system shall allow new students to enroll in their first course within 5 minutes without external help."
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 37,
+          "req1_text": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+          "req2_text": "The system shall allow learners to sign up for available courses after making payment.",
+          "issue_type": "duplicate",
+          "confidence": 0.8744596242904663,
+          "evidence": {
+            "method": "high_similarity",
+            "score": 0.8744596242904663
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 38,
+          "req1_text": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "duplicate",
+          "confidence": 0.8551309704780579,
+          "evidence": {
+            "method": "high_similarity",
+            "score": 0.8551309704780579
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+          "req2_text": "The system shall allow guest users to access and view full course content without registration.",
+          "issue_type": "conflict",
+          "confidence": 0.9536568522453308,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9536568522453308
+          }
+        },
+        {
+          "req1_id": 3,
+          "req2_id": 42,
+          "req1_text": "The system shall allow registered students to enroll in courses after completing payment or free registration.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "conflict",
+          "confidence": 0.989080548286438,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.989080548286438
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 5,
+          "req1_text": "The system shall allow registered students to access course content after successful enrollment.",
+          "req2_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to access course content after successful enrollment.",
+            "partial_scope": "The system shall allow registered students to track their course progress with completion percentage."
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 9,
+          "req1_text": "The system shall allow registered students to access course content after successful enrollment.",
+          "req2_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to access course content after successful enrollment.",
+            "partial_scope": "The system shall allow registered students to view their grades and feedback from the course dashboard."
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 12,
+          "req1_text": "The system shall allow registered students to access course content after successful enrollment.",
+          "req2_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to access course content after successful enrollment.",
+            "partial_scope": "The system shall allow registered students to download course completion certificates after finishing all requirements."
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 16,
+          "req1_text": "The system shall allow registered students to access course content after successful enrollment.",
+          "req2_text": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+          "issue_type": "conflict",
+          "confidence": 0.8190630078315735,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8190630078315735
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 26,
+          "req1_text": "The system shall allow registered students to access course content after successful enrollment.",
+          "req2_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to access course content after successful enrollment.",
+            "partial_scope": "The system shall allow new students to enroll in their first course within 5 minutes without external help."
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 39,
+          "req1_text": "The system shall allow registered students to access course content after successful enrollment.",
+          "req2_text": "The system shall allow registered students to view their assessment scores from the learning portal.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to access course content after successful enrollment.",
+            "partial_scope": "The system shall allow registered students to view their assessment scores from the learning portal."
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 40,
+          "req1_text": "The system shall allow registered students to access course content after successful enrollment.",
+          "req2_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to access course content after successful enrollment.",
+            "partial_scope": "The system shall allow students to access their quiz and assignment results from the course page."
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered students to access course content after successful enrollment.",
+          "req2_text": "The system shall allow guest users to access and view full course content without registration.",
+          "issue_type": "conflict",
+          "confidence": 0.9949716329574585,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9949716329574585
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 42,
+          "req1_text": "The system shall allow registered students to access course content after successful enrollment.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "conflict",
+          "confidence": 0.847894549369812,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.847894549369812
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 8,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall allow instructors to grade student assignments and provide written feedback.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall allow instructors to grade student assignments and provide written feedback."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 9,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall allow registered students to view their grades and feedback from the course dashboard."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 12,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall allow registered students to download course completion certificates after finishing all requirements."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 16,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall allow registered students to save courses to a wishlist for later enrollment."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 17,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall allow admin users to generate reports on course enrollment and student performance.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall allow admin users to generate reports on course enrollment and student performance."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 32,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall deliver course content quickly and smoothly to all students.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall deliver course content quickly and smoothly to all students."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 37,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall allow learners to sign up for available courses after making payment.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall allow learners to sign up for available courses after making payment."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 38,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall allow students to register for a course upon successful fee submission."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 39,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall allow registered students to view their assessment scores from the learning portal.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall allow registered students to view their assessment scores from the learning portal."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 40,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall allow students to access their quiz and assignment results from the course page."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall allow guest users to access and view full course content without registration.",
+          "issue_type": "conflict",
+          "confidence": 0.9730972051620483,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9730972051620483
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 43,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall automatically pass all students who complete 100 percent of course videos.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall automatically pass all students who complete 100 percent of course videos."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 44,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall require students to pass all quizzes and assignments before receiving course completion certification."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 48,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall automatically issue course completion certificates immediately after the final quiz submission.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall automatically issue course completion certificates immediately after the final quiz submission."
+          }
+        },
+        {
+          "req1_id": 5,
+          "req2_id": 49,
+          "req1_text": "The system shall allow registered students to track their course progress with completion percentage.",
+          "req2_text": "The system shall issue course completion certificates only after instructor manual approval of all submitted assignments.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to track their course progress with completion percentage.",
+            "partial_scope": "The system shall issue course completion certificates only after instructor manual approval of all submitted assignments."
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 35,
+          "req1_text": "The system shall allow instructors to create quizzes and assignments with configurable deadlines.",
+          "req2_text": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow instructors to create quizzes and assignments with configurable deadlines.",
+            "partial_scope": "The system shall ensure instructors can easily manage their course materials without difficulty."
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 40,
+          "req1_text": "The system shall allow instructors to create quizzes and assignments with configurable deadlines.",
+          "req2_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow instructors to create quizzes and assignments with configurable deadlines.",
+            "partial_scope": "The system shall allow students to access their quiz and assignment results from the course page."
+          }
+        },
+        {
+          "req1_id": 6,
+          "req2_id": 44,
+          "req1_text": "The system shall allow instructors to create quizzes and assignments with configurable deadlines.",
+          "req2_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "issue_type": "conflict",
+          "confidence": 0.9819540977478027,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9819540977478027
+          }
+        },
+        {
+          "req1_id": 7,
+          "req2_id": 11,
+          "req1_text": "The system shall allow registered students to attempt quizzes within the allowed time limit and submission window.",
+          "req2_text": "The system shall allow instructors to schedule and host live classes with registered enrolled students.",
+          "issue_type": "conflict",
+          "confidence": 0.7839249968528748,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7839249968528748
+          }
+        },
+        {
+          "req1_id": 7,
+          "req2_id": 15,
+          "req1_text": "The system shall allow registered students to attempt quizzes within the allowed time limit and submission window.",
+          "req2_text": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+          "issue_type": "conflict",
+          "confidence": 0.875237762928009,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.875237762928009
+          }
+        },
+        {
+          "req1_id": 7,
+          "req2_id": 16,
+          "req1_text": "The system shall allow registered students to attempt quizzes within the allowed time limit and submission window.",
+          "req2_text": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+          "issue_type": "conflict",
+          "confidence": 0.776380181312561,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.776380181312561
+          }
+        },
+        {
+          "req1_id": 7,
+          "req2_id": 26,
+          "req1_text": "The system shall allow registered students to attempt quizzes within the allowed time limit and submission window.",
+          "req2_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "issue_type": "conflict",
+          "confidence": 0.9037637114524841,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9037637114524841
+          }
+        },
+        {
+          "req1_id": 7,
+          "req2_id": 38,
+          "req1_text": "The system shall allow registered students to attempt quizzes within the allowed time limit and submission window.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "conflict",
+          "confidence": 0.9614675045013428,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9614675045013428
+          }
+        },
+        {
+          "req1_id": 7,
+          "req2_id": 39,
+          "req1_text": "The system shall allow registered students to attempt quizzes within the allowed time limit and submission window.",
+          "req2_text": "The system shall allow registered students to view their assessment scores from the learning portal.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to attempt quizzes within the allowed time limit and submission window.",
+            "partial_scope": "The system shall allow registered students to view their assessment scores from the learning portal."
+          }
+        },
+        {
+          "req1_id": 7,
+          "req2_id": 40,
+          "req1_text": "The system shall allow registered students to attempt quizzes within the allowed time limit and submission window.",
+          "req2_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to attempt quizzes within the allowed time limit and submission window.",
+            "partial_scope": "The system shall allow students to access their quiz and assignment results from the course page."
+          }
+        },
+        {
+          "req1_id": 7,
+          "req2_id": 44,
+          "req1_text": "The system shall allow registered students to attempt quizzes within the allowed time limit and submission window.",
+          "req2_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "issue_type": "conflict",
+          "confidence": 0.9540228843688965,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9540228843688965
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 9,
+          "req1_text": "The system shall allow instructors to grade student assignments and provide written feedback.",
+          "req2_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow instructors to grade student assignments and provide written feedback.",
+            "partial_scope": "The system shall allow registered students to view their grades and feedback from the course dashboard."
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 26,
+          "req1_text": "The system shall allow instructors to grade student assignments and provide written feedback.",
+          "req2_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "issue_type": "conflict",
+          "confidence": 0.8582884073257446,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8582884073257446
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 35,
+          "req1_text": "The system shall allow instructors to grade student assignments and provide written feedback.",
+          "req2_text": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow instructors to grade student assignments and provide written feedback.",
+            "partial_scope": "The system shall ensure instructors can easily manage their course materials without difficulty."
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 38,
+          "req1_text": "The system shall allow instructors to grade student assignments and provide written feedback.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "conflict",
+          "confidence": 0.8710417151451111,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8710417151451111
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 39,
+          "req1_text": "The system shall allow instructors to grade student assignments and provide written feedback.",
+          "req2_text": "The system shall allow registered students to view their assessment scores from the learning portal.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow instructors to grade student assignments and provide written feedback.",
+            "partial_scope": "The system shall allow registered students to view their assessment scores from the learning portal."
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 40,
+          "req1_text": "The system shall allow instructors to grade student assignments and provide written feedback.",
+          "req2_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow instructors to grade student assignments and provide written feedback.",
+            "partial_scope": "The system shall allow students to access their quiz and assignment results from the course page."
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 43,
+          "req1_text": "The system shall allow instructors to grade student assignments and provide written feedback.",
+          "req2_text": "The system shall automatically pass all students who complete 100 percent of course videos.",
+          "issue_type": "conflict",
+          "confidence": 0.873519778251648,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.873519778251648
+          }
+        },
+        {
+          "req1_id": 8,
+          "req2_id": 44,
+          "req1_text": "The system shall allow instructors to grade student assignments and provide written feedback.",
+          "req2_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "issue_type": "conflict",
+          "confidence": 0.8872389197349548,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8872389197349548
+          }
+        },
+        {
+          "req1_id": 9,
+          "req2_id": 10,
+          "req1_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "req2_text": "The system shall allow registered students to participate in course discussion forums by posting and replying.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+            "partial_scope": "The system shall allow registered students to participate in course discussion forums by posting and replying."
+          }
+        },
+        {
+          "req1_id": 9,
+          "req2_id": 12,
+          "req1_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "req2_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+            "partial_scope": "The system shall allow registered students to download course completion certificates after finishing all requirements."
+          }
+        },
+        {
+          "req1_id": 9,
+          "req2_id": 17,
+          "req1_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "req2_text": "The system shall allow admin users to generate reports on course enrollment and student performance.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+            "partial_scope": "The system shall allow admin users to generate reports on course enrollment and student performance."
+          }
+        },
+        {
+          "req1_id": 9,
+          "req2_id": 32,
+          "req1_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "req2_text": "The system shall deliver course content quickly and smoothly to all students.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+            "partial_scope": "The system shall deliver course content quickly and smoothly to all students."
+          }
+        },
+        {
+          "req1_id": 9,
+          "req2_id": 38,
+          "req1_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+            "partial_scope": "The system shall allow students to register for a course upon successful fee submission."
+          }
+        },
+        {
+          "req1_id": 9,
+          "req2_id": 39,
+          "req1_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "req2_text": "The system shall allow registered students to view their assessment scores from the learning portal.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+            "partial_scope": "The system shall allow registered students to view their assessment scores from the learning portal."
+          }
+        },
+        {
+          "req1_id": 9,
+          "req2_id": 40,
+          "req1_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "req2_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+            "partial_scope": "The system shall allow students to access their quiz and assignment results from the course page."
+          }
+        },
+        {
+          "req1_id": 9,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered students to view their grades and feedback from the course dashboard.",
+          "req2_text": "The system shall allow guest users to access and view full course content without registration.",
+          "issue_type": "conflict",
+          "confidence": 0.9726702570915222,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9726702570915222
+          }
+        },
+        {
+          "req1_id": 10,
+          "req2_id": 11,
+          "req1_text": "The system shall allow registered students to participate in course discussion forums by posting and replying.",
+          "req2_text": "The system shall allow instructors to schedule and host live classes with registered enrolled students.",
+          "issue_type": "conflict",
+          "confidence": 0.8192524909973145,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8192524909973145
+          }
+        },
+        {
+          "req1_id": 10,
+          "req2_id": 15,
+          "req1_text": "The system shall allow registered students to participate in course discussion forums by posting and replying.",
+          "req2_text": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+          "issue_type": "conflict",
+          "confidence": 0.9599555730819702,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9599555730819702
+          }
+        },
+        {
+          "req1_id": 10,
+          "req2_id": 26,
+          "req1_text": "The system shall allow registered students to participate in course discussion forums by posting and replying.",
+          "req2_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "issue_type": "conflict",
+          "confidence": 0.7525075078010559,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7525075078010559
+          }
+        },
+        {
+          "req1_id": 10,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered students to participate in course discussion forums by posting and replying.",
+          "req2_text": "The system shall allow guest users to access and view full course content without registration.",
+          "issue_type": "conflict",
+          "confidence": 0.9794827699661255,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9794827699661255
+          }
+        },
+        {
+          "req1_id": 10,
+          "req2_id": 42,
+          "req1_text": "The system shall allow registered students to participate in course discussion forums by posting and replying.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "conflict",
+          "confidence": 0.9219108819961548,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9219108819961548
+          }
+        },
+        {
+          "req1_id": 11,
+          "req2_id": 16,
+          "req1_text": "The system shall allow instructors to schedule and host live classes with registered enrolled students.",
+          "req2_text": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+          "issue_type": "conflict",
+          "confidence": 0.9036262035369873,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9036262035369873
+          }
+        },
+        {
+          "req1_id": 11,
+          "req2_id": 26,
+          "req1_text": "The system shall allow instructors to schedule and host live classes with registered enrolled students.",
+          "req2_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "issue_type": "conflict",
+          "confidence": 0.8764918446540833,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8764918446540833
+          }
+        },
+        {
+          "req1_id": 11,
+          "req2_id": 35,
+          "req1_text": "The system shall allow instructors to schedule and host live classes with registered enrolled students.",
+          "req2_text": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow instructors to schedule and host live classes with registered enrolled students.",
+            "partial_scope": "The system shall ensure instructors can easily manage their course materials without difficulty."
+          }
+        },
+        {
+          "req1_id": 11,
+          "req2_id": 41,
+          "req1_text": "The system shall allow instructors to schedule and host live classes with registered enrolled students.",
+          "req2_text": "The system shall allow guest users to access and view full course content without registration.",
+          "issue_type": "conflict",
+          "confidence": 0.9055930376052856,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9055930376052856
+          }
+        },
+        {
+          "req1_id": 11,
+          "req2_id": 42,
+          "req1_text": "The system shall allow instructors to schedule and host live classes with registered enrolled students.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "conflict",
+          "confidence": 0.8819636702537537,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8819636702537537
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 16,
+          "req1_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "req2_text": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+            "partial_scope": "The system shall allow registered students to save courses to a wishlist for later enrollment."
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 37,
+          "req1_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "req2_text": "The system shall allow learners to sign up for available courses after making payment.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+            "partial_scope": "The system shall allow learners to sign up for available courses after making payment."
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 38,
+          "req1_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+            "partial_scope": "The system shall allow students to register for a course upon successful fee submission."
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 39,
+          "req1_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "req2_text": "The system shall allow registered students to view their assessment scores from the learning portal.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+            "partial_scope": "The system shall allow registered students to view their assessment scores from the learning portal."
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "req2_text": "The system shall allow guest users to access and view full course content without registration.",
+          "issue_type": "conflict",
+          "confidence": 0.956106960773468,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.956106960773468
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 42,
+          "req1_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+            "partial_scope": "The system shall require all users to register and log in before accessing any course content."
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 44,
+          "req1_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "req2_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+            "partial_scope": "The system shall require students to pass all quizzes and assignments before receiving course completion certification."
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 48,
+          "req1_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "req2_text": "The system shall automatically issue course completion certificates immediately after the final quiz submission.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+            "partial_scope": "The system shall automatically issue course completion certificates immediately after the final quiz submission."
+          }
+        },
+        {
+          "req1_id": 12,
+          "req2_id": 49,
+          "req1_text": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+          "req2_text": "The system shall issue course completion certificates only after instructor manual approval of all submitted assignments.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to download course completion certificates after finishing all requirements.",
+            "partial_scope": "The system shall issue course completion certificates only after instructor manual approval of all submitted assignments."
+          }
+        },
+        {
+          "req1_id": 13,
+          "req2_id": 15,
+          "req1_text": "The system shall allow admin users to manage user accounts including students and instructors.",
+          "req2_text": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+          "issue_type": "conflict",
+          "confidence": 0.7965817451477051,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7965817451477051
+          }
+        },
+        {
+          "req1_id": 13,
+          "req2_id": 35,
+          "req1_text": "The system shall allow admin users to manage user accounts including students and instructors.",
+          "req2_text": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow admin users to manage user accounts including students and instructors.",
+            "partial_scope": "The system shall ensure instructors can easily manage their course materials without difficulty."
+          }
+        },
+        {
+          "req1_id": 14,
+          "req2_id": 15,
+          "req1_text": "The system shall allow registered students to submit assignments before the deadline with file upload support.",
+          "req2_text": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+          "issue_type": "conflict",
+          "confidence": 0.7739297151565552,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7739297151565552
+          }
+        },
+        {
+          "req1_id": 14,
+          "req2_id": 26,
+          "req1_text": "The system shall allow registered students to submit assignments before the deadline with file upload support.",
+          "req2_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "issue_type": "conflict",
+          "confidence": 0.8624048829078674,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8624048829078674
+          }
+        },
+        {
+          "req1_id": 14,
+          "req2_id": 38,
+          "req1_text": "The system shall allow registered students to submit assignments before the deadline with file upload support.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "conflict",
+          "confidence": 0.8430455327033997,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8430455327033997
+          }
+        },
+        {
+          "req1_id": 14,
+          "req2_id": 44,
+          "req1_text": "The system shall allow registered students to submit assignments before the deadline with file upload support.",
+          "req2_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "issue_type": "conflict",
+          "confidence": 0.9045841097831726,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9045841097831726
+          }
+        },
+        {
+          "req1_id": 15,
+          "req2_id": 16,
+          "req1_text": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+          "req2_text": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+          "issue_type": "conflict",
+          "confidence": 0.8952312469482422,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8952312469482422
+          }
+        },
+        {
+          "req1_id": 15,
+          "req2_id": 26,
+          "req1_text": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+          "req2_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "issue_type": "conflict",
+          "confidence": 0.8837795257568359,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8837795257568359
+          }
+        },
+        {
+          "req1_id": 15,
+          "req2_id": 35,
+          "req1_text": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+          "req2_text": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+            "partial_scope": "The system shall ensure instructors can easily manage their course materials without difficulty."
+          }
+        },
+        {
+          "req1_id": 15,
+          "req2_id": 37,
+          "req1_text": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+          "req2_text": "The system shall allow learners to sign up for available courses after making payment.",
+          "issue_type": "conflict",
+          "confidence": 0.822446346282959,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.822446346282959
+          }
+        },
+        {
+          "req1_id": 15,
+          "req2_id": 38,
+          "req1_text": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "conflict",
+          "confidence": 0.9118074178695679,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9118074178695679
+          }
+        },
+        {
+          "req1_id": 15,
+          "req2_id": 42,
+          "req1_text": "The system shall allow instructors to send announcements to all enrolled students of a course.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "conflict",
+          "confidence": 0.7636579871177673,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7636579871177673
+          }
+        },
+        {
+          "req1_id": 16,
+          "req2_id": 26,
+          "req1_text": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+          "req2_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "issue_type": "conflict",
+          "confidence": 0.8910205364227295,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8910205364227295
+          }
+        },
+        {
+          "req1_id": 16,
+          "req2_id": 37,
+          "req1_text": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+          "req2_text": "The system shall allow learners to sign up for available courses after making payment.",
+          "issue_type": "conflict",
+          "confidence": 0.7726011872291565,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7726011872291565
+          }
+        },
+        {
+          "req1_id": 16,
+          "req2_id": 40,
+          "req1_text": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+          "req2_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+            "partial_scope": "The system shall allow students to access their quiz and assignment results from the course page."
+          }
+        },
+        {
+          "req1_id": 16,
+          "req2_id": 41,
+          "req1_text": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+          "req2_text": "The system shall allow guest users to access and view full course content without registration.",
+          "issue_type": "conflict",
+          "confidence": 0.8880183100700378,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8880183100700378
+          }
+        },
+        {
+          "req1_id": 16,
+          "req2_id": 42,
+          "req1_text": "The system shall allow registered students to save courses to a wishlist for later enrollment.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "conflict",
+          "confidence": 0.9350559711456299,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9350559711456299
+          }
+        },
+        {
+          "req1_id": 17,
+          "req2_id": 38,
+          "req1_text": "The system shall allow admin users to generate reports on course enrollment and student performance.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "conflict",
+          "confidence": 0.7540256977081299,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.7540256977081299
+          }
+        },
+        {
+          "req1_id": 17,
+          "req2_id": 39,
+          "req1_text": "The system shall allow admin users to generate reports on course enrollment and student performance.",
+          "req2_text": "The system shall allow registered students to view their assessment scores from the learning portal.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow admin users to generate reports on course enrollment and student performance.",
+            "partial_scope": "The system shall allow registered students to view their assessment scores from the learning portal."
+          }
+        },
+        {
+          "req1_id": 17,
+          "req2_id": 40,
+          "req1_text": "The system shall allow admin users to generate reports on course enrollment and student performance.",
+          "req2_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow admin users to generate reports on course enrollment and student performance.",
+            "partial_scope": "The system shall allow students to access their quiz and assignment results from the course page."
+          }
+        },
+        {
+          "req1_id": 19,
+          "req2_id": 45,
+          "req1_text": "The system shall support at least 2000 concurrent users without performance degradation.",
+          "req2_text": "The system shall support a maximum of 500 concurrent users at peak load.",
+          "issue_type": "inconsistency",
+          "confidence": 0.7345836162567139,
+          "evidence": {
+            "method": "similar_different_values",
+            "value1": "2000",
+            "value2": "500"
+          }
+        },
+        {
+          "req1_id": 24,
+          "req2_id": 26,
+          "req1_text": "The system shall recover from any server failure within 5 minutes without loss of student progress data.",
+          "req2_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "issue_type": "duplicate",
+          "confidence": 0.98,
+          "evidence": {
+            "method": "dynamic_unit_conversion",
+            "value1": "5.0 minute",
+            "value2": "5.0 minute",
+            "converted": "5.0 minute = 5.0 minute",
+            "library": "pint",
+            "equivalent": true
+          }
+        },
+        {
+          "req1_id": 26,
+          "req2_id": 33,
+          "req1_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "req2_text": "The system should handle a large number of students accessing courses at the same time without issues.",
+          "issue_type": "inconsistency",
+          "confidence": 0.7,
+          "evidence": {
+            "method": "vague_vs_specific",
+            "vague_req": "The system should handle a large number of students accessing courses at the same time without issues.",
+            "specific_req": "The system shall allow new students to enroll in their first course within 5 minutes without external help."
+          }
+        },
+        {
+          "req1_id": 26,
+          "req2_id": 35,
+          "req1_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "req2_text": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+            "partial_scope": "The system shall ensure instructors can easily manage their course materials without difficulty."
+          }
+        },
+        {
+          "req1_id": 26,
+          "req2_id": 37,
+          "req1_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "req2_text": "The system shall allow learners to sign up for available courses after making payment.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+            "partial_scope": "The system shall allow learners to sign up for available courses after making payment."
+          }
+        },
+        {
+          "req1_id": 26,
+          "req2_id": 38,
+          "req1_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+            "partial_scope": "The system shall allow students to register for a course upon successful fee submission."
+          }
+        },
+        {
+          "req1_id": 26,
+          "req2_id": 42,
+          "req1_text": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow new students to enroll in their first course within 5 minutes without external help.",
+            "partial_scope": "The system shall require all users to register and log in before accessing any course content."
+          }
+        },
+        {
+          "req1_id": 32,
+          "req2_id": 35,
+          "req1_text": "The system shall deliver course content quickly and smoothly to all students.",
+          "req2_text": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall deliver course content quickly and smoothly to all students.",
+            "partial_scope": "The system shall ensure instructors can easily manage their course materials without difficulty."
+          }
+        },
+        {
+          "req1_id": 32,
+          "req2_id": 40,
+          "req1_text": "The system shall deliver course content quickly and smoothly to all students.",
+          "req2_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall deliver course content quickly and smoothly to all students.",
+            "partial_scope": "The system shall allow students to access their quiz and assignment results from the course page."
+          }
+        },
+        {
+          "req1_id": 33,
+          "req2_id": 43,
+          "req1_text": "The system should handle a large number of students accessing courses at the same time without issues.",
+          "req2_text": "The system shall automatically pass all students who complete 100 percent of course videos.",
+          "issue_type": "inconsistency",
+          "confidence": 0.7,
+          "evidence": {
+            "method": "vague_vs_specific",
+            "vague_req": "The system should handle a large number of students accessing courses at the same time without issues.",
+            "specific_req": "The system shall automatically pass all students who complete 100 percent of course videos."
+          }
+        },
+        {
+          "req1_id": 35,
+          "req2_id": 38,
+          "req1_text": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+            "partial_scope": "The system shall allow students to register for a course upon successful fee submission."
+          }
+        },
+        {
+          "req1_id": 35,
+          "req2_id": 44,
+          "req1_text": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+          "req2_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+            "partial_scope": "The system shall require students to pass all quizzes and assignments before receiving course completion certification."
+          }
+        },
+        {
+          "req1_id": 35,
+          "req2_id": 49,
+          "req1_text": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+          "req2_text": "The system shall issue course completion certificates only after instructor manual approval of all submitted assignments.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall ensure instructors can easily manage their course materials without difficulty.",
+            "partial_scope": "The system shall issue course completion certificates only after instructor manual approval of all submitted assignments."
+          }
+        },
+        {
+          "req1_id": 37,
+          "req2_id": 38,
+          "req1_text": "The system shall allow learners to sign up for available courses after making payment.",
+          "req2_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "issue_type": "duplicate",
+          "confidence": 0.8883776664733887,
+          "evidence": {
+            "method": "entailment",
+            "nli_score": 0.972671389579773
+          }
+        },
+        {
+          "req1_id": 37,
+          "req2_id": 41,
+          "req1_text": "The system shall allow learners to sign up for available courses after making payment.",
+          "req2_text": "The system shall allow guest users to access and view full course content without registration.",
+          "issue_type": "conflict",
+          "confidence": 0.979327380657196,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.979327380657196
+          }
+        },
+        {
+          "req1_id": 37,
+          "req2_id": 42,
+          "req1_text": "The system shall allow learners to sign up for available courses after making payment.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "conflict",
+          "confidence": 0.9947178959846497,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9947178959846497
+          }
+        },
+        {
+          "req1_id": 38,
+          "req2_id": 40,
+          "req1_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "req2_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow students to register for a course upon successful fee submission.",
+            "partial_scope": "The system shall allow students to access their quiz and assignment results from the course page."
+          }
+        },
+        {
+          "req1_id": 38,
+          "req2_id": 41,
+          "req1_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "req2_text": "The system shall allow guest users to access and view full course content without registration.",
+          "issue_type": "conflict",
+          "confidence": 0.8722966909408569,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8722966909408569
+          }
+        },
+        {
+          "req1_id": 38,
+          "req2_id": 42,
+          "req1_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "conflict",
+          "confidence": 0.9860571622848511,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9860571622848511
+          }
+        },
+        {
+          "req1_id": 38,
+          "req2_id": 47,
+          "req1_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "req2_text": "The system shall display course prices in the local currency of the student based on their detected location.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow students to register for a course upon successful fee submission.",
+            "partial_scope": "The system shall display course prices in the local currency of the student based on their detected location."
+          }
+        },
+        {
+          "req1_id": 38,
+          "req2_id": 48,
+          "req1_text": "The system shall allow students to register for a course upon successful fee submission.",
+          "req2_text": "The system shall automatically issue course completion certificates immediately after the final quiz submission.",
+          "issue_type": "conflict",
+          "confidence": 0.765865683555603,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.765865683555603
+          }
+        },
+        {
+          "req1_id": 39,
+          "req2_id": 40,
+          "req1_text": "The system shall allow registered students to view their assessment scores from the learning portal.",
+          "req2_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow registered students to view their assessment scores from the learning portal.",
+            "partial_scope": "The system shall allow students to access their quiz and assignment results from the course page."
+          }
+        },
+        {
+          "req1_id": 40,
+          "req2_id": 41,
+          "req1_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "req2_text": "The system shall allow guest users to access and view full course content without registration.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow students to access their quiz and assignment results from the course page.",
+            "partial_scope": "The system shall allow guest users to access and view full course content without registration."
+          }
+        },
+        {
+          "req1_id": 40,
+          "req2_id": 42,
+          "req1_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow students to access their quiz and assignment results from the course page.",
+            "partial_scope": "The system shall require all users to register and log in before accessing any course content."
+          }
+        },
+        {
+          "req1_id": 40,
+          "req2_id": 44,
+          "req1_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "req2_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow students to access their quiz and assignment results from the course page.",
+            "partial_scope": "The system shall require students to pass all quizzes and assignments before receiving course completion certification."
+          }
+        },
+        {
+          "req1_id": 40,
+          "req2_id": 48,
+          "req1_text": "The system shall allow students to access their quiz and assignment results from the course page.",
+          "req2_text": "The system shall automatically issue course completion certificates immediately after the final quiz submission.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall allow students to access their quiz and assignment results from the course page.",
+            "partial_scope": "The system shall automatically issue course completion certificates immediately after the final quiz submission."
+          }
+        },
+        {
+          "req1_id": 41,
+          "req2_id": 42,
+          "req1_text": "The system shall allow guest users to access and view full course content without registration.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "conflict",
+          "confidence": 0.9996223449707031,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9996223449707031
+          }
+        },
+        {
+          "req1_id": 41,
+          "req2_id": 44,
+          "req1_text": "The system shall allow guest users to access and view full course content without registration.",
+          "req2_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "issue_type": "conflict",
+          "confidence": 0.8968034386634827,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8968034386634827
+          }
+        },
+        {
+          "req1_id": 43,
+          "req2_id": 44,
+          "req1_text": "The system shall automatically pass all students who complete 100 percent of course videos.",
+          "req2_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "issue_type": "conflict",
+          "confidence": 0.9990697503089905,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9990697503089905
+          }
+        },
+        {
+          "req1_id": 43,
+          "req2_id": 49,
+          "req1_text": "The system shall automatically pass all students who complete 100 percent of course videos.",
+          "req2_text": "The system shall issue course completion certificates only after instructor manual approval of all submitted assignments.",
+          "issue_type": "conflict",
+          "confidence": 0.9916493892669678,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9916493892669678
+          }
+        },
+        {
+          "req1_id": 44,
+          "req2_id": 48,
+          "req1_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "req2_text": "The system shall automatically issue course completion certificates immediately after the final quiz submission.",
+          "issue_type": "conflict",
+          "confidence": 0.9986573457717896,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9986573457717896
+          }
+        },
+        {
+          "req1_id": 46,
+          "req2_id": 47,
+          "req1_text": "The system shall display all course prices in USD only across all pages.",
+          "req2_text": "The system shall display course prices in the local currency of the student based on their detected location.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall display all course prices in USD only across all pages.",
+            "partial_scope": "The system shall display course prices in the local currency of the student based on their detected location."
+          }
+        },
+        {
+          "req1_id": 48,
+          "req2_id": 49,
+          "req1_text": "The system shall automatically issue course completion certificates immediately after the final quiz submission.",
+          "req2_text": "The system shall issue course completion certificates only after instructor manual approval of all submitted assignments.",
+          "issue_type": "conflict",
+          "confidence": 0.999409556388855,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.999409556388855
+          }
+        }
+      ],
+      "domain_used": "ecommerce",
+      "filename": null,
+      "timestamp": "2026-04-17T10:02:58.431Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

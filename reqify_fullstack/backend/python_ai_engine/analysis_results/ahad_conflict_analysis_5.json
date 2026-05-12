@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-04-17T13:41:01.529796",
+  "analysis_type": "conflict_analysis",
+  "filename_generated": "ahad_conflict_analysis_5.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "total_issues": 2,
+      "detections": [
+        {
+          "req1_id": 0,
+          "req2_id": 1,
+          "req1_text": "The system shall allow guest users to place food orders without creating an account.",
+          "req2_text": "The system shall require all users to register and log in before accessing the ordering feature.",
+          "issue_type": "conflict",
+          "confidence": 0.9994924068450928,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9994924068450928
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 3,
+          "req1_text": "The system shall automatically assign the nearest available delivery agent to every new order.",
+          "req2_text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The system shall automatically assign the nearest available delivery agent to every new order.",
+            "partial_scope": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents."
+          }
+        }
+      ],
+      "domain_used": "restaurant",
+      "filename": null,
+      "timestamp": "2026-04-17T08:40:55.729Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

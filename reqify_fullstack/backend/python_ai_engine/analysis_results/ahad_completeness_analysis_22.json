@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-04-17T18:25:25.012889",
+  "analysis_type": "completeness_analysis",
+  "filename_generated": "ahad_completeness_analysis_22.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "status": "incomplete",
+      "severity": "low",
+      "domain": "learning_management_system",
+      "requirements_count": 56,
+      "coverage": {
+        "percentage": 88.9,
+        "covered": 8,
+        "missing": 1,
+        "total": 9
+      },
+      "covered_modules": [
+        {
+          "name": "Course Management",
+          "confidence": 0.654
+        },
+        {
+          "name": "Enrollment",
+          "confidence": 0.699
+        },
+        {
+          "name": "Grading",
+          "confidence": 0.44
+        },
+        {
+          "name": "Assignment Submission",
+          "confidence": 0.816
+        },
+        {
+          "name": "Discussion Forums",
+          "confidence": 0.633
+        },
+        {
+          "name": "Content Delivery",
+          "confidence": 0.844
+        },
+        {
+          "name": "Live Classes",
+          "confidence": 0.956
+        },
+        {
+          "name": "Certificates",
+          "confidence": 0.41
+        }
+      ],
+      "missing_modules": [
+        {
+          "name": "Assessment & Quizzes",
+          "weight": 1.0,
+          "reason": "explicitly_excluded",
+          "negated_by": "The application shall not restrict guest users from accessing the assessment.."
+        }
+      ],
+      "recommendations": [
+        "✓ LOW: Only 1 module(s) missing",
+        "→ System is mostly complete",
+        "→ Final additions: Assessment & Quizzes"
+      ],
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:25:12.681Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

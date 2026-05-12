@@ -1,0 +1,1046 @@
+{
+  "timestamp": "2026-04-17T13:38:28.618930",
+  "analysis_type": "ambiguity_analysis",
+  "filename_generated": "ahad_ambiguity_analysis_6.json",
+  "total_requirements": 50,
+  "results": [
+    {
+      "text": "The system shall allow registered users to browse nearby restaurants by location and cuisine type.",
+      "is_ambiguous": false,
+      "confidence": 0.9917,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-1"
+    },
+    {
+      "text": "The system shall allow registered users to view restaurant menus with item descriptions and prices.",
+      "is_ambiguous": false,
+      "confidence": 0.9924,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-2"
+    },
+    {
+      "text": "The system shall allow registered users to add food items to cart with quantity and customization options.",
+      "is_ambiguous": false,
+      "confidence": 0.9948,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-3"
+    },
+    {
+      "text": "The system shall allow registered users to remove items from cart before checkout.",
+      "is_ambiguous": false,
+      "confidence": 0.994,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-4"
+    },
+    {
+      "text": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+      "is_ambiguous": false,
+      "confidence": 0.9933,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-5"
+    },
+    {
+      "text": "The system shall allow registered users to track delivery status in real time after order placement.",
+      "is_ambiguous": false,
+      "confidence": 0.9905,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-6"
+    },
+    {
+      "text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+      "is_ambiguous": false,
+      "confidence": 0.9902,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-7"
+    },
+    {
+      "text": "The system shall allow registered users to apply promo codes during checkout with validity check.",
+      "is_ambiguous": false,
+      "confidence": 0.9961,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-8"
+    },
+    {
+      "text": "The system shall allow registered users to schedule orders for a future delivery time with confirmation.",
+      "is_ambiguous": false,
+      "confidence": 0.9929,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-9"
+    },
+    {
+      "text": "The system shall allow registered users to view order history from their account dashboard.",
+      "is_ambiguous": false,
+      "confidence": 0.9895,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-10"
+    },
+    {
+      "text": "The system shall allow registered users to manage saved delivery addresses in account settings.",
+      "is_ambiguous": false,
+      "confidence": 0.9913,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-11"
+    },
+    {
+      "text": "The system shall allow registered users to reorder from previous orders with a single action.",
+      "is_ambiguous": false,
+      "confidence": 0.9919,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-12"
+    },
+    {
+      "text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+      "is_ambiguous": false,
+      "confidence": 0.9834,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-13"
+    },
+    {
+      "text": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes.",
+      "is_ambiguous": false,
+      "confidence": 0.9956,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-14"
+    },
+    {
+      "text": "The system shall allow delivery agents to update delivery status at each checkpoint in real time.",
+      "is_ambiguous": false,
+      "confidence": 0.9729,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-15"
+    },
+    {
+      "text": "The system shall allow admin users to manage restaurant listings and verify partner restaurants.",
+      "is_ambiguous": false,
+      "confidence": 0.9844,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-16"
+    },
+    {
+      "text": "The system shall allow registered users to complete payment using credit card, debit card, cash on delivery, or digital wallet.",
+      "is_ambiguous": false,
+      "confidence": 0.9962,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-17"
+    },
+    {
+      "text": "The system shall allow registered users to contact customer support through in-app chat after order placement.",
+      "is_ambiguous": false,
+      "confidence": 0.9939,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-18"
+    },
+    {
+      "text": "The system shall load restaurant listings within 3 seconds under normal network conditions.",
+      "is_ambiguous": false,
+      "confidence": 0.9954,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-19"
+    },
+    {
+      "text": "The system shall support at least 1000 concurrent users without performance degradation.",
+      "is_ambiguous": false,
+      "confidence": 0.9949,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-20"
+    },
+    {
+      "text": "The system shall encrypt all payment and personal data using AES-256 encryption.",
+      "is_ambiguous": false,
+      "confidence": 0.996,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-21"
+    },
+    {
+      "text": "The system shall authenticate all users using JWT tokens with 24-hour expiration.",
+      "is_ambiguous": false,
+      "confidence": 0.9966,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-22"
+    },
+    {
+      "text": "The system shall log all user actions including login, order placement, and payment for audit purposes.",
+      "is_ambiguous": false,
+      "confidence": 0.995,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-23"
+    },
+    {
+      "text": "The system shall be available 99.9% of the time on a monthly basis.",
+      "is_ambiguous": false,
+      "confidence": 0.996,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-24"
+    },
+    {
+      "text": "The system shall recover from any server failure within 5 minutes without data loss.",
+      "is_ambiguous": false,
+      "confidence": 0.9964,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-25"
+    },
+    {
+      "text": "The system shall provide a responsive mobile-first interface accessible on Android and iOS.",
+      "is_ambiguous": false,
+      "confidence": 0.9889,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-26"
+    },
+    {
+      "text": "The system shall allow new users to place their first order within 5 minutes without external help.",
+      "is_ambiguous": false,
+      "confidence": 0.9949,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-27"
+    },
+    {
+      "text": "The system shall run on Chrome, Firefox, Safari, and Edge browsers without functional differences.",
+      "is_ambiguous": false,
+      "confidence": 0.9949,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-28"
+    },
+    {
+      "text": "The system shall integrate with third-party mapping services including Google Maps for delivery tracking.",
+      "is_ambiguous": false,
+      "confidence": 0.9937,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-29"
+    },
+    {
+      "text": "The system shall be deployable on AWS, Azure, and Google Cloud without code changes.",
+      "is_ambiguous": false,
+      "confidence": 0.9958,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-30"
+    },
+    {
+      "text": "The system shall follow modular architecture to allow addition of new features without affecting existing modules.",
+      "is_ambiguous": true,
+      "confidence": 0.6871,
+      "analysis": {
+        "ambiguity_score": 0.62,
+        "severity": "MEDIUM",
+        "justification": "Detected 1 type(s): Semantic.",
+        "types_detected": [
+          "semantic"
+        ],
+        "type_scores": {
+          "lexical": 0.27,
+          "syntactic": 0.29,
+          "semantic": 0.6,
+          "pragmatic": 0.5,
+          "referential": 0.38
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.48,
+          "not_measurable": 0.54,
+          "not_testable": 0.51
+        },
+        "ai_signals": {
+          "avg_type_score": 0.6,
+          "num_detected": 1
+        }
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-31"
+    },
+    {
+      "text": "The system shall provide API documentation for all endpoints to support future integrations.",
+      "is_ambiguous": false,
+      "confidence": 0.9825,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-32"
+    },
+    {
+      "text": "The system shall deliver food orders as fast as possible to nearby customers.",
+      "is_ambiguous": true,
+      "confidence": 0.9386,
+      "analysis": {
+        "ambiguity_score": 0.7,
+        "severity": "MEDIUM",
+        "justification": "Detected 2 type(s): Lexical, Semantic.",
+        "types_detected": [
+          "lexical",
+          "semantic"
+        ],
+        "type_scores": {
+          "lexical": 0.48,
+          "syntactic": 0.31,
+          "semantic": 0.71,
+          "pragmatic": 0.44,
+          "referential": 0.27
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.48,
+          "not_measurable": 0.54,
+          "not_testable": 0.51
+        },
+        "ai_signals": {
+          "avg_type_score": 0.6,
+          "num_detected": 2
+        }
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-33"
+    },
+    {
+      "text": "The system should handle a large number of simultaneous orders without slowing down.",
+      "is_ambiguous": true,
+      "confidence": 0.9773,
+      "analysis": {
+        "ambiguity_score": 0.75,
+        "severity": "HIGH",
+        "justification": "Detected 3 type(s): Lexical, Semantic, Pragmatic - high clarity deficit.",
+        "types_detected": [
+          "lexical",
+          "semantic",
+          "pragmatic"
+        ],
+        "type_scores": {
+          "lexical": 0.44,
+          "syntactic": 0.28,
+          "semantic": 0.91,
+          "pragmatic": 0.6,
+          "referential": 0.22
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.52,
+          "not_measurable": 0.58,
+          "not_testable": 0.55
+        },
+        "ai_signals": {
+          "avg_type_score": 0.65,
+          "num_detected": 3
+        }
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-34"
+    },
+    {
+      "text": "The system shall provide a smooth and pleasant ordering experience for all users.",
+      "is_ambiguous": true,
+      "confidence": 0.9775,
+      "analysis": {
+        "ambiguity_score": 0.69,
+        "severity": "MEDIUM",
+        "justification": "Detected 2 type(s): Lexical, Semantic.",
+        "types_detected": [
+          "lexical",
+          "semantic"
+        ],
+        "type_scores": {
+          "lexical": 0.39,
+          "syntactic": 0.18,
+          "semantic": 0.74,
+          "pragmatic": 0.24,
+          "referential": 0.17
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.45,
+          "not_measurable": 0.51,
+          "not_testable": 0.48
+        },
+        "ai_signals": {
+          "avg_type_score": 0.56,
+          "num_detected": 2
+        }
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-35"
+    },
+    {
+      "text": "The system shall ensure delivery agents reach customers in a reasonable amount of time.",
+      "is_ambiguous": true,
+      "confidence": 0.9648,
+      "analysis": {
+        "ambiguity_score": 0.73,
+        "severity": "HIGH",
+        "justification": "Detected 2 type(s): Lexical, Semantic - high clarity deficit.",
+        "types_detected": [
+          "lexical",
+          "semantic"
+        ],
+        "type_scores": {
+          "lexical": 0.44,
+          "syntactic": 0.31,
+          "semantic": 0.82,
+          "pragmatic": 0.33,
+          "referential": 0.24
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.5,
+          "not_measurable": 0.56,
+          "not_testable": 0.53
+        },
+        "ai_signals": {
+          "avg_type_score": 0.63,
+          "num_detected": 2
+        }
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-36"
+    },
+    {
+      "text": "The system shall process payments in a secure and efficient manner at all times.",
+      "is_ambiguous": true,
+      "confidence": 0.9766,
+      "analysis": {
+        "ambiguity_score": 0.67,
+        "severity": "MEDIUM",
+        "justification": "Detected 2 type(s): Lexical, Semantic.",
+        "types_detected": [
+          "lexical",
+          "semantic"
+        ],
+        "type_scores": {
+          "lexical": 0.49,
+          "syntactic": 0.43,
+          "semantic": 0.59,
+          "pragmatic": 0.38,
+          "referential": 0.4
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.43,
+          "not_measurable": 0.49,
+          "not_testable": 0.46
+        },
+        "ai_signals": {
+          "avg_type_score": 0.54,
+          "num_detected": 2
+        }
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-37"
+    },
+    {
+      "text": "The system shall allow customers to add meals to their basket before placing an order.",
+      "is_ambiguous": false,
+      "confidence": 0.9859,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-38"
+    },
+    {
+      "text": "The system shall allow users to put food items into cart prior to checkout.",
+      "is_ambiguous": false,
+      "confidence": 0.9934,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-39"
+    },
+    {
+      "text": "The system shall allow registered users to view their past food orders from their profile.",
+      "is_ambiguous": false,
+      "confidence": 0.9898,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-40"
+    },
+    {
+      "text": "The system shall allow users to access previous order history from the account section.",
+      "is_ambiguous": false,
+      "confidence": 0.9877,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-41"
+    },
+    {
+      "text": "The system shall allow guest users to place food orders without creating an account.",
+      "is_ambiguous": false,
+      "confidence": 0.9871,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-42"
+    },
+    {
+      "text": "The system shall require all users to register and log in before accessing the ordering feature.",
+      "is_ambiguous": false,
+      "confidence": 0.9926,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-43"
+    },
+    {
+      "text": "The system shall automatically assign the nearest available delivery agent to every new order.",
+      "is_ambiguous": false,
+      "confidence": 0.8545,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-44"
+    },
+    {
+      "text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+      "is_ambiguous": false,
+      "confidence": 0.6805,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-45"
+    },
+    {
+      "text": "The system shall support a maximum of 300 concurrent users at peak load.",
+      "is_ambiguous": false,
+      "confidence": 0.9953,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-46"
+    },
+    {
+      "text": "The system shall display all menu prices in USD only across all restaurant pages.",
+      "is_ambiguous": false,
+      "confidence": 0.9957,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-47"
+    },
+    {
+      "text": "The system shall display menu prices in the local currency of the user based on their detected location.",
+      "is_ambiguous": false,
+      "confidence": 0.9958,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-48"
+    },
+    {
+      "text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+      "is_ambiguous": false,
+      "confidence": 0.9958,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-49"
+    },
+    {
+      "text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+      "is_ambiguous": false,
+      "confidence": 0.994,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "resturant.csv",
+      "timestamp": "2026-04-17T08:37:35.448Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-50"
+    }
+  ]
+}

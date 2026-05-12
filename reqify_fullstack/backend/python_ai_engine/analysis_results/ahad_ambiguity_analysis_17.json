@@ -1,0 +1,1365 @@
+{
+  "timestamp": "2026-04-17T18:25:06.680740",
+  "analysis_type": "ambiguity_analysis",
+  "filename_generated": "ahad_ambiguity_analysis_17.json",
+  "total_requirements": 56,
+  "results": [
+    {
+      "text": "The student shall register for the program to complete the enrollment process.",
+      "is_ambiguous": true,
+      "confidence": 0.8998,
+      "analysis": {
+        "ambiguity_score": 0.64,
+        "severity": "MEDIUM",
+        "justification": "Detected 3 type(s): Lexical, Semantic, Referential.",
+        "types_detected": [
+          "lexical",
+          "semantic",
+          "referential"
+        ],
+        "type_scores": {
+          "lexical": 0.6,
+          "syntactic": 0.46,
+          "semantic": 0.47,
+          "pragmatic": 0.48,
+          "referential": 0.52
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.42,
+          "not_measurable": 0.48,
+          "not_testable": 0.45
+        },
+        "ai_signals": {
+          "avg_type_score": 0.53,
+          "num_detected": 3
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-1"
+    },
+    {
+      "text": "The system shall allow learners to sign up for the curriculum to finalize their registration.",
+      "is_ambiguous": false,
+      "confidence": 0.9489,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-2"
+    },
+    {
+      "text": "The system shall restrict guest users from accessing the assessment.",
+      "is_ambiguous": false,
+      "confidence": 0.8089,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-3"
+    },
+    {
+      "text": "The application shall not restrict guest users from accessing the assessment..",
+      "is_ambiguous": false,
+      "confidence": 0.9306,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-4"
+    },
+    {
+      "text": "The API shall fetch the gradebook within 300ms under normal network conditions.",
+      "is_ambiguous": false,
+      "confidence": 0.996,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-5"
+    },
+    {
+      "text": "The server shall archive the course materials upon term completion.",
+      "is_ambiguous": true,
+      "confidence": 0.937,
+      "analysis": {
+        "ambiguity_score": 0.67,
+        "severity": "MEDIUM",
+        "justification": "Detected 1 type(s): Referential.",
+        "types_detected": [
+          "referential"
+        ],
+        "type_scores": {
+          "lexical": 0.34,
+          "syntactic": 0.37,
+          "semantic": 0.31,
+          "pragmatic": 0.36,
+          "referential": 0.56
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.44,
+          "not_measurable": 0.5,
+          "not_testable": 0.47
+        },
+        "ai_signals": {
+          "avg_type_score": 0.56,
+          "num_detected": 1
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-6"
+    },
+    {
+      "text": "The system shall enroll the student within 2 seconds after payment verification.",
+      "is_ambiguous": false,
+      "confidence": 0.9958,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-7"
+    },
+    {
+      "text": "The application shall generate a progress report every 7 days.",
+      "is_ambiguous": false,
+      "confidence": 0.9937,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-8"
+    },
+    {
+      "text": "The platform shall operate on Android and iOS platforms.",
+      "is_ambiguous": false,
+      "confidence": 0.9729,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-9"
+    },
+    {
+      "text": "The mobile app shall consume less than 100MB of RAM.",
+      "is_ambiguous": false,
+      "confidence": 0.9945,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-10"
+    },
+    {
+      "text": "The system shall send a reminder notification when a deadline approaches.",
+      "is_ambiguous": true,
+      "confidence": 0.8622,
+      "analysis": {
+        "ambiguity_score": 0.62,
+        "severity": "MEDIUM",
+        "justification": "Detected 2 type(s): Lexical, Semantic.",
+        "types_detected": [
+          "lexical",
+          "semantic"
+        ],
+        "type_scores": {
+          "lexical": 0.42,
+          "syntactic": 0.34,
+          "semantic": 0.62,
+          "pragmatic": 0.43,
+          "referential": 0.36
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.42,
+          "not_measurable": 0.47,
+          "not_testable": 0.44
+        },
+        "ai_signals": {
+          "avg_type_score": 0.52,
+          "num_detected": 2
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-11"
+    },
+    {
+      "text": "Students shall submit the assignment through the digital dropbox.",
+      "is_ambiguous": false,
+      "confidence": 0.9231,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-12"
+    },
+    {
+      "text": "The interface shall unlock the next module after the user passes the quiz.",
+      "is_ambiguous": false,
+      "confidence": 0.6926,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-13"
+    },
+    {
+      "text": "The API shall fetch the gradebook within 300ms under normal network conditions.",
+      "is_ambiguous": false,
+      "confidence": 0.996,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-14"
+    },
+    {
+      "text": "The server shall archive the course materials upon term completion.",
+      "is_ambiguous": true,
+      "confidence": 0.937,
+      "analysis": {
+        "ambiguity_score": 0.67,
+        "severity": "MEDIUM",
+        "justification": "Detected 1 type(s): Referential.",
+        "types_detected": [
+          "referential"
+        ],
+        "type_scores": {
+          "lexical": 0.34,
+          "syntactic": 0.37,
+          "semantic": 0.31,
+          "pragmatic": 0.36,
+          "referential": 0.56
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.44,
+          "not_measurable": 0.5,
+          "not_testable": 0.47
+        },
+        "ai_signals": {
+          "avg_type_score": 0.56,
+          "num_detected": 1
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-15"
+    },
+    {
+      "text": "The system shall provide a certificate for the graduate.",
+      "is_ambiguous": true,
+      "confidence": 0.9221,
+      "analysis": {
+        "ambiguity_score": 0.71,
+        "severity": "HIGH",
+        "justification": "Detected 3 type(s): Lexical, Semantic, Pragmatic - high clarity deficit.",
+        "types_detected": [
+          "lexical",
+          "semantic",
+          "pragmatic"
+        ],
+        "type_scores": {
+          "lexical": 0.65,
+          "syntactic": 0.29,
+          "semantic": 0.65,
+          "pragmatic": 0.55,
+          "referential": 0.36
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.49,
+          "not_measurable": 0.55,
+          "not_testable": 0.52
+        },
+        "ai_signals": {
+          "avg_type_score": 0.61,
+          "num_detected": 3
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-16"
+    },
+    {
+      "text": "The portal shall play the video lecture using HTML5.",
+      "is_ambiguous": false,
+      "confidence": 0.9862,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-17"
+    },
+    {
+      "text": "The dashboard shall synchronize the calendar every 10 minutes.",
+      "is_ambiguous": false,
+      "confidence": 0.9928,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-18"
+    },
+    {
+      "text": "The module shall track the user participation during the live session.",
+      "is_ambiguous": true,
+      "confidence": 0.5078,
+      "analysis": {
+        "ambiguity_score": 0.62,
+        "severity": "MEDIUM",
+        "justification": "Detected 2 type(s): Syntactic, Referential - high clarity deficit.",
+        "types_detected": [
+          "syntactic",
+          "referential"
+        ],
+        "type_scores": {
+          "lexical": 0.3,
+          "syntactic": 0.6,
+          "semantic": 0.33,
+          "pragmatic": 0.35,
+          "referential": 0.73
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.53,
+          "not_measurable": 0.6,
+          "not_testable": 0.57
+        },
+        "ai_signals": {
+          "avg_type_score": 0.67,
+          "num_detected": 2
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-19"
+    },
+    {
+      "text": "The system shall limit the upload size to at most 25MB.",
+      "is_ambiguous": false,
+      "confidence": 0.995,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-20"
+    },
+    {
+      "text": "The instructor shall manage the academic course curriculum within the dashboard.",
+      "is_ambiguous": true,
+      "confidence": 0.9472,
+      "analysis": {
+        "ambiguity_score": 0.68,
+        "severity": "MEDIUM",
+        "justification": "Detected 2 type(s): Lexical, Semantic.",
+        "types_detected": [
+          "lexical",
+          "semantic"
+        ],
+        "type_scores": {
+          "lexical": 0.51,
+          "syntactic": 0.31,
+          "semantic": 0.63,
+          "pragmatic": 0.45,
+          "referential": 0.42
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.45,
+          "not_measurable": 0.51,
+          "not_testable": 0.48
+        },
+        "ai_signals": {
+          "avg_type_score": 0.57,
+          "num_detected": 2
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-21"
+    },
+    {
+      "text": "The student shall register for the program to complete the enrollment process.",
+      "is_ambiguous": true,
+      "confidence": 0.8998,
+      "analysis": {
+        "ambiguity_score": 0.64,
+        "severity": "MEDIUM",
+        "justification": "Detected 3 type(s): Lexical, Semantic, Referential.",
+        "types_detected": [
+          "lexical",
+          "semantic",
+          "referential"
+        ],
+        "type_scores": {
+          "lexical": 0.6,
+          "syntactic": 0.46,
+          "semantic": 0.47,
+          "pragmatic": 0.48,
+          "referential": 0.52
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.42,
+          "not_measurable": 0.48,
+          "not_testable": 0.45
+        },
+        "ai_signals": {
+          "avg_type_score": 0.53,
+          "num_detected": 3
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-22"
+    },
+    {
+      "text": "The system shall host online quizzes and examinations for student assessment.",
+      "is_ambiguous": false,
+      "confidence": 0.9874,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-23"
+    },
+    {
+      "text": "The application shall calculate the final grade automatically after the student completes the test.",
+      "is_ambiguous": true,
+      "confidence": 0.8921,
+      "analysis": {
+        "ambiguity_score": 0.71,
+        "severity": "HIGH",
+        "justification": "Detected 4 type(s): Lexical, Semantic, Pragmatic, Referential - high clarity deficit.",
+        "types_detected": [
+          "lexical",
+          "semantic",
+          "pragmatic",
+          "referential"
+        ],
+        "type_scores": {
+          "lexical": 0.64,
+          "syntactic": 0.5,
+          "semantic": 0.74,
+          "pragmatic": 0.62,
+          "referential": 0.53
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.51,
+          "not_measurable": 0.57,
+          "not_testable": 0.54
+        },
+        "ai_signals": {
+          "avg_type_score": 0.64,
+          "num_detected": 4
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-24"
+    },
+    {
+      "text": "The learner shall upload the scholarly assignment to the submission portal before the deadline.",
+      "is_ambiguous": false,
+      "confidence": 0.9468,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-25"
+    },
+    {
+      "text": "The system shall provide discussion forums to facilitate peer communication and discourse.",
+      "is_ambiguous": true,
+      "confidence": 0.9514,
+      "analysis": {
+        "ambiguity_score": 0.7,
+        "severity": "MEDIUM",
+        "justification": "Detected 2 type(s): Lexical, Semantic.",
+        "types_detected": [
+          "lexical",
+          "semantic"
+        ],
+        "type_scores": {
+          "lexical": 0.55,
+          "syntactic": 0.27,
+          "semantic": 0.62,
+          "pragmatic": 0.47,
+          "referential": 0.25
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.47,
+          "not_measurable": 0.53,
+          "not_testable": 0.5
+        },
+        "ai_signals": {
+          "avg_type_score": 0.59,
+          "num_detected": 2
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-26"
+    },
+    {
+      "text": "The platform shall disseminate educational materials and lecture resources to all registered users.",
+      "is_ambiguous": false,
+      "confidence": 0.9828,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-27"
+    },
+    {
+      "text": "The instructor shall conduct synchronous live virtual classes using integrated videotelephony.",
+      "is_ambiguous": false,
+      "confidence": 0.9903,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-28"
+    },
+    {
+      "text": "The system shall generate a digital certificate of completion after the student finishes the course.",
+      "is_ambiguous": false,
+      "confidence": 0.9805,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-29"
+    },
+    {
+      "text": "The API shall fetch the gradebook within 300ms under normal network conditions.",
+      "is_ambiguous": false,
+      "confidence": 0.996,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-30"
+    },
+    {
+      "text": "The interface shall load the dashboard within 2 seconds during peak load.",
+      "is_ambiguous": false,
+      "confidence": 0.9956,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-31"
+    },
+    {
+      "text": "The system shall support 5000 concurrent users during synchronous live sessions.",
+      "is_ambiguous": false,
+      "confidence": 0.9938,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-32"
+    },
+    {
+      "text": "The portal shall operate correctly on Windows, Linux, and macOS platforms.",
+      "is_ambiguous": false,
+      "confidence": 0.6627,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-33"
+    },
+    {
+      "text": "The system shall provide accessibility features for users with visual impairments.",
+      "is_ambiguous": false,
+      "confidence": 0.7987,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-34"
+    },
+    {
+      "text": "The interface shall display navigation menus clearly to ensure high usability.",
+      "is_ambiguous": true,
+      "confidence": 0.974,
+      "analysis": {
+        "ambiguity_score": 0.78,
+        "severity": "HIGH",
+        "justification": "Detected 2 type(s): Lexical, Semantic - high clarity deficit.",
+        "types_detected": [
+          "lexical",
+          "semantic"
+        ],
+        "type_scores": {
+          "lexical": 0.62,
+          "syntactic": 0.14,
+          "semantic": 0.77,
+          "pragmatic": 0.19,
+          "referential": 0.15
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.55,
+          "not_measurable": 0.62,
+          "not_testable": 0.59
+        },
+        "ai_signals": {
+          "avg_type_score": 0.69,
+          "num_detected": 2
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-35"
+    },
+    {
+      "text": "The server shall maintain 99.9% availability during the academic semester.",
+      "is_ambiguous": false,
+      "confidence": 0.9959,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-36"
+    },
+    {
+      "text": "The backup service shall run every 24 hours to prevent data loss.",
+      "is_ambiguous": false,
+      "confidence": 0.9941,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-37"
+    },
+    {
+      "text": "The system shall encrypt all communication using TLS 1.3 or higher.",
+      "is_ambiguous": false,
+      "confidence": 0.9952,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-38"
+    },
+    {
+      "text": "Users must authenticate using multi-factor authentication while accessing sensitive data.",
+      "is_ambiguous": false,
+      "confidence": 0.987,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-39"
+    },
+    {
+      "text": "The database shall delete temporary session data after the user logs out.",
+      "is_ambiguous": false,
+      "confidence": 0.9881,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-40"
+    },
+    {
+      "text": "The system shall generate detailed error logs for the technical support team.",
+      "is_ambiguous": true,
+      "confidence": 0.7115,
+      "analysis": {
+        "ambiguity_score": 0.63,
+        "severity": "MEDIUM",
+        "justification": "Detected 1 type(s): Referential - high clarity deficit.",
+        "types_detected": [
+          "referential"
+        ],
+        "type_scores": {
+          "lexical": 0.26,
+          "syntactic": 0.39,
+          "semantic": 0.29,
+          "pragmatic": 0.4,
+          "referential": 0.6
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.48,
+          "not_measurable": 0.54,
+          "not_testable": 0.51
+        },
+        "ai_signals": {
+          "avg_type_score": 0.6,
+          "num_detected": 1
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-41"
+    },
+    {
+      "text": "The source code shall follow standardized documentation patterns to facilitate maintenance.",
+      "is_ambiguous": true,
+      "confidence": 0.9775,
+      "analysis": {
+        "ambiguity_score": 0.64,
+        "severity": "MEDIUM",
+        "justification": "Detected 3 type(s): Lexical, Semantic, Pragmatic.",
+        "types_detected": [
+          "lexical",
+          "semantic",
+          "pragmatic"
+        ],
+        "type_scores": {
+          "lexical": 0.42,
+          "syntactic": 0.26,
+          "semantic": 0.54,
+          "pragmatic": 0.53,
+          "referential": 0.38
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.4,
+          "not_measurable": 0.45,
+          "not_testable": 0.42
+        },
+        "ai_signals": {
+          "avg_type_score": 0.5,
+          "num_detected": 3
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-42"
+    },
+    {
+      "text": "The application shall support data export to standard CSV and XML formats.",
+      "is_ambiguous": false,
+      "confidence": 0.9937,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-43"
+    },
+    {
+      "text": "The software must be installable on various cloud-based virtual machines without modification.",
+      "is_ambiguous": false,
+      "confidence": 0.9547,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-44"
+    },
+    {
+      "text": "The student shall search for available course modules using keyword filters within the catalog.",
+      "is_ambiguous": false,
+      "confidence": 0.9929,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-45"
+    },
+    {
+      "text": "The system shall track student participation during the synchronous live session.",
+      "is_ambiguous": false,
+      "confidence": 0.9462,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-46"
+    },
+    {
+      "text": "The instructor shall update the educational content within the material repository every week.",
+      "is_ambiguous": false,
+      "confidence": 0.9878,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-47"
+    },
+    {
+      "text": "The system shall allow students to submit course feedback upon the completion of the program.",
+      "is_ambiguous": false,
+      "confidence": 0.6356,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-48"
+    },
+    {
+      "text": "Instructors must upload the course syllabus before the semester starts.",
+      "is_ambiguous": true,
+      "confidence": 0.9464,
+      "analysis": {
+        "ambiguity_score": 0.65,
+        "severity": "MEDIUM",
+        "justification": "Detected 3 type(s): Lexical, Semantic, Referential.",
+        "types_detected": [
+          "lexical",
+          "semantic",
+          "referential"
+        ],
+        "type_scores": {
+          "lexical": 0.47,
+          "syntactic": 0.43,
+          "semantic": 0.57,
+          "pragmatic": 0.48,
+          "referential": 0.53
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.42,
+          "not_measurable": 0.47,
+          "not_testable": 0.45
+        },
+        "ai_signals": {
+          "avg_type_score": 0.52,
+          "num_detected": 3
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-49"
+    },
+    {
+      "text": "The instructor should provide qualitative feedback within 48 hours after an assignment submission.",
+      "is_ambiguous": false,
+      "confidence": 0.9938,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-50"
+    },
+    {
+      "text": "The system should recommend additional course modules based on the student's enrollment history.",
+      "is_ambiguous": true,
+      "confidence": 0.8942,
+      "analysis": {
+        "ambiguity_score": 0.65,
+        "severity": "MEDIUM",
+        "justification": "Detected 2 type(s): Semantic, Pragmatic.",
+        "types_detected": [
+          "semantic",
+          "pragmatic"
+        ],
+        "type_scores": {
+          "lexical": 0.32,
+          "syntactic": 0.24,
+          "semantic": 0.58,
+          "pragmatic": 0.52,
+          "referential": 0.32
+        },
+        "type_thresholds": {
+          "lexical": 0.35,
+          "syntactic": 0.6,
+          "semantic": 0.45,
+          "pragmatic": 0.5,
+          "referential": 0.5
+        },
+        "clarity_scores": {
+          "not_specific": 0.44,
+          "not_measurable": 0.49,
+          "not_testable": 0.47
+        },
+        "ai_signals": {
+          "avg_type_score": 0.55,
+          "num_detected": 2
+        }
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-51"
+    },
+    {
+      "text": "The interface should support dark mode to improve usability during night hours.",
+      "is_ambiguous": false,
+      "confidence": 0.8569,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-52"
+    },
+    {
+      "text": "The application could allow students to customize their profile dashboard with external widgets.",
+      "is_ambiguous": false,
+      "confidence": 0.7543,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-53"
+    },
+    {
+      "text": "The portal could integrate with social media platforms for course achievement sharing.",
+      "is_ambiguous": false,
+      "confidence": 0.5215,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-54"
+    },
+    {
+      "text": "The application wouldn't support offline video downloads in the current phase of development.",
+      "is_ambiguous": false,
+      "confidence": 0.5531,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-55"
+    },
+    {
+      "text": "The platform shall purge student records only after the user explicitly deletes their account.",
+      "is_ambiguous": false,
+      "confidence": 0.9814,
+      "analysis": {
+        "ambiguity_score": 0,
+        "severity": "CLEAR",
+        "justification": "Classified as unambiguous.",
+        "types_detected": [],
+        "type_scores": {},
+        "clarity_scores": {},
+        "ai_signals": {}
+      },
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:23:36.436Z",
+      "uploader": "ahad@gmail.com",
+      "requirement_id": "REQ-56"
+    }
+  ]
+}

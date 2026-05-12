@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-04-17T18:31:34.858330",
+  "analysis_type": "completeness_analysis",
+  "filename_generated": "ahad_completeness_analysis_23.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "status": "complete",
+      "severity": "none",
+      "domain": "learning_management_system",
+      "requirements_count": 57,
+      "coverage": {
+        "percentage": 100.0,
+        "covered": 9,
+        "missing": 0,
+        "total": 9
+      },
+      "covered_modules": [
+        {
+          "name": "Course Management",
+          "confidence": 0.654
+        },
+        {
+          "name": "Enrollment",
+          "confidence": 0.702
+        },
+        {
+          "name": "Assessment & Quizzes",
+          "confidence": 0.673
+        },
+        {
+          "name": "Grading",
+          "confidence": 0.44
+        },
+        {
+          "name": "Assignment Submission",
+          "confidence": 0.816
+        },
+        {
+          "name": "Discussion Forums",
+          "confidence": 0.633
+        },
+        {
+          "name": "Content Delivery",
+          "confidence": 0.844
+        },
+        {
+          "name": "Live Classes",
+          "confidence": 0.956
+        },
+        {
+          "name": "Certificates",
+          "confidence": 0.41
+        }
+      ],
+      "missing_modules": [],
+      "recommendations": [
+        "✅ All required modules are covered",
+        "→ Requirements specification is complete"
+      ],
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-17T13:31:18.824Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

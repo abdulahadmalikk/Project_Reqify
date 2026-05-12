@@ -1,0 +1,209 @@
+{
+  "timestamp": "2026-04-17T12:52:04.657053",
+  "analysis_type": "impact_analysis",
+  "filename_generated": "unknown_user_impact_analysis_10.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "nodes": [
+        {
+          "id": "R1",
+          "label": "The system shall allow all guest users to access the full course content without registration."
+        },
+        {
+          "id": "R2",
+          "label": "The system shall require all users to log in before accessing any course content."
+        },
+        {
+          "id": "R3",
+          "label": "The administrator shall create the course with a title."
+        },
+        {
+          "id": "R4",
+          "label": "The administrator shall manage the course update operations."
+        },
+        {
+          "id": "R5",
+          "label": "The instructor shall upload the course videos."
+        },
+        {
+          "id": "R6",
+          "label": "The student shall browse the courses by category."
+        },
+        {
+          "id": "R7",
+          "label": "The student shall enroll in the course after the payment completes."
+        },
+        {
+          "id": "R8",
+          "label": "The student shall access the course content after the enrollment succeeds."
+        },
+        {
+          "id": "R9",
+          "label": "The student shall track the course completion percentage."
+        },
+        {
+          "id": "R10",
+          "label": "The instructor shall create the quizzes with deadlines."
+        },
+        {
+          "id": "R11",
+          "label": "The student shall attempt the quizzes within the allowed time."
+        },
+        {
+          "id": "R12",
+          "label": "The student shall submit the assignments before the deadline expires."
+        },
+        {
+          "id": "R13",
+          "label": "The instructor shall provide the assignment feedback."
+        },
+        {
+          "id": "R14",
+          "label": "The student shall view the grades from the dashboard."
+        },
+        {
+          "id": "R15",
+          "label": "The student shall post the discussion forum reply."
+        },
+        {
+          "id": "R16",
+          "label": "The instructor shall send the announcements."
+        },
+        {
+          "id": "R17",
+          "label": "The instructor shall schedule the live classes."
+        },
+        {
+          "id": "R18",
+          "label": "The student shall download the completion certificate after fulfilling the requirements."
+        },
+        {
+          "id": "R19",
+          "label": "The administrator shall manage the student accounts."
+        },
+        {
+          "id": "R20",
+          "label": "The administrator shall generate the enrollment reports."
+        },
+        {
+          "id": "R21",
+          "label": "The student shall save the course to the wishlist."
+        },
+        {
+          "id": "R22",
+          "label": "The system shall load the course pages within 3 seconds under normal network conditions."
+        },
+        {
+          "id": "R23",
+          "label": "The system shall support at least 2000 users."
+        },
+        {
+          "id": "R24",
+          "label": "The system shall encrypt the user data using the AES-256 encryption."
+        },
+        {
+          "id": "R25",
+          "label": "The system shall authenticate the users every 24 hours."
+        },
+        {
+          "id": "R26",
+          "label": "The system shall log the login activity."
+        },
+        {
+          "id": "R27",
+          "label": "The system shall maintain 99.9% uptime on a monthly basis."
+        },
+        {
+          "id": "R28",
+          "label": "The system shall recover from the server failure within 5 minutes."
+        },
+        {
+          "id": "R29",
+          "label": "The system shall provide a responsive interface for mobile devices."
+        },
+        {
+          "id": "R30",
+          "label": "The system shall support the Chrome browser."
+        },
+        {
+          "id": "R31",
+          "label": "The system shall integrate with the YouTube platform."
+        },
+        {
+          "id": "R32",
+          "label": "The system shall operate on the AWS platform."
+        }
+      ],
+      "edges": [],
+      "rawScoreMap": {
+        "R1": 0,
+        "R2": 0,
+        "R3": 0,
+        "R4": 0,
+        "R5": 0,
+        "R6": 0,
+        "R7": 0,
+        "R8": 0,
+        "R9": 0,
+        "R10": 0,
+        "R11": 0,
+        "R12": 0,
+        "R13": 0,
+        "R14": 0,
+        "R15": 0,
+        "R16": 0,
+        "R17": 0,
+        "R18": 0,
+        "R19": 0,
+        "R20": 0,
+        "R21": 0,
+        "R22": 0,
+        "R23": 0,
+        "R24": 0,
+        "R25": 0,
+        "R26": 0,
+        "R27": 0,
+        "R28": 0,
+        "R29": 0,
+        "R30": 0,
+        "R31": 0,
+        "R32": 0
+      },
+      "scoreMap": {
+        "R1": 0,
+        "R2": 0,
+        "R3": 0,
+        "R4": 0,
+        "R5": 0,
+        "R6": 0,
+        "R7": 0,
+        "R8": 0,
+        "R9": 0,
+        "R10": 0,
+        "R11": 0,
+        "R12": 0,
+        "R13": 0,
+        "R14": 0,
+        "R15": 0,
+        "R16": 0,
+        "R17": 0,
+        "R18": 0,
+        "R19": 0,
+        "R20": 0,
+        "R21": 0,
+        "R22": 0,
+        "R23": 0,
+        "R24": 0,
+        "R25": 0,
+        "R26": 0,
+        "R27": 0,
+        "R28": 0,
+        "R29": 0,
+        "R30": 0,
+        "R31": 0,
+        "R32": 0
+      }
+    }
+  ]
+}

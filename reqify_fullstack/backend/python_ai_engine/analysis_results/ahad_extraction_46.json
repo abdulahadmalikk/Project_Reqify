@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-04-18T08:51:25.278036",
+  "analysis_type": "batch_requirements",
+  "filename_generated": "ahad_extraction_46.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "requirement_id": "100",
+      "original_requirement": "The system shall be fast.",
+      "segmented_statement": "",
+      "localization": "Not detected",
+      "localization_lemmatized": "Not detected",
+      "localization_cleaned": "Not detected",
+      "actor": "System",
+      "actor_lemmatized": "system",
+      "actor_cleaned": "system",
+      "action": "Not detected",
+      "action_lemmatized": "Not detected",
+      "action_cleaned": "Not detected",
+      "target": "Not detected",
+      "target_lemmatized": "Not detected",
+      "target_cleaned": "Not detected",
+      "constraint": "Not detected",
+      "constraint_lemmatized": "Not detected",
+      "constraint_cleaned": "Not detected",
+      "confidence": 0.0,
+      "extraction_method": "hybrid",
+      "is_atomic": true,
+      "atomicity_score": 1.0,
+      "atomicity_violations": "None",
+      "filename": "Manual Entry",
+      "timestamp": "2026-04-18T03:51:24.927Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

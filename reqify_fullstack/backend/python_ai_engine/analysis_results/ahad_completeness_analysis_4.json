@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-04-16T22:18:01.015899",
+  "analysis_type": "completeness_analysis",
+  "filename_generated": "ahad_completeness_analysis_4.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "status": "incomplete",
+      "severity": "low",
+      "domain": "ecommerce",
+      "requirements_count": 50,
+      "coverage": {
+        "percentage": 87.5,
+        "covered": 7,
+        "missing": 1,
+        "total": 8
+      },
+      "covered_modules": [
+        {
+          "name": "Product Catalog",
+          "confidence": 0.483
+        },
+        {
+          "name": "Shopping Cart",
+          "confidence": 0.428
+        },
+        {
+          "name": "Order Placement",
+          "confidence": 0.344
+        },
+        {
+          "name": "Payment Processing",
+          "confidence": 0.468
+        },
+        {
+          "name": "Wishlist",
+          "confidence": 0.404
+        },
+        {
+          "name": "Inventory Management",
+          "confidence": 0.44
+        },
+        {
+          "name": "User Reviews",
+          "confidence": 0.417
+        }
+      ],
+      "missing_modules": [
+        {
+          "name": "Order Tracking",
+          "weight": 0.9,
+          "reason": "not_mentioned"
+        }
+      ],
+      "recommendations": [
+        "✓ LOW: Only 1 module(s) missing",
+        "→ System is mostly complete",
+        "→ Final additions: Order Tracking"
+      ],
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-16T17:17:46.681Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

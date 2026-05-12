@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-04-15T14:07:27.684132",
+  "analysis_type": "conflict_analysis",
+  "filename_generated": "ahad_conflict_analysis_2.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "total_issues": 1,
+      "detections": [
+        {
+          "req1_id": 0,
+          "req2_id": 1,
+          "req1_text": "The system shall allow admin users to create and manage courses with title, description, and category.",
+          "req2_text": "The system shall allow instructors to upload course content including videos, PDFs, and presentations.",
+          "issue_type": "conflict",
+          "confidence": 0.785079836845398,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.785079836845398
+          }
+        }
+      ],
+      "domain_used": "ecommerce",
+      "filename": null,
+      "timestamp": "2026-04-15T09:07:25.209Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

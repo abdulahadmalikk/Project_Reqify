@@ -1,0 +1,396 @@
+{
+  "timestamp": "2026-04-17T13:02:33.719268",
+  "analysis_type": "impact_analysis",
+  "filename_generated": "unknown_user_impact_analysis_13.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "nodes": [
+        {
+          "id": "R1",
+          "label": "The system shall allow registered users to browse product catalog by category."
+        },
+        {
+          "id": "R2",
+          "label": "The system shall allow registered users to add products to shopping cart with quantity selection."
+        },
+        {
+          "id": "R3",
+          "label": "The system shall allow registered users to remove items from shopping cart at any time."
+        },
+        {
+          "id": "R4",
+          "label": "The system shall allow registered users to place orders using saved payment methods with order confirmation."
+        },
+        {
+          "id": "R5",
+          "label": "The system shall allow registered users to track order status in real time after purchase."
+        },
+        {
+          "id": "R6",
+          "label": "The system shall allow registered users to submit product reviews after order delivery."
+        },
+        {
+          "id": "R7",
+          "label": "The system shall allow registered users to add products to wishlist for later purchase."
+        },
+        {
+          "id": "R8",
+          "label": "The system shall allow registered users to apply discount coupons during checkout with validity check."
+        },
+        {
+          "id": "R9",
+          "label": "The system shall allow admin users to manage product inventory by updating stock levels."
+        },
+        {
+          "id": "R10",
+          "label": "The system shall allow admin users to process refund requests within 3 business days."
+        },
+        {
+          "id": "R11",
+          "label": "The system shall allow registered users to search products by keyword with filter support."
+        },
+        {
+          "id": "R12",
+          "label": "The system shall allow registered users to view order history from their account dashboard."
+        },
+        {
+          "id": "R13",
+          "label": "The system shall allow admin users to generate sales reports by date range."
+        },
+        {
+          "id": "R14",
+          "label": "The system shall allow registered users to manage their shipping addresses in account settings."
+        },
+        {
+          "id": "R15",
+          "label": "The system shall allow registered users to complete payment using credit card, debit card, or digital wallet."
+        },
+        {
+          "id": "R16",
+          "label": "The system shall respond to product search queries within 2 seconds under normal load."
+        },
+        {
+          "id": "R17",
+          "label": "The system shall support at least 500 concurrent users without performance degradation."
+        },
+        {
+          "id": "R18",
+          "label": "The system shall encrypt all payment and personal data using AES-256 encryption."
+        },
+        {
+          "id": "R19",
+          "label": "The system shall authenticate all users using JWT tokens with 24-hour expiration."
+        },
+        {
+          "id": "R20",
+          "label": "The system shall be available 99.9% of the time on a monthly basis."
+        },
+        {
+          "id": "R21",
+          "label": "The system shall recover from any server failure within 5 minutes without data loss."
+        },
+        {
+          "id": "R22",
+          "label": "The system shall provide a responsive web interface accessible on desktop and mobile browsers."
+        },
+        {
+          "id": "R23",
+          "label": "The system shall allow new users to complete their first purchase within 10 minutes without external help."
+        },
+        {
+          "id": "R24",
+          "label": "The system shall run on Chrome, Firefox, Safari, and Edge browsers without functional differences."
+        },
+        {
+          "id": "R25",
+          "label": "The system shall integrate with third-party payment gateways including Stripe and PayPal."
+        },
+        {
+          "id": "R26",
+          "label": "The system shall be deployable on AWS, Azure, and Google Cloud without code changes."
+        },
+        {
+          "id": "R27",
+          "label": "The system shall follow modular architecture to allow addition of new modules without affecting existing ones."
+        },
+        {
+          "id": "R28",
+          "label": "The system shall log all user actions including login, purchase, and profile updates for audit purposes."
+        },
+        {
+          "id": "R29",
+          "label": "The system shall process orders quickly and efficiently."
+        },
+        {
+          "id": "R30",
+          "label": "The system should handle many users simultaneously without issues."
+        },
+        {
+          "id": "R31",
+          "label": "The system shall provide a user-friendly and intuitive shopping experience."
+        },
+        {
+          "id": "R32",
+          "label": "The system shall ensure products are delivered in a reasonable time."
+        },
+        {
+          "id": "R33",
+          "label": "The system shall bank all transaction data securely in the backend."
+        },
+        {
+          "id": "R34",
+          "label": "The system shall allow customers to place products into their basket for later checkout."
+        },
+        {
+          "id": "R35",
+          "label": "The system shall allow users to add items to cart before purchasing."
+        },
+        {
+          "id": "R36",
+          "label": "The registered user shall be able to view past orders from their profile page."
+        },
+        {
+          "id": "R37",
+          "label": "The system shall allow guest users to checkout without creating an account."
+        },
+        {
+          "id": "R38",
+          "label": "The system shall require all users to register and log in before accessing checkout."
+        },
+        {
+          "id": "R39",
+          "label": "The system shall process all refund requests within 24 hours of submission."
+        },
+        {
+          "id": "R40",
+          "label": "The system shall process refund requests within 7 to 10 business days after approval."
+        },
+        {
+          "id": "R41",
+          "label": "The system shall support a maximum of 200 concurrent users at peak load."
+        },
+        {
+          "id": "R42",
+          "label": "The system shall display product prices in USD only across all pages."
+        },
+        {
+          "id": "R43",
+          "label": "The system shall allow users to view product prices in their local currency based on location."
+        }
+      ],
+      "edges": [
+        {
+          "from": "R2",
+          "to": "R1"
+        },
+        {
+          "from": "R3",
+          "to": "R2"
+        },
+        {
+          "from": "R4",
+          "to": "R2"
+        },
+        {
+          "from": "R4",
+          "to": "R15"
+        },
+        {
+          "from": "R4",
+          "to": "R19"
+        },
+        {
+          "from": "R5",
+          "to": "R4"
+        },
+        {
+          "from": "R6",
+          "to": "R5"
+        },
+        {
+          "from": "R7",
+          "to": "R1"
+        },
+        {
+          "from": "R8",
+          "to": "R4"
+        },
+        {
+          "from": "R10",
+          "to": "R4"
+        },
+        {
+          "from": "R12",
+          "to": "R4"
+        },
+        {
+          "from": "R15",
+          "to": "R19"
+        },
+        {
+          "from": "R16",
+          "to": "R11"
+        },
+        {
+          "from": "R17",
+          "to": "R20"
+        },
+        {
+          "from": "R18",
+          "to": "R15"
+        },
+        {
+          "from": "R18",
+          "to": "R4"
+        },
+        {
+          "from": "R19",
+          "to": "R4"
+        },
+        {
+          "from": "R21",
+          "to": "R20"
+        },
+        {
+          "from": "R22",
+          "to": "R23"
+        },
+        {
+          "from": "R25",
+          "to": "R15"
+        },
+        {
+          "from": "R28",
+          "to": "R19"
+        },
+        {
+          "from": "R34",
+          "to": "R1"
+        },
+        {
+          "from": "R35",
+          "to": "R1"
+        },
+        {
+          "from": "R36",
+          "to": "R12"
+        },
+        {
+          "from": "R37",
+          "to": "R4"
+        },
+        {
+          "from": "R38",
+          "to": "R4"
+        },
+        {
+          "from": "R39",
+          "to": "R10"
+        },
+        {
+          "from": "R40",
+          "to": "R10"
+        },
+        {
+          "from": "R41",
+          "to": "R17"
+        },
+        {
+          "from": "R43",
+          "to": "R42"
+        }
+      ],
+      "rawScoreMap": {
+        "R1": 1.6,
+        "R2": 1.1300000000000001,
+        "R3": 0.2001,
+        "R4": 3.5300000000000002,
+        "R5": 0.559,
+        "R6": 0.11249999999999999,
+        "R7": 0.3,
+        "R8": 0.15,
+        "R9": 0,
+        "R10": 0.9680000000000001,
+        "R11": 0.4,
+        "R12": 0.559,
+        "R13": 0,
+        "R14": 0,
+        "R15": 1.3290000000000002,
+        "R16": 0.3,
+        "R17": 0.7030000000000001,
+        "R18": 0.1668,
+        "R19": 1.368,
+        "R20": 0.8,
+        "R21": 0.3,
+        "R22": 0.3,
+        "R23": 0.4,
+        "R24": 0,
+        "R25": 0.0999,
+        "R26": 0,
+        "R27": 0,
+        "R28": 0.11549999999999999,
+        "R29": 0,
+        "R30": 0,
+        "R31": 0,
+        "R32": 0,
+        "R33": 0,
+        "R34": 0.3,
+        "R35": 0.3,
+        "R36": 0.11249999999999999,
+        "R37": 0.15,
+        "R38": 0.15,
+        "R39": 0.11249999999999999,
+        "R40": 0.11249999999999999,
+        "R41": 0.2001,
+        "R42": 0.4,
+        "R43": 0.3
+      },
+      "scoreMap": {
+        "R1": 0.45325779036827196,
+        "R2": 0.32011331444759206,
+        "R3": 0.05668555240793201,
+        "R4": 1,
+        "R5": 0.15835694050991503,
+        "R6": 0.031869688385269115,
+        "R7": 0.08498583569405098,
+        "R8": 0.04249291784702549,
+        "R9": 0,
+        "R10": 0.27422096317280453,
+        "R11": 0.11331444759206799,
+        "R12": 0.15835694050991503,
+        "R13": 0,
+        "R14": 0,
+        "R15": 0.3764872521246459,
+        "R16": 0.08498583569405098,
+        "R17": 0.1991501416430595,
+        "R18": 0.047252124645892346,
+        "R19": 0.3875354107648725,
+        "R20": 0.22662889518413598,
+        "R21": 0.08498583569405098,
+        "R22": 0.08498583569405098,
+        "R23": 0.11331444759206799,
+        "R24": 0,
+        "R25": 0.028300283286118978,
+        "R26": 0,
+        "R27": 0,
+        "R28": 0.03271954674220963,
+        "R29": 0,
+        "R30": 0,
+        "R31": 0,
+        "R32": 0,
+        "R33": 0,
+        "R34": 0.08498583569405098,
+        "R35": 0.08498583569405098,
+        "R36": 0.031869688385269115,
+        "R37": 0.04249291784702549,
+        "R38": 0.04249291784702549,
+        "R39": 0.031869688385269115,
+        "R40": 0.031869688385269115,
+        "R41": 0.05668555240793201,
+        "R42": 0.11331444759206799,
+        "R43": 0.08498583569405098
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-04-17T18:20:17.240663",
+  "analysis_type": "conflict_analysis",
+  "filename_generated": "ahad_conflict_analysis_11.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "total_issues": 0,
+      "detections": [],
+      "domain_used": "education",
+      "filename": null,
+      "timestamp": "2026-04-17T13:20:13.954Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

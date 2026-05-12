@@ -1,0 +1,14 @@
+node_modules/
+__pycache__/
+venv/
+venv_win/
+.env
+.DS_Store
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.pt
+*.bin
+*.safetensors
+WiredTiger*

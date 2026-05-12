@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-04-17T13:48:08.282904",
+  "analysis_type": "conflict_analysis",
+  "filename_generated": "ahad_conflict_analysis_6.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "total_issues": 3,
+      "detections": [
+        {
+          "req1_id": 0,
+          "req2_id": 1,
+          "req1_text": "The system shall allow guest users to access and view full course content without registration.",
+          "req2_text": "The system shall require all users to register and log in before accessing any course content.",
+          "issue_type": "conflict",
+          "confidence": 0.9996223449707031,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9996223449707031
+          }
+        },
+        {
+          "req1_id": 0,
+          "req2_id": 3,
+          "req1_text": "The system shall allow guest users to access and view full course content without registration.",
+          "req2_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "issue_type": "conflict",
+          "confidence": 0.8968034386634827,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.8968034386634827
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 3,
+          "req1_text": "The system shall automatically pass all students who complete 100 percent of course videos.",
+          "req2_text": "The system shall require students to pass all quizzes and assignments before receiving course completion certification.",
+          "issue_type": "conflict",
+          "confidence": 0.9990697503089905,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9990697503089905
+          }
+        }
+      ],
+      "domain_used": "education",
+      "filename": null,
+      "timestamp": "2026-04-17T08:48:02.825Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

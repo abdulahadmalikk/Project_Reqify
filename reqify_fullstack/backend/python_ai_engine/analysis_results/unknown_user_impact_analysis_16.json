@@ -1,0 +1,317 @@
+{
+  "timestamp": "2026-04-17T13:41:29.434921",
+  "analysis_type": "impact_analysis",
+  "filename_generated": "unknown_user_impact_analysis_16.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "nodes": [
+        {
+          "id": "R1",
+          "label": "The system shall allow registered users to browse nearby restaurants by location and cuisine type."
+        },
+        {
+          "id": "R2",
+          "label": "The system shall allow registered users to view restaurant menus with item descriptions and prices."
+        },
+        {
+          "id": "R3",
+          "label": "The system shall allow registered users to add food items to cart with quantity and customization options."
+        },
+        {
+          "id": "R4",
+          "label": "The system shall allow registered users to remove items from cart before checkout."
+        },
+        {
+          "id": "R5",
+          "label": "The system shall allow registered users to place food orders using saved payment methods with order confirmation."
+        },
+        {
+          "id": "R6",
+          "label": "The system shall allow registered users to track delivery status in real time after order placement."
+        },
+        {
+          "id": "R7",
+          "label": "The system shall allow registered users to rate and review restaurants after order delivery."
+        },
+        {
+          "id": "R8",
+          "label": "The system shall allow registered users to apply promo codes during checkout with validity check."
+        },
+        {
+          "id": "R9",
+          "label": "The system shall allow registered users to schedule orders for a future delivery time with confirmation."
+        },
+        {
+          "id": "R10",
+          "label": "The system shall allow registered users to view order history from their account dashboard."
+        },
+        {
+          "id": "R11",
+          "label": "The system shall allow registered users to manage saved delivery addresses in account settings."
+        },
+        {
+          "id": "R12",
+          "label": "The system shall allow registered users to reorder from previous orders with a single action."
+        },
+        {
+          "id": "R13",
+          "label": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items."
+        },
+        {
+          "id": "R14",
+          "label": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes."
+        },
+        {
+          "id": "R15",
+          "label": "The system shall allow delivery agents to update delivery status at each checkpoint in real time."
+        },
+        {
+          "id": "R16",
+          "label": "The system shall allow admin users to manage restaurant listings and verify partner restaurants."
+        },
+        {
+          "id": "R17",
+          "label": "The system shall allow registered users to complete payment using credit card, debit card, cash on delivery, or digital wallet."
+        },
+        {
+          "id": "R18",
+          "label": "The system shall allow registered users to contact customer support through in-app chat after order placement."
+        },
+        {
+          "id": "R19",
+          "label": "The system shall load restaurant listings within 3 seconds under normal network conditions."
+        },
+        {
+          "id": "R20",
+          "label": "The system shall support at least 1000 concurrent users without performance degradation."
+        },
+        {
+          "id": "R21",
+          "label": "The system shall encrypt all payment and personal data using AES-256 encryption."
+        },
+        {
+          "id": "R22",
+          "label": "The system shall authenticate all users using JWT tokens with 24-hour expiration."
+        },
+        {
+          "id": "R23",
+          "label": "The system shall log all user actions including login, order placement, and payment for audit purposes."
+        },
+        {
+          "id": "R24",
+          "label": "The system shall be available 99.9% of the time on a monthly basis."
+        },
+        {
+          "id": "R25",
+          "label": "The system shall recover from any server failure within 5 minutes without data loss."
+        },
+        {
+          "id": "R26",
+          "label": "The system shall provide a responsive mobile-first interface accessible on Android and iOS."
+        },
+        {
+          "id": "R27",
+          "label": "The system shall allow new users to place their first order within 5 minutes without external help."
+        },
+        {
+          "id": "R28",
+          "label": "The system shall run on Chrome, Firefox, Safari, and Edge browsers without functional differences."
+        },
+        {
+          "id": "R29",
+          "label": "The system shall integrate with third-party mapping services including Google Maps for delivery tracking."
+        },
+        {
+          "id": "R30",
+          "label": "The system shall be deployable on AWS, Azure, and Google Cloud without code changes."
+        },
+        {
+          "id": "R31",
+          "label": "The system shall follow modular architecture to allow addition of new features without affecting existing modules."
+        },
+        {
+          "id": "R32",
+          "label": "The system shall provide API documentation for all endpoints to support future integrations."
+        },
+        {
+          "id": "R33",
+          "label": "The system shall deliver food orders as fast as possible to nearby customers."
+        },
+        {
+          "id": "R34",
+          "label": "The system should handle a large number of simultaneous orders without slowing down."
+        },
+        {
+          "id": "R35",
+          "label": "The system shall provide a smooth and pleasant ordering experience for all users."
+        },
+        {
+          "id": "R36",
+          "label": "The system shall ensure delivery agents reach customers in a reasonable amount of time."
+        },
+        {
+          "id": "R37",
+          "label": "The system shall process payments in a secure and efficient manner at all times."
+        },
+        {
+          "id": "R38",
+          "label": "The system shall allow customers to add meals to their basket before placing an order."
+        },
+        {
+          "id": "R39",
+          "label": "The system shall allow users to put food items into cart prior to checkout."
+        },
+        {
+          "id": "R40",
+          "label": "The system shall allow registered users to view their past food orders from their profile."
+        },
+        {
+          "id": "R41",
+          "label": "The system shall allow users to access previous order history from the account section."
+        },
+        {
+          "id": "R42",
+          "label": "The system shall allow guest users to place food orders without creating an account."
+        },
+        {
+          "id": "R43",
+          "label": "The system shall require all users to register and log in before accessing the ordering feature."
+        },
+        {
+          "id": "R44",
+          "label": "The system shall automatically assign the nearest available delivery agent to every new order."
+        },
+        {
+          "id": "R45",
+          "label": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents."
+        },
+        {
+          "id": "R46",
+          "label": "The system shall support a maximum of 300 concurrent users at peak load."
+        },
+        {
+          "id": "R47",
+          "label": "The system shall display all menu prices in USD only across all restaurant pages."
+        },
+        {
+          "id": "R48",
+          "label": "The system shall display menu prices in the local currency of the user based on their detected location."
+        },
+        {
+          "id": "R49",
+          "label": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response."
+        },
+        {
+          "id": "R50",
+          "label": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant."
+        }
+      ],
+      "edges": [],
+      "rawScoreMap": {
+        "R1": 0,
+        "R2": 0,
+        "R3": 0,
+        "R4": 0,
+        "R5": 0,
+        "R6": 0,
+        "R7": 0,
+        "R8": 0,
+        "R9": 0,
+        "R10": 0,
+        "R11": 0,
+        "R12": 0,
+        "R13": 0,
+        "R14": 0,
+        "R15": 0,
+        "R16": 0,
+        "R17": 0,
+        "R18": 0,
+        "R19": 0,
+        "R20": 0,
+        "R21": 0,
+        "R22": 0,
+        "R23": 0,
+        "R24": 0,
+        "R25": 0,
+        "R26": 0,
+        "R27": 0,
+        "R28": 0,
+        "R29": 0,
+        "R30": 0,
+        "R31": 0,
+        "R32": 0,
+        "R33": 0,
+        "R34": 0,
+        "R35": 0,
+        "R36": 0,
+        "R37": 0,
+        "R38": 0,
+        "R39": 0,
+        "R40": 0,
+        "R41": 0,
+        "R42": 0,
+        "R43": 0,
+        "R44": 0,
+        "R45": 0,
+        "R46": 0,
+        "R47": 0,
+        "R48": 0,
+        "R49": 0,
+        "R50": 0
+      },
+      "scoreMap": {
+        "R1": 0,
+        "R2": 0,
+        "R3": 0,
+        "R4": 0,
+        "R5": 0,
+        "R6": 0,
+        "R7": 0,
+        "R8": 0,
+        "R9": 0,
+        "R10": 0,
+        "R11": 0,
+        "R12": 0,
+        "R13": 0,
+        "R14": 0,
+        "R15": 0,
+        "R16": 0,
+        "R17": 0,
+        "R18": 0,
+        "R19": 0,
+        "R20": 0,
+        "R21": 0,
+        "R22": 0,
+        "R23": 0,
+        "R24": 0,
+        "R25": 0,
+        "R26": 0,
+        "R27": 0,
+        "R28": 0,
+        "R29": 0,
+        "R30": 0,
+        "R31": 0,
+        "R32": 0,
+        "R33": 0,
+        "R34": 0,
+        "R35": 0,
+        "R36": 0,
+        "R37": 0,
+        "R38": 0,
+        "R39": 0,
+        "R40": 0,
+        "R41": 0,
+        "R42": 0,
+        "R43": 0,
+        "R44": 0,
+        "R45": 0,
+        "R46": 0,
+        "R47": 0,
+        "R48": 0,
+        "R49": 0,
+        "R50": 0
+      }
+    }
+  ]
+}

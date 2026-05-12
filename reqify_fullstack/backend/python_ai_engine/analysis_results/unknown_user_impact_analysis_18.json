@@ -1,0 +1,317 @@
+{
+  "timestamp": "2026-04-17T13:49:24.541690",
+  "analysis_type": "impact_analysis",
+  "filename_generated": "unknown_user_impact_analysis_18.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "nodes": [
+        {
+          "id": "R1",
+          "label": "The system shall allow admin users to create and manage courses with title, description, and category."
+        },
+        {
+          "id": "R2",
+          "label": "The system shall allow instructors to upload course content including videos, PDFs, and presentations."
+        },
+        {
+          "id": "R3",
+          "label": "The system shall allow registered students to browse and search available courses by category and keyword."
+        },
+        {
+          "id": "R4",
+          "label": "The system shall allow registered students to enroll in courses after completing payment or free registration."
+        },
+        {
+          "id": "R5",
+          "label": "The system shall allow registered students to access course content after successful enrollment."
+        },
+        {
+          "id": "R6",
+          "label": "The system shall allow registered students to track their course progress with completion percentage."
+        },
+        {
+          "id": "R7",
+          "label": "The system shall allow instructors to create quizzes and assignments with configurable deadlines."
+        },
+        {
+          "id": "R8",
+          "label": "The system shall allow registered students to attempt quizzes within the allowed time limit and submission window."
+        },
+        {
+          "id": "R9",
+          "label": "The system shall allow instructors to grade student assignments and provide written feedback."
+        },
+        {
+          "id": "R10",
+          "label": "The system shall allow registered students to view their grades and feedback from the course dashboard."
+        },
+        {
+          "id": "R11",
+          "label": "The system shall allow registered students to participate in course discussion forums by posting and replying."
+        },
+        {
+          "id": "R12",
+          "label": "The system shall allow instructors to schedule and host live classes with registered enrolled students."
+        },
+        {
+          "id": "R13",
+          "label": "The system shall allow registered students to download course completion certificates after finishing all requirements."
+        },
+        {
+          "id": "R14",
+          "label": "The system shall allow admin users to manage user accounts including students and instructors."
+        },
+        {
+          "id": "R15",
+          "label": "The system shall allow registered students to submit assignments before the deadline with file upload support."
+        },
+        {
+          "id": "R16",
+          "label": "The system shall allow instructors to send announcements to all enrolled students of a course."
+        },
+        {
+          "id": "R17",
+          "label": "The system shall allow registered students to save courses to a wishlist for later enrollment."
+        },
+        {
+          "id": "R18",
+          "label": "The system shall allow admin users to generate reports on course enrollment and student performance."
+        },
+        {
+          "id": "R19",
+          "label": "The system shall load course content pages within 3 seconds under normal network conditions."
+        },
+        {
+          "id": "R20",
+          "label": "The system shall support at least 2000 concurrent users without performance degradation."
+        },
+        {
+          "id": "R21",
+          "label": "The system shall encrypt all user data and payment information using AES-256 encryption."
+        },
+        {
+          "id": "R22",
+          "label": "The system shall authenticate all users using JWT tokens with 24-hour expiration."
+        },
+        {
+          "id": "R23",
+          "label": "The system shall log all user actions including login, enrollment, and submission for audit purposes."
+        },
+        {
+          "id": "R24",
+          "label": "The system shall be available 99.9% of the time on a monthly basis."
+        },
+        {
+          "id": "R25",
+          "label": "The system shall recover from any server failure within 5 minutes without loss of student progress data."
+        },
+        {
+          "id": "R26",
+          "label": "The system shall provide a responsive interface accessible on desktop, tablet, and mobile browsers."
+        },
+        {
+          "id": "R27",
+          "label": "The system shall allow new students to enroll in their first course within 5 minutes without external help."
+        },
+        {
+          "id": "R28",
+          "label": "The system shall run on Chrome, Firefox, Safari, and Edge browsers without functional differences."
+        },
+        {
+          "id": "R29",
+          "label": "The system shall integrate with third-party video streaming services including YouTube and Vimeo."
+        },
+        {
+          "id": "R30",
+          "label": "The system shall be deployable on AWS, Azure, and Google Cloud without code changes."
+        },
+        {
+          "id": "R31",
+          "label": "The system shall follow modular architecture to allow addition of new modules without affecting existing features."
+        },
+        {
+          "id": "R32",
+          "label": "The system shall provide API documentation for all endpoints to support future third-party integrations."
+        },
+        {
+          "id": "R33",
+          "label": "The system shall deliver course content quickly and smoothly to all students."
+        },
+        {
+          "id": "R34",
+          "label": "The system should handle a large number of students accessing courses at the same time without issues."
+        },
+        {
+          "id": "R35",
+          "label": "The system shall provide an engaging and interactive learning experience for all users."
+        },
+        {
+          "id": "R36",
+          "label": "The system shall ensure instructors can easily manage their course materials without difficulty."
+        },
+        {
+          "id": "R37",
+          "label": "The system shall process student payments in a secure and timely manner during enrollment."
+        },
+        {
+          "id": "R38",
+          "label": "The system shall allow learners to sign up for available courses after making payment."
+        },
+        {
+          "id": "R39",
+          "label": "The system shall allow students to register for a course upon successful fee submission."
+        },
+        {
+          "id": "R40",
+          "label": "The system shall allow registered students to view their assessment scores from the learning portal."
+        },
+        {
+          "id": "R41",
+          "label": "The system shall allow students to access their quiz and assignment results from the course page."
+        },
+        {
+          "id": "R42",
+          "label": "The system shall allow guest users to access and view full course content without registration."
+        },
+        {
+          "id": "R43",
+          "label": "The system shall require all users to register and log in before accessing any course content."
+        },
+        {
+          "id": "R44",
+          "label": "The system shall automatically pass all students who complete 100 percent of course videos."
+        },
+        {
+          "id": "R45",
+          "label": "The system shall require students to pass all quizzes and assignments before receiving course completion certification."
+        },
+        {
+          "id": "R46",
+          "label": "The system shall support a maximum of 500 concurrent users at peak load."
+        },
+        {
+          "id": "R47",
+          "label": "The system shall display all course prices in USD only across all pages."
+        },
+        {
+          "id": "R48",
+          "label": "The system shall display course prices in the local currency of the student based on their detected location."
+        },
+        {
+          "id": "R49",
+          "label": "The system shall automatically issue course completion certificates immediately after the final quiz submission."
+        },
+        {
+          "id": "R50",
+          "label": "The system shall issue course completion certificates only after instructor manual approval of all submitted assignments."
+        }
+      ],
+      "edges": [],
+      "rawScoreMap": {
+        "R1": 0,
+        "R2": 0,
+        "R3": 0,
+        "R4": 0,
+        "R5": 0,
+        "R6": 0,
+        "R7": 0,
+        "R8": 0,
+        "R9": 0,
+        "R10": 0,
+        "R11": 0,
+        "R12": 0,
+        "R13": 0,
+        "R14": 0,
+        "R15": 0,
+        "R16": 0,
+        "R17": 0,
+        "R18": 0,
+        "R19": 0,
+        "R20": 0,
+        "R21": 0,
+        "R22": 0,
+        "R23": 0,
+        "R24": 0,
+        "R25": 0,
+        "R26": 0,
+        "R27": 0,
+        "R28": 0,
+        "R29": 0,
+        "R30": 0,
+        "R31": 0,
+        "R32": 0,
+        "R33": 0,
+        "R34": 0,
+        "R35": 0,
+        "R36": 0,
+        "R37": 0,
+        "R38": 0,
+        "R39": 0,
+        "R40": 0,
+        "R41": 0,
+        "R42": 0,
+        "R43": 0,
+        "R44": 0,
+        "R45": 0,
+        "R46": 0,
+        "R47": 0,
+        "R48": 0,
+        "R49": 0,
+        "R50": 0
+      },
+      "scoreMap": {
+        "R1": 0,
+        "R2": 0,
+        "R3": 0,
+        "R4": 0,
+        "R5": 0,
+        "R6": 0,
+        "R7": 0,
+        "R8": 0,
+        "R9": 0,
+        "R10": 0,
+        "R11": 0,
+        "R12": 0,
+        "R13": 0,
+        "R14": 0,
+        "R15": 0,
+        "R16": 0,
+        "R17": 0,
+        "R18": 0,
+        "R19": 0,
+        "R20": 0,
+        "R21": 0,
+        "R22": 0,
+        "R23": 0,
+        "R24": 0,
+        "R25": 0,
+        "R26": 0,
+        "R27": 0,
+        "R28": 0,
+        "R29": 0,
+        "R30": 0,
+        "R31": 0,
+        "R32": 0,
+        "R33": 0,
+        "R34": 0,
+        "R35": 0,
+        "R36": 0,
+        "R37": 0,
+        "R38": 0,
+        "R39": 0,
+        "R40": 0,
+        "R41": 0,
+        "R42": 0,
+        "R43": 0,
+        "R44": 0,
+        "R45": 0,
+        "R46": 0,
+        "R47": 0,
+        "R48": 0,
+        "R49": 0,
+        "R50": 0
+      }
+    }
+  ]
+}

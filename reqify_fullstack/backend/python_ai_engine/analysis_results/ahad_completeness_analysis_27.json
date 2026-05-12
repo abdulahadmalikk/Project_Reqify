@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-04-18T08:51:51.355118",
+  "analysis_type": "completeness_analysis",
+  "filename_generated": "ahad_completeness_analysis_27.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "status": "incomplete",
+      "severity": "critical",
+      "domain": "learning_management_system",
+      "requirements_count": 1,
+      "coverage": {
+        "percentage": 0.0,
+        "covered": 0,
+        "missing": 9,
+        "total": 9
+      },
+      "covered_modules": [],
+      "missing_modules": [
+        {
+          "name": "Course Management",
+          "weight": 1.0,
+          "reason": "not_mentioned"
+        },
+        {
+          "name": "Enrollment",
+          "weight": 1.0,
+          "reason": "not_mentioned"
+        },
+        {
+          "name": "Assessment & Quizzes",
+          "weight": 1.0,
+          "reason": "not_mentioned"
+        },
+        {
+          "name": "Grading",
+          "weight": 1.0,
+          "reason": "not_mentioned"
+        },
+        {
+          "name": "Assignment Submission",
+          "weight": 0.9,
+          "reason": "not_mentioned"
+        },
+        {
+          "name": "Discussion Forums",
+          "weight": 0.8,
+          "reason": "not_mentioned"
+        },
+        {
+          "name": "Content Delivery",
+          "weight": 1.0,
+          "reason": "not_mentioned"
+        },
+        {
+          "name": "Live Classes",
+          "weight": 0.8,
+          "reason": "not_mentioned"
+        },
+        {
+          "name": "Certificates",
+          "weight": 0.7,
+          "reason": "not_mentioned"
+        }
+      ],
+      "recommendations": [
+        "⚠️ CRITICAL: 9 major modules missing",
+        "→ Recommend: Complete requirements review needed",
+        "→ Priority: Address missing core functionality immediately",
+        "→ Start with: Course Management, Enrollment, Assessment & Quizzes"
+      ],
+      "filename": "Manual Entry",
+      "timestamp": "2026-04-18T03:51:50.930Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

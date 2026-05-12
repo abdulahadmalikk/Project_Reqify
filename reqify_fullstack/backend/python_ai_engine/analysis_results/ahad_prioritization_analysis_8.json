@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-04-18T08:52:10.277641",
+  "analysis_type": "prioritization_analysis",
+  "filename_generated": "ahad_prioritization_analysis_8.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "total_prioritized": 1,
+      "results": [
+        {
+          "req_id": "REQ-001",
+          "requirement": "The system shall be fast.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 1,
+          "ambiguity_score": 0.78,
+          "conflict_score": 0.375,
+          "has_ambiguity": true,
+          "has_conflict": true,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.78)",
+            "Conflict detected (score: 0.38)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 23.4,
+          "conflict_penalty": 11.25,
+          "final_score": 65.35,
+          "quality_rating": "Poor",
+          "final_rank": 1,
+          "category_rank": "1/1"
+        }
+      ],
+      "filename": null,
+      "timestamp": "2026-04-18T03:52:09.964Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

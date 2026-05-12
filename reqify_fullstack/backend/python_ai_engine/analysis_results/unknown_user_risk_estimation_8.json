@@ -1,0 +1,339 @@
+{
+  "timestamp": "2026-04-16T23:30:46.091412",
+  "analysis_type": "risk_estimation",
+  "filename_generated": "unknown_user_risk_estimation_8.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "results": [
+        {
+          "id": "REQ-3",
+          "text": "The administrator shall create the course with a title.",
+          "origScore": 0.4,
+          "ambScore": 0.73,
+          "volScore": 0.36000000000000004,
+          "depScore": 1,
+          "riskIndex": 0.6679999999999999,
+          "riskLevel": "HIGH"
+        },
+        {
+          "id": "REQ-13",
+          "text": "The instructor shall provide the assignment feedback.",
+          "origScore": 0,
+          "ambScore": 0.86,
+          "volScore": 0.2866666666666667,
+          "depScore": 0,
+          "riskIndex": 0.44433333333333336,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-21",
+          "text": "The student shall save the course to the wishlist.",
+          "origScore": 0,
+          "ambScore": 0.77,
+          "volScore": 0.25666666666666665,
+          "depScore": 0,
+          "riskIndex": 0.39783333333333337,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-17",
+          "text": "The instructor shall schedule the live classes.",
+          "origScore": 0,
+          "ambScore": 0.76,
+          "volScore": 0.25333333333333335,
+          "depScore": 0,
+          "riskIndex": 0.3926666666666667,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-10",
+          "text": "The instructor shall create the quizzes with deadlines.",
+          "origScore": 0,
+          "ambScore": 0.75,
+          "volScore": 0.25,
+          "depScore": 0,
+          "riskIndex": 0.38750000000000007,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-14",
+          "text": "The student shall view the grades from the dashboard.",
+          "origScore": 0,
+          "ambScore": 0.74,
+          "volScore": 0.24666666666666667,
+          "depScore": 0,
+          "riskIndex": 0.3823333333333333,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-16",
+          "text": "The instructor shall send the announcements.",
+          "origScore": 0,
+          "ambScore": 0.74,
+          "volScore": 0.24666666666666667,
+          "depScore": 0,
+          "riskIndex": 0.3823333333333333,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-26",
+          "text": "The system shall log the login activity.",
+          "origScore": 0,
+          "ambScore": 0.74,
+          "volScore": 0.24666666666666667,
+          "depScore": 0,
+          "riskIndex": 0.3823333333333333,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-15",
+          "text": "The student shall post the discussion forum reply.",
+          "origScore": 0,
+          "ambScore": 0.73,
+          "volScore": 0.24333333333333332,
+          "depScore": 0,
+          "riskIndex": 0.37716666666666665,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-12",
+          "text": "The student shall submit the assignments before the deadline expires.",
+          "origScore": 0,
+          "ambScore": 0.72,
+          "volScore": 0.24,
+          "depScore": 0,
+          "riskIndex": 0.372,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-5",
+          "text": "The instructor shall upload the course videos.",
+          "origScore": 0,
+          "ambScore": 0.71,
+          "volScore": 0.23666666666666666,
+          "depScore": 0,
+          "riskIndex": 0.3668333333333333,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-6",
+          "text": "The student shall browse the courses by category.",
+          "origScore": 0,
+          "ambScore": 0.71,
+          "volScore": 0.23666666666666666,
+          "depScore": 0,
+          "riskIndex": 0.3668333333333333,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-7",
+          "text": "The student shall enroll in the course after the payment completes.",
+          "origScore": 0,
+          "ambScore": 0.71,
+          "volScore": 0.23666666666666666,
+          "depScore": 0,
+          "riskIndex": 0.3668333333333333,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-8",
+          "text": "The student shall access the course content after the enrollment succeeds.",
+          "origScore": 0,
+          "ambScore": 0.71,
+          "volScore": 0.23666666666666666,
+          "depScore": 0,
+          "riskIndex": 0.3668333333333333,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-20",
+          "text": "The administrator shall generate the enrollment reports.",
+          "origScore": 0,
+          "ambScore": 0.67,
+          "volScore": 0.22333333333333336,
+          "depScore": 0,
+          "riskIndex": 0.3461666666666667,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-29",
+          "text": "The system shall provide a responsive interface for mobile devices.",
+          "origScore": 0,
+          "ambScore": 0.67,
+          "volScore": 0.22333333333333336,
+          "depScore": 0,
+          "riskIndex": 0.3461666666666667,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-31",
+          "text": "The system shall integrate with the YouTube platform.",
+          "origScore": 0,
+          "ambScore": 0.65,
+          "volScore": 0.21666666666666667,
+          "depScore": 0,
+          "riskIndex": 0.3358333333333333,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-19",
+          "text": "The administrator shall manage the student accounts.",
+          "origScore": 0,
+          "ambScore": 0.64,
+          "volScore": 0.21333333333333335,
+          "depScore": 0,
+          "riskIndex": 0.33066666666666666,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-4",
+          "text": "The administrator shall manage the course update operations.",
+          "origScore": 0,
+          "ambScore": 0.63,
+          "volScore": 0.21,
+          "depScore": 0,
+          "riskIndex": 0.3255,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-2",
+          "text": "The system shall require all users to log in before accessing any course content.",
+          "origScore": 0.4,
+          "ambScore": 0,
+          "volScore": 0.11666666666666665,
+          "depScore": 1,
+          "riskIndex": 0.29083333333333333,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-32",
+          "text": "The system shall operate on the AWS platform.",
+          "origScore": 0,
+          "ambScore": 0.54,
+          "volScore": 0.18000000000000002,
+          "depScore": 0,
+          "riskIndex": 0.279,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-1",
+          "text": "The system shall allow all guest users to access the full course content without registration.",
+          "origScore": 0.3,
+          "ambScore": 0,
+          "volScore": 0.09999999999999999,
+          "depScore": 0.7499999999999999,
+          "riskIndex": 0.22249999999999998,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-9",
+          "text": "The student shall track the course completion percentage.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-11",
+          "text": "The student shall attempt the quizzes within the allowed time.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-18",
+          "text": "The student shall download the completion certificate after fulfilling the requirements.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-22",
+          "text": "The system shall load the course pages within 3 seconds under normal network conditions.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-23",
+          "text": "The system shall support at least 2000 users.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-24",
+          "text": "The system shall encrypt the user data using the AES-256 encryption.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-25",
+          "text": "The system shall authenticate the users every 24 hours.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-27",
+          "text": "The system shall maintain 99.9% uptime on a monthly basis.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-28",
+          "text": "The system shall recover from the server failure within 5 minutes.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-30",
+          "text": "The system shall support the Chrome browser.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        }
+      ],
+      "summary": {
+        "total": 32,
+        "high": 1,
+        "med": 13,
+        "low": 18,
+        "topRiskId": "REQ-3"
+      }
+    }
+  ]
+}

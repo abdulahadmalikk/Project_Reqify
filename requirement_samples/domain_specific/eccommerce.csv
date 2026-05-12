@@ -1,0 +1,43 @@
+The system shall allow registered users to browse product catalog by category.
+The system shall allow registered users to add products to shopping cart with quantity selection.
+The system shall allow registered users to remove items from shopping cart at any time.
+The system shall allow registered users to place orders using saved payment methods with order confirmation.
+The system shall allow registered users to track order status in real time after purchase.
+The system shall allow registered users to submit product reviews after order delivery.
+The system shall allow registered users to add products to wishlist for later purchase.
+The system shall allow registered users to apply discount coupons during checkout with validity check.
+The system shall allow admin users to manage product inventory by updating stock levels.
+The system shall allow admin users to process refund requests within 3 business days.
+The system shall allow registered users to search products by keyword with filter support.
+The system shall allow registered users to view order history from their account dashboard.
+The system shall allow admin users to generate sales reports by date range.
+The system shall allow registered users to manage their shipping addresses in account settings.
+The system shall allow registered users to complete payment using credit card, debit card, or digital wallet.
+The system shall respond to product search queries within 2 seconds under normal load.
+The system shall support at least 500 concurrent users without performance degradation.
+The system shall encrypt all payment and personal data using AES-256 encryption.
+The system shall authenticate all users using JWT tokens with 24-hour expiration.
+The system shall be available 99.9% of the time on a monthly basis.
+The system shall recover from any server failure within 5 minutes without data loss.
+The system shall provide a responsive web interface accessible on desktop and mobile browsers.
+The system shall allow new users to complete their first purchase within 10 minutes without external help.
+The system shall run on Chrome, Firefox, Safari, and Edge browsers without functional differences.
+The system shall integrate with third-party payment gateways including Stripe and PayPal.
+The system shall be deployable on AWS, Azure, and Google Cloud without code changes.
+The system shall follow modular architecture to allow addition of new modules without affecting existing ones.
+The system shall log all user actions including login, purchase, and profile updates for audit purposes.
+The system shall process orders quickly and efficiently.
+The system should handle many users simultaneously without issues.
+The system shall provide a user-friendly and intuitive shopping experience.
+The system shall ensure products are delivered in a reasonable time.
+The system shall bank all transaction data securely in the backend.
+The system shall allow customers to place products into their basket for later checkout.
+The system shall allow users to add items to cart before purchasing.
+The registered user shall be able to view past orders from their profile page.
+The system shall allow guest users to checkout without creating an account.
+The system shall require all users to register and log in before accessing checkout.
+The system shall process all refund requests within 24 hours of submission.
+The system shall process refund requests within 7 to 10 business days after approval.
+The system shall support a maximum of 200 concurrent users at peak load.
+The system shall display product prices in USD only across all pages.
+The system shall allow users to view product prices in their local currency based on location.

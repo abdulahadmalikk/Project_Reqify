@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-04-17T12:57:09.425036",
+  "analysis_type": "completeness_analysis",
+  "filename_generated": "ahad_completeness_analysis_7.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "status": "complete",
+      "severity": "none",
+      "domain": "ecommerce",
+      "requirements_count": 43,
+      "coverage": {
+        "percentage": 100.0,
+        "covered": 8,
+        "missing": 0,
+        "total": 8
+      },
+      "covered_modules": [
+        {
+          "name": "Product Catalog",
+          "confidence": 0.786
+        },
+        {
+          "name": "Shopping Cart",
+          "confidence": 0.737
+        },
+        {
+          "name": "Order Placement",
+          "confidence": 0.835
+        },
+        {
+          "name": "Payment Processing",
+          "confidence": 0.781
+        },
+        {
+          "name": "Wishlist",
+          "confidence": 0.436
+        },
+        {
+          "name": "Inventory Management",
+          "confidence": 0.822
+        },
+        {
+          "name": "Order Tracking",
+          "confidence": 0.378
+        },
+        {
+          "name": "User Reviews",
+          "confidence": 0.428
+        }
+      ],
+      "missing_modules": [],
+      "recommendations": [
+        "✅ All required modules are covered",
+        "→ Requirements specification is complete"
+      ],
+      "filename": "eccommerce.csv",
+      "timestamp": "2026-04-17T07:56:57.856Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

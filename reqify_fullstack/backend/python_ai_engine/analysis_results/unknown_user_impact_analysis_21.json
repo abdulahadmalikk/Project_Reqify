@@ -1,0 +1,404 @@
+{
+  "timestamp": "2026-04-17T18:12:37.232159",
+  "analysis_type": "impact_analysis",
+  "filename_generated": "unknown_user_impact_analysis_21.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "nodes": [
+        {
+          "id": "R1",
+          "label": "The system shall enroll the student within 2 seconds after payment verification."
+        },
+        {
+          "id": "R2",
+          "label": "The application shall generate a progress report every 7 days."
+        },
+        {
+          "id": "R3",
+          "label": "The platform shall operate on Android and iOS platforms."
+        },
+        {
+          "id": "R4",
+          "label": "The mobile app shall consume less than 100MB of RAM."
+        },
+        {
+          "id": "R5",
+          "label": "The system shall send a reminder notification when a deadline approaches."
+        },
+        {
+          "id": "R6",
+          "label": "Students shall submit the assignment through the digital dropbox."
+        },
+        {
+          "id": "R7",
+          "label": "The interface shall unlock the next module after the user passes the quiz."
+        },
+        {
+          "id": "R8",
+          "label": "The API shall fetch the gradebook within 300ms under normal network conditions."
+        },
+        {
+          "id": "R9",
+          "label": "The server shall archive the course materials upon term completion."
+        },
+        {
+          "id": "R10",
+          "label": "The system shall provide a certificate for the graduate."
+        },
+        {
+          "id": "R11",
+          "label": "The portal shall play the video lecture using HTML5."
+        },
+        {
+          "id": "R12",
+          "label": "The dashboard shall synchronize the calendar every 10 minutes."
+        },
+        {
+          "id": "R13",
+          "label": "The module shall track the user participation during the live session."
+        },
+        {
+          "id": "R14",
+          "label": "The system shall limit the upload size to at most 25MB."
+        },
+        {
+          "id": "R15",
+          "label": "The instructor shall manage the academic course curriculum within the dashboard."
+        },
+        {
+          "id": "R16",
+          "label": "The student shall register for the program to complete the enrollment process."
+        },
+        {
+          "id": "R17",
+          "label": "The system shall host online quizzes and examinations for student assessment."
+        },
+        {
+          "id": "R18",
+          "label": "The application shall calculate the final grade automatically after the student completes the test."
+        },
+        {
+          "id": "R19",
+          "label": "The learner shall upload the scholarly assignment to the submission portal before the deadline."
+        },
+        {
+          "id": "R20",
+          "label": "The system shall provide discussion forums to facilitate peer communication and discourse."
+        },
+        {
+          "id": "R21",
+          "label": "The platform shall disseminate educational materials and lecture resources to all registered users."
+        },
+        {
+          "id": "R22",
+          "label": "The instructor shall conduct synchronous live virtual classes using integrated videotelephony."
+        },
+        {
+          "id": "R23",
+          "label": "The system shall generate a digital certificate of completion after the student finishes the course."
+        },
+        {
+          "id": "R24",
+          "label": "The API shall fetch the gradebook within 300ms under normal network conditions."
+        },
+        {
+          "id": "R25",
+          "label": "The interface shall load the dashboard within 2 seconds during peak load."
+        },
+        {
+          "id": "R26",
+          "label": "The system shall support 5000 concurrent users during synchronous live sessions."
+        },
+        {
+          "id": "R27",
+          "label": "The portal shall operate correctly on Windows, Linux, and macOS platforms."
+        },
+        {
+          "id": "R28",
+          "label": "The system shall provide accessibility features for users with visual impairments."
+        },
+        {
+          "id": "R29",
+          "label": "The interface shall display navigation menus clearly to ensure high usability."
+        },
+        {
+          "id": "R30",
+          "label": "The server shall maintain 99.9% availability during the academic semester."
+        },
+        {
+          "id": "R31",
+          "label": "The backup service shall run every 24 hours to prevent data loss."
+        },
+        {
+          "id": "R32",
+          "label": "The system shall encrypt all communication using TLS 1.3 or higher."
+        },
+        {
+          "id": "R33",
+          "label": "Users must authenticate using multi-factor authentication while accessing sensitive data."
+        },
+        {
+          "id": "R34",
+          "label": "The database shall delete temporary session data after the user logs out."
+        },
+        {
+          "id": "R35",
+          "label": "The system shall generate detailed error logs for the technical support team."
+        },
+        {
+          "id": "R36",
+          "label": "The source code shall follow standardized documentation patterns to facilitate maintenance."
+        },
+        {
+          "id": "R37",
+          "label": "The application shall support data export to standard CSV and XML formats."
+        },
+        {
+          "id": "R38",
+          "label": "The software must be installable on various cloud-based virtual machines without modification."
+        },
+        {
+          "id": "R39",
+          "label": "The student shall search for available course modules using keyword filters within the catalog."
+        },
+        {
+          "id": "R40",
+          "label": "The system shall track student participation during the synchronous live session."
+        },
+        {
+          "id": "R41",
+          "label": "The instructor shall update the educational content within the material repository every week."
+        },
+        {
+          "id": "R42",
+          "label": "The system shall allow students to submit course feedback upon the completion of the program."
+        },
+        {
+          "id": "R43",
+          "label": "Instructors must upload the course syllabus before the semester starts."
+        },
+        {
+          "id": "R44",
+          "label": "The instructor should provide qualitative feedback within 48 hours after an assignment submission."
+        },
+        {
+          "id": "R45",
+          "label": "The system should recommend additional course modules based on the student's enrollment history."
+        },
+        {
+          "id": "R46",
+          "label": "The interface should support dark mode to improve usability during night hours."
+        },
+        {
+          "id": "R47",
+          "label": "The application could allow students to customize their profile dashboard with external widgets."
+        },
+        {
+          "id": "R48",
+          "label": "The portal could integrate with social media platforms for course achievement sharing."
+        },
+        {
+          "id": "R49",
+          "label": "The system response couldn't exceed two seconds during peak operations."
+        },
+        {
+          "id": "R50",
+          "label": "The application wouldn't support offline video downloads in the current phase of development."
+        },
+        {
+          "id": "R51",
+          "label": "The platform shall purge student records only after the user explicitly deletes their account."
+        }
+      ],
+      "edges": [
+        {
+          "from": "R2",
+          "to": "R1"
+        },
+        {
+          "from": "R5",
+          "to": "R19"
+        },
+        {
+          "from": "R7",
+          "to": "R17"
+        },
+        {
+          "from": "R8",
+          "to": "R33"
+        },
+        {
+          "from": "R9",
+          "to": "R15"
+        },
+        {
+          "from": "R10",
+          "to": "R18"
+        },
+        {
+          "from": "R13",
+          "to": "R22"
+        },
+        {
+          "from": "R18",
+          "to": "R17"
+        },
+        {
+          "from": "R19",
+          "to": "R16"
+        },
+        {
+          "from": "R22",
+          "to": "R15"
+        },
+        {
+          "from": "R23",
+          "to": "R18"
+        },
+        {
+          "from": "R24",
+          "to": "R33"
+        },
+        {
+          "from": "R39",
+          "to": "R16"
+        },
+        {
+          "from": "R40",
+          "to": "R22"
+        },
+        {
+          "from": "R42",
+          "to": "R23"
+        },
+        {
+          "from": "R43",
+          "to": "R15"
+        },
+        {
+          "from": "R44",
+          "to": "R6"
+        },
+        {
+          "from": "R45",
+          "to": "R16"
+        },
+        {
+          "from": "R48",
+          "to": "R17"
+        },
+        {
+          "from": "R51",
+          "to": "R16"
+        }
+      ],
+      "rawScoreMap": {
+        "R1": 0.4,
+        "R2": 0.3,
+        "R3": 0,
+        "R4": 0,
+        "R5": 0.2001,
+        "R6": 0.4,
+        "R7": 0.3,
+        "R8": 0.3,
+        "R9": 0.3,
+        "R10": 0.2001,
+        "R11": 0,
+        "R12": 0,
+        "R13": 0.2001,
+        "R14": 0,
+        "R15": 1.2000000000000002,
+        "R16": 1.6,
+        "R17": 1.2000000000000002,
+        "R18": 1.103,
+        "R19": 0.7,
+        "R20": 0,
+        "R21": 0,
+        "R22": 1.103,
+        "R23": 0.6031,
+        "R24": 0.3,
+        "R25": 0,
+        "R26": 0,
+        "R27": 0,
+        "R28": 0,
+        "R29": 0,
+        "R30": 0,
+        "R31": 0,
+        "R32": 0,
+        "R33": 0.8,
+        "R34": 0,
+        "R35": 0,
+        "R36": 0,
+        "R37": 0,
+        "R38": 0,
+        "R39": 0.3,
+        "R40": 0.2001,
+        "R41": 0,
+        "R42": 0.15,
+        "R43": 0.3,
+        "R44": 0.3,
+        "R45": 0.3,
+        "R46": 0,
+        "R47": 0,
+        "R48": 0.3,
+        "R49": 0,
+        "R50": 0,
+        "R51": 0.3
+      },
+      "scoreMap": {
+        "R1": 0.25,
+        "R2": 0.18749999999999997,
+        "R3": 0,
+        "R4": 0,
+        "R5": 0.1250625,
+        "R6": 0.25,
+        "R7": 0.18749999999999997,
+        "R8": 0.18749999999999997,
+        "R9": 0.18749999999999997,
+        "R10": 0.1250625,
+        "R11": 0,
+        "R12": 0,
+        "R13": 0.1250625,
+        "R14": 0,
+        "R15": 0.7500000000000001,
+        "R16": 1,
+        "R17": 0.7500000000000001,
+        "R18": 0.689375,
+        "R19": 0.43749999999999994,
+        "R20": 0,
+        "R21": 0,
+        "R22": 0.689375,
+        "R23": 0.3769375,
+        "R24": 0.18749999999999997,
+        "R25": 0,
+        "R26": 0,
+        "R27": 0,
+        "R28": 0,
+        "R29": 0,
+        "R30": 0,
+        "R31": 0,
+        "R32": 0,
+        "R33": 0.5,
+        "R34": 0,
+        "R35": 0,
+        "R36": 0,
+        "R37": 0,
+        "R38": 0,
+        "R39": 0.18749999999999997,
+        "R40": 0.1250625,
+        "R41": 0,
+        "R42": 0.09374999999999999,
+        "R43": 0.18749999999999997,
+        "R44": 0.18749999999999997,
+        "R45": 0.18749999999999997,
+        "R46": 0,
+        "R47": 0,
+        "R48": 0.18749999999999997,
+        "R49": 0,
+        "R50": 0,
+        "R51": 0.18749999999999997
+      }
+    }
+  ]
+}

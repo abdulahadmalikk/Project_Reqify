@@ -1,0 +1,519 @@
+{
+  "timestamp": "2026-04-17T13:42:32.362610",
+  "analysis_type": "risk_estimation",
+  "filename_generated": "unknown_user_risk_estimation_17.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "results": [
+        {
+          "id": "REQ-34",
+          "text": "The system should handle a large number of simultaneous orders without slowing down.",
+          "origScore": 0,
+          "ambScore": 0.75,
+          "volScore": 0.25,
+          "depScore": 0,
+          "riskIndex": 0.38750000000000007,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-36",
+          "text": "The system shall ensure delivery agents reach customers in a reasonable amount of time.",
+          "origScore": 0,
+          "ambScore": 0.73,
+          "volScore": 0.24333333333333332,
+          "depScore": 0,
+          "riskIndex": 0.37716666666666665,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-33",
+          "text": "The system shall deliver food orders as fast as possible to nearby customers.",
+          "origScore": 0,
+          "ambScore": 0.7,
+          "volScore": 0.2333333333333333,
+          "depScore": 0,
+          "riskIndex": 0.36166666666666664,
+          "riskLevel": "MEDIUM"
+        },
+        {
+          "id": "REQ-35",
+          "text": "The system shall provide a smooth and pleasant ordering experience for all users.",
+          "origScore": 0,
+          "ambScore": 0.69,
+          "volScore": 0.22999999999999998,
+          "depScore": 0,
+          "riskIndex": 0.35649999999999993,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-37",
+          "text": "The system shall process payments in a secure and efficient manner at all times.",
+          "origScore": 0,
+          "ambScore": 0.67,
+          "volScore": 0.22333333333333336,
+          "depScore": 0,
+          "riskIndex": 0.3461666666666667,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-31",
+          "text": "The system shall follow modular architecture to allow addition of new features without affecting existing modules.",
+          "origScore": 0.3,
+          "ambScore": 0.62,
+          "volScore": 0.21291666666666667,
+          "depScore": 0.05410279531109107,
+          "riskIndex": 0.3360465321611061,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-5",
+          "text": "The system shall allow registered users to place food orders using saved payment methods with order confirmation.",
+          "origScore": 5.545,
+          "ambScore": 0,
+          "volScore": 0.20833333333333334,
+          "depScore": 1,
+          "riskIndex": 0.3229166666666667,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-2",
+          "text": "The system shall allow registered users to view restaurant menus with item descriptions and prices.",
+          "origScore": 1.536,
+          "ambScore": 0,
+          "volScore": 0.05000000000000001,
+          "depScore": 0.27700631199278636,
+          "riskIndex": 0.08675157799819659,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-6",
+          "text": "The system shall allow registered users to track delivery status in real time after order placement.",
+          "origScore": 1.375,
+          "ambScore": 0,
+          "volScore": 0.0625,
+          "depScore": 0.24800721370604148,
+          "riskIndex": 0.08387680342651037,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-10",
+          "text": "The system shall allow registered users to view order history from their account dashboard.",
+          "origScore": 1.342,
+          "ambScore": 0,
+          "volScore": 0.05000000000000001,
+          "depScore": 0.2419477006311993,
+          "riskIndex": 0.07798692515779983,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-22",
+          "text": "The system shall authenticate all users using JWT tokens with 24-hour expiration.",
+          "origScore": 1.338,
+          "ambScore": 0,
+          "volScore": 0.05000000000000001,
+          "depScore": 0.2412984670874662,
+          "riskIndex": 0.07782461677186656,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-3",
+          "text": "The system shall allow registered users to add food items to cart with quantity and customization options.",
+          "origScore": 1.063,
+          "ambScore": 0,
+          "volScore": 0.035416666666666666,
+          "depScore": 0.19172227231740305,
+          "riskIndex": 0.0603264014126841,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-17",
+          "text": "The system shall allow registered users to complete payment using credit card, debit card, cash on delivery, or digital wallet.",
+          "origScore": 0.946,
+          "ambScore": 0,
+          "volScore": 0.041666666666666664,
+          "depScore": 0.17051397655545536,
+          "riskIndex": 0.05721182747219717,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-14",
+          "text": "The system shall allow restaurant owners to accept or reject incoming orders within 2 minutes.",
+          "origScore": 0.942,
+          "ambScore": 0,
+          "volScore": 0.035416666666666666,
+          "depScore": 0.16981064021641118,
+          "riskIndex": 0.05484849338743612,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-1",
+          "text": "The system shall allow registered users to browse nearby restaurants by location and cuisine type.",
+          "origScore": 0.8,
+          "ambScore": 0,
+          "volScore": 0.029166666666666664,
+          "depScore": 0.1442741208295762,
+          "riskIndex": 0.04627686354072738,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-24",
+          "text": "The system shall be available 99.9% of the time on a monthly basis.",
+          "origScore": 0.8,
+          "ambScore": 0,
+          "volScore": 0.029166666666666664,
+          "depScore": 0.1442741208295762,
+          "riskIndex": 0.04627686354072738,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-20",
+          "text": "The system shall support at least 1000 concurrent users without performance degradation.",
+          "origScore": 0.7,
+          "ambScore": 0,
+          "volScore": 0.020833333333333332,
+          "depScore": 0.12623985572587917,
+          "riskIndex": 0.03885163059813646,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-15",
+          "text": "The system shall allow delivery agents to update delivery status at each checkpoint in real time.",
+          "origScore": 0.5,
+          "ambScore": 0,
+          "volScore": 0.020833333333333332,
+          "depScore": 0.09015329125338142,
+          "riskIndex": 0.02982998948001202,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-29",
+          "text": "The system shall integrate with third-party mapping services including Google Maps for delivery tracking.",
+          "origScore": 0.5,
+          "ambScore": 0,
+          "volScore": 0.020833333333333332,
+          "depScore": 0.09015329125338142,
+          "riskIndex": 0.02982998948001202,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-21",
+          "text": "The system shall encrypt all payment and personal data using AES-256 encryption.",
+          "origScore": 0.486,
+          "ambScore": 0,
+          "volScore": 0.020833333333333332,
+          "depScore": 0.08761045987376015,
+          "riskIndex": 0.029194281635106702,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-27",
+          "text": "The system shall allow new users to place their first order within 5 minutes without external help.",
+          "origScore": 0.4,
+          "ambScore": 0,
+          "volScore": 0.014583333333333332,
+          "depScore": 0.0721370604147881,
+          "riskIndex": 0.02313843177036369,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-32",
+          "text": "The system shall provide API documentation for all endpoints to support future integrations.",
+          "origScore": 0.4,
+          "ambScore": 0,
+          "volScore": 0.014583333333333332,
+          "depScore": 0.0721370604147881,
+          "riskIndex": 0.02313843177036369,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-47",
+          "text": "The system shall display all menu prices in USD only across all restaurant pages.",
+          "origScore": 0.4,
+          "ambScore": 0,
+          "volScore": 0.014583333333333332,
+          "depScore": 0.0721370604147881,
+          "riskIndex": 0.02313843177036369,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-19",
+          "text": "The system shall load restaurant listings within 3 seconds under normal network conditions.",
+          "origScore": 0.3,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.05410279531109107,
+          "riskIndex": 0.015713198827772768,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-25",
+          "text": "The system shall recover from any server failure within 5 minutes without data loss.",
+          "origScore": 0.3,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.05410279531109107,
+          "riskIndex": 0.015713198827772768,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-26",
+          "text": "The system shall provide a responsive mobile-first interface accessible on Android and iOS.",
+          "origScore": 0.3,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.05410279531109107,
+          "riskIndex": 0.015713198827772768,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-48",
+          "text": "The system shall display menu prices in the local currency of the user based on their detected location.",
+          "origScore": 0.3,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.05410279531109107,
+          "riskIndex": 0.015713198827772768,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-38",
+          "text": "The system shall allow customers to add meals to their basket before placing an order.",
+          "origScore": 0.2,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.036086564472497744,
+          "riskIndex": 0.011209141118124436,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-39",
+          "text": "The system shall allow users to put food items into cart prior to checkout.",
+          "origScore": 0.2,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.036086564472497744,
+          "riskIndex": 0.011209141118124436,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-46",
+          "text": "The system shall support a maximum of 300 concurrent users at peak load.",
+          "origScore": 0.2,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.036086564472497744,
+          "riskIndex": 0.011209141118124436,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-12",
+          "text": "The system shall allow registered users to reorder from previous orders with a single action.",
+          "origScore": 0.133,
+          "ambScore": 0,
+          "volScore": 0.012499999999999999,
+          "depScore": 0.024021641118124434,
+          "riskIndex": 0.010380410279531108,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-4",
+          "text": "The system shall allow registered users to remove items from cart before checkout.",
+          "origScore": 0.15,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.027051397655545536,
+          "riskIndex": 0.008950349413886383,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-8",
+          "text": "The system shall allow registered users to apply promo codes during checkout with validity check.",
+          "origScore": 0.124,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.02229035166816952,
+          "riskIndex": 0.00776008791704238,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-9",
+          "text": "The system shall allow registered users to schedule orders for a future delivery time with confirmation.",
+          "origScore": 0.124,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.02229035166816952,
+          "riskIndex": 0.00776008791704238,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-11",
+          "text": "The system shall allow registered users to manage saved delivery addresses in account settings.",
+          "origScore": 0.124,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.02229035166816952,
+          "riskIndex": 0.00776008791704238,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-18",
+          "text": "The system shall allow registered users to contact customer support through in-app chat after order placement.",
+          "origScore": 0.124,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.02229035166816952,
+          "riskIndex": 0.00776008791704238,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-42",
+          "text": "The system shall allow guest users to place food orders without creating an account.",
+          "origScore": 0.124,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.02229035166816952,
+          "riskIndex": 0.00776008791704238,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-43",
+          "text": "The system shall require all users to register and log in before accessing the ordering feature.",
+          "origScore": 0.124,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.02229035166816952,
+          "riskIndex": 0.00776008791704238,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-44",
+          "text": "The system shall automatically assign the nearest available delivery agent to every new order.",
+          "origScore": 0.124,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.02229035166816952,
+          "riskIndex": 0.00776008791704238,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-45",
+          "text": "The system shall allow restaurant owners to choose and assign their own preferred delivery agents.",
+          "origScore": 0.124,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.02229035166816952,
+          "riskIndex": 0.00776008791704238,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-7",
+          "text": "The system shall allow registered users to rate and review restaurants after order delivery.",
+          "origScore": 0.103,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.01866546438232642,
+          "riskIndex": 0.006853866095581605,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-40",
+          "text": "The system shall allow registered users to view their past food orders from their profile.",
+          "origScore": 0.096,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.017312894499549144,
+          "riskIndex": 0.006515723624887285,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-41",
+          "text": "The system shall allow users to access previous order history from the account section.",
+          "origScore": 0.096,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.017312894499549144,
+          "riskIndex": 0.006515723624887285,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-49",
+          "text": "The system shall cancel unaccepted orders automatically after 5 minutes of no restaurant response.",
+          "origScore": 0.096,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.017312894499549144,
+          "riskIndex": 0.006515723624887285,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-50",
+          "text": "The system shall wait up to 15 minutes before cancelling orders that have not been accepted by the restaurant.",
+          "origScore": 0.096,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.017312894499549144,
+          "riskIndex": 0.006515723624887285,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-23",
+          "text": "The system shall log all user actions including login, order placement, and payment for audit purposes.",
+          "origScore": 0.095,
+          "ambScore": 0,
+          "volScore": 0.0062499999999999995,
+          "depScore": 0.01720468890892696,
+          "riskIndex": 0.0064886722272317395,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-13",
+          "text": "The system shall allow restaurant owners to manage their menu by adding, updating, or removing items.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-16",
+          "text": "The system shall allow admin users to manage restaurant listings and verify partner restaurants.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-28",
+          "text": "The system shall run on Chrome, Firefox, Safari, and Edge browsers without functional differences.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        },
+        {
+          "id": "REQ-30",
+          "text": "The system shall be deployable on AWS, Azure, and Google Cloud without code changes.",
+          "origScore": 0,
+          "ambScore": 0,
+          "volScore": 0,
+          "depScore": 0,
+          "riskIndex": 0,
+          "riskLevel": "LOW"
+        }
+      ],
+      "summary": {
+        "total": 50,
+        "high": 0,
+        "med": 3,
+        "low": 47,
+        "topRiskId": "REQ-34"
+      }
+    }
+  ]
+}

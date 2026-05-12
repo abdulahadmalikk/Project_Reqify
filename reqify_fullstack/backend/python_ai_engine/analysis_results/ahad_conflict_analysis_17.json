@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-04-18T08:48:02.801778",
+  "analysis_type": "conflict_analysis",
+  "filename_generated": "ahad_conflict_analysis_17.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "total_issues": 3,
+      "detections": [
+        {
+          "req1_id": 0,
+          "req2_id": 1,
+          "req1_text": "The student shall register for the academic program to complete the enrollment process.",
+          "req2_text": "The system shall allow learners to sign up for the curriculum to finalize their registration.",
+          "issue_type": "inconsistency",
+          "confidence": 0.75,
+          "evidence": {
+            "method": "partial_scope_mismatch",
+            "all_scope": "The student shall register for the academic program to complete the enrollment process.",
+            "partial_scope": "The system shall allow learners to sign up for the curriculum to finalize their registration."
+          }
+        },
+        {
+          "req1_id": 2,
+          "req2_id": 3,
+          "req1_text": "The system shall grant guest users full access to all assessment materials.",
+          "req2_text": "The system shall restrict guest users from viewing any assessment materials.",
+          "issue_type": "conflict",
+          "confidence": 0.9994812607765198,
+          "evidence": {
+            "method": "nli_contradiction",
+            "score": 0.9994812607765198
+          }
+        },
+        {
+          "req1_id": 4,
+          "req2_id": 5,
+          "req1_text": "The API shall retrieve the gradebook within 500 milliseconds.",
+          "req2_text": "The API shall retrieve the gradebook within 0.8 seconds.",
+          "issue_type": "inconsistency",
+          "confidence": 0.8705185651779175,
+          "evidence": {
+            "method": "similar_different_values",
+            "value1": "500",
+            "value2": "0.8"
+          }
+        }
+      ],
+      "domain_used": "education",
+      "filename": null,
+      "timestamp": "2026-04-18T03:47:50.250Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

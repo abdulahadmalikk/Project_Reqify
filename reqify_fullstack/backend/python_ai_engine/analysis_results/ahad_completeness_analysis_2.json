@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-04-12T22:09:25.422215",
+  "analysis_type": "completeness_analysis",
+  "filename_generated": "ahad_completeness_analysis_2.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "status": "incomplete",
+      "severity": "medium",
+      "domain": "food_delivery",
+      "requirements_count": 50,
+      "coverage": {
+        "percentage": 75.0,
+        "covered": 6,
+        "missing": 2,
+        "total": 8
+      },
+      "covered_modules": [
+        {
+          "name": "Order Placement",
+          "confidence": 0.718
+        },
+        {
+          "name": "Payment Processing",
+          "confidence": 0.781
+        },
+        {
+          "name": "Delivery Tracking",
+          "confidence": 0.529
+        },
+        {
+          "name": "Cart Management",
+          "confidence": 0.932
+        },
+        {
+          "name": "Rating & Reviews",
+          "confidence": 0.486
+        },
+        {
+          "name": "Order History",
+          "confidence": 0.91
+        }
+      ],
+      "missing_modules": [
+        {
+          "name": "Restaurant & Menu Management",
+          "weight": 1.0,
+          "reason": "explicitly_excluded",
+          "negated_by": "The system shall cancel unaccepted orders automatically after 5 minutes of no re..."
+        },
+        {
+          "name": "Promotions & Discounts",
+          "weight": 0.7,
+          "reason": "not_mentioned"
+        }
+      ],
+      "recommendations": [
+        "ℹ️ MEDIUM: 2 modules missing",
+        "→ Recommend: Consider adding missing optional features",
+        "→ Optional features: Restaurant & Menu Management, Promotions & Discounts"
+      ],
+      "filename": "requirements.csv",
+      "timestamp": "2026-04-12T17:09:13.680Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}

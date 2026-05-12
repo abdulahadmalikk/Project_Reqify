@@ -1,0 +1,861 @@
+{
+  "timestamp": "2026-04-16T23:15:37.535045",
+  "analysis_type": "prioritization_analysis",
+  "filename_generated": "ahad_prioritization_analysis_1.json",
+  "total_requirements": 1,
+  "results": [
+    {
+      "total_prioritized": 32,
+      "results": [
+        {
+          "req_id": "REQ-009",
+          "requirement": "The student shall track the course completion percentage.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 9,
+          "ambiguity_score": 0,
+          "conflict_score": 0.0,
+          "has_ambiguity": false,
+          "has_conflict": false,
+          "quality_issues": [],
+          "base_score": 100,
+          "ambiguity_penalty": 0,
+          "conflict_penalty": 0.0,
+          "final_score": 100.0,
+          "quality_rating": "Excellent",
+          "final_rank": 1,
+          "category_rank": "1/32"
+        },
+        {
+          "req_id": "REQ-011",
+          "requirement": "The student shall attempt the quizzes within the allowed time.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 11,
+          "ambiguity_score": 0,
+          "conflict_score": 0.0,
+          "has_ambiguity": false,
+          "has_conflict": false,
+          "quality_issues": [],
+          "base_score": 100,
+          "ambiguity_penalty": 0,
+          "conflict_penalty": 0.0,
+          "final_score": 100.0,
+          "quality_rating": "Excellent",
+          "final_rank": 2,
+          "category_rank": "2/32"
+        },
+        {
+          "req_id": "REQ-018",
+          "requirement": "The student shall download the completion certificate after fulfilling the requirements.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 18,
+          "ambiguity_score": 0,
+          "conflict_score": 0.0,
+          "has_ambiguity": false,
+          "has_conflict": false,
+          "quality_issues": [],
+          "base_score": 100,
+          "ambiguity_penalty": 0,
+          "conflict_penalty": 0.0,
+          "final_score": 100.0,
+          "quality_rating": "Excellent",
+          "final_rank": 3,
+          "category_rank": "3/32"
+        },
+        {
+          "req_id": "REQ-022",
+          "requirement": "The system shall load the course pages within 3 seconds under normal network conditions.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 22,
+          "ambiguity_score": 0,
+          "conflict_score": 0.0,
+          "has_ambiguity": false,
+          "has_conflict": false,
+          "quality_issues": [],
+          "base_score": 100,
+          "ambiguity_penalty": 0,
+          "conflict_penalty": 0.0,
+          "final_score": 100.0,
+          "quality_rating": "Excellent",
+          "final_rank": 4,
+          "category_rank": "4/32"
+        },
+        {
+          "req_id": "REQ-023",
+          "requirement": "The system shall support at least 2000 users.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 23,
+          "ambiguity_score": 0,
+          "conflict_score": 0.0,
+          "has_ambiguity": false,
+          "has_conflict": false,
+          "quality_issues": [],
+          "base_score": 100,
+          "ambiguity_penalty": 0,
+          "conflict_penalty": 0.0,
+          "final_score": 100.0,
+          "quality_rating": "Excellent",
+          "final_rank": 5,
+          "category_rank": "5/32"
+        },
+        {
+          "req_id": "REQ-024",
+          "requirement": "The system shall encrypt the user data using the AES-256 encryption.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 24,
+          "ambiguity_score": 0,
+          "conflict_score": 0.0,
+          "has_ambiguity": false,
+          "has_conflict": false,
+          "quality_issues": [],
+          "base_score": 100,
+          "ambiguity_penalty": 0,
+          "conflict_penalty": 0.0,
+          "final_score": 100.0,
+          "quality_rating": "Excellent",
+          "final_rank": 6,
+          "category_rank": "6/32"
+        },
+        {
+          "req_id": "REQ-025",
+          "requirement": "The system shall authenticate the users every 24 hours.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 25,
+          "ambiguity_score": 0,
+          "conflict_score": 0.0,
+          "has_ambiguity": false,
+          "has_conflict": false,
+          "quality_issues": [],
+          "base_score": 100,
+          "ambiguity_penalty": 0,
+          "conflict_penalty": 0.0,
+          "final_score": 100.0,
+          "quality_rating": "Excellent",
+          "final_rank": 7,
+          "category_rank": "7/32"
+        },
+        {
+          "req_id": "REQ-027",
+          "requirement": "The system shall maintain 99.9% uptime on a monthly basis.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 27,
+          "ambiguity_score": 0,
+          "conflict_score": 0.0,
+          "has_ambiguity": false,
+          "has_conflict": false,
+          "quality_issues": [],
+          "base_score": 100,
+          "ambiguity_penalty": 0,
+          "conflict_penalty": 0.0,
+          "final_score": 100.0,
+          "quality_rating": "Excellent",
+          "final_rank": 8,
+          "category_rank": "8/32"
+        },
+        {
+          "req_id": "REQ-028",
+          "requirement": "The system shall recover from the server failure within 5 minutes.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 28,
+          "ambiguity_score": 0,
+          "conflict_score": 0.0,
+          "has_ambiguity": false,
+          "has_conflict": false,
+          "quality_issues": [],
+          "base_score": 100,
+          "ambiguity_penalty": 0,
+          "conflict_penalty": 0.0,
+          "final_score": 100.0,
+          "quality_rating": "Excellent",
+          "final_rank": 9,
+          "category_rank": "9/32"
+        },
+        {
+          "req_id": "REQ-030",
+          "requirement": "The system shall support the Chrome browser.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 30,
+          "ambiguity_score": 0,
+          "conflict_score": 0.0,
+          "has_ambiguity": false,
+          "has_conflict": false,
+          "quality_issues": [],
+          "base_score": 100,
+          "ambiguity_penalty": 0,
+          "conflict_penalty": 0.0,
+          "final_score": 100.0,
+          "quality_rating": "Excellent",
+          "final_rank": 10,
+          "category_rank": "10/32"
+        },
+        {
+          "req_id": "REQ-002",
+          "requirement": "The system shall require all users to log in before accessing any course content.",
+          "moscow_category": "Must Have",
+          "confidence": 1.0,
+          "matched_keywords": [
+            "shall",
+            "require"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 1,
+          "ambiguity_score": 0,
+          "conflict_score": 0.5,
+          "has_ambiguity": false,
+          "has_conflict": true,
+          "quality_issues": [
+            "Conflict detected (score: 0.50)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 0,
+          "conflict_penalty": 14.99,
+          "final_score": 85.01,
+          "quality_rating": "Good",
+          "final_rank": 11,
+          "category_rank": "11/32"
+        },
+        {
+          "req_id": "REQ-001",
+          "requirement": "The system shall allow all guest users to access the full course content without registration.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 2,
+          "ambiguity_score": 0,
+          "conflict_score": 0.5,
+          "has_ambiguity": false,
+          "has_conflict": true,
+          "quality_issues": [
+            "Conflict detected (score: 0.50)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 0,
+          "conflict_penalty": 14.99,
+          "final_score": 85.01,
+          "quality_rating": "Good",
+          "final_rank": 12,
+          "category_rank": "12/32"
+        },
+        {
+          "req_id": "REQ-032",
+          "requirement": "The system shall operate on the AWS platform.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 32,
+          "ambiguity_score": 0.54,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.54)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 16.2,
+          "conflict_penalty": 0.0,
+          "final_score": 83.8,
+          "quality_rating": "Good",
+          "final_rank": 13,
+          "category_rank": "13/32"
+        },
+        {
+          "req_id": "REQ-004",
+          "requirement": "The administrator shall manage the course update operations.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 4,
+          "ambiguity_score": 0.63,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.63)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 18.9,
+          "conflict_penalty": 0.0,
+          "final_score": 81.1,
+          "quality_rating": "Fair",
+          "final_rank": 14,
+          "category_rank": "14/32"
+        },
+        {
+          "req_id": "REQ-019",
+          "requirement": "The administrator shall manage the student accounts.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 19,
+          "ambiguity_score": 0.64,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.64)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 19.2,
+          "conflict_penalty": 0.0,
+          "final_score": 80.8,
+          "quality_rating": "Fair",
+          "final_rank": 15,
+          "category_rank": "15/32"
+        },
+        {
+          "req_id": "REQ-031",
+          "requirement": "The system shall integrate with the YouTube platform.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 31,
+          "ambiguity_score": 0.65,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.65)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 19.5,
+          "conflict_penalty": 0.0,
+          "final_score": 80.5,
+          "quality_rating": "Fair",
+          "final_rank": 16,
+          "category_rank": "16/32"
+        },
+        {
+          "req_id": "REQ-020",
+          "requirement": "The administrator shall generate the enrollment reports.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 20,
+          "ambiguity_score": 0.67,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.67)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 20.1,
+          "conflict_penalty": 0.0,
+          "final_score": 79.9,
+          "quality_rating": "Fair",
+          "final_rank": 17,
+          "category_rank": "17/32"
+        },
+        {
+          "req_id": "REQ-029",
+          "requirement": "The system shall provide a responsive interface for mobile devices.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 29,
+          "ambiguity_score": 0.67,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.67)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 20.1,
+          "conflict_penalty": 0.0,
+          "final_score": 79.9,
+          "quality_rating": "Fair",
+          "final_rank": 18,
+          "category_rank": "18/32"
+        },
+        {
+          "req_id": "REQ-005",
+          "requirement": "The instructor shall upload the course videos.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 5,
+          "ambiguity_score": 0.71,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.71)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 21.3,
+          "conflict_penalty": 0.0,
+          "final_score": 78.7,
+          "quality_rating": "Fair",
+          "final_rank": 19,
+          "category_rank": "19/32"
+        },
+        {
+          "req_id": "REQ-006",
+          "requirement": "The student shall browse the courses by category.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 6,
+          "ambiguity_score": 0.71,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.71)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 21.3,
+          "conflict_penalty": 0.0,
+          "final_score": 78.7,
+          "quality_rating": "Fair",
+          "final_rank": 20,
+          "category_rank": "20/32"
+        },
+        {
+          "req_id": "REQ-007",
+          "requirement": "The student shall enroll in the course after the payment completes.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 7,
+          "ambiguity_score": 0.71,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.71)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 21.3,
+          "conflict_penalty": 0.0,
+          "final_score": 78.7,
+          "quality_rating": "Fair",
+          "final_rank": 21,
+          "category_rank": "21/32"
+        },
+        {
+          "req_id": "REQ-008",
+          "requirement": "The student shall access the course content after the enrollment succeeds.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 8,
+          "ambiguity_score": 0.71,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.71)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 21.3,
+          "conflict_penalty": 0.0,
+          "final_score": 78.7,
+          "quality_rating": "Fair",
+          "final_rank": 22,
+          "category_rank": "22/32"
+        },
+        {
+          "req_id": "REQ-012",
+          "requirement": "The student shall submit the assignments before the deadline expires.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 12,
+          "ambiguity_score": 0.72,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.72)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 21.6,
+          "conflict_penalty": 0.0,
+          "final_score": 78.4,
+          "quality_rating": "Fair",
+          "final_rank": 23,
+          "category_rank": "23/32"
+        },
+        {
+          "req_id": "REQ-003",
+          "requirement": "The administrator shall create the course with a title.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 3,
+          "ambiguity_score": 0.73,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.73)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 21.9,
+          "conflict_penalty": 0.0,
+          "final_score": 78.1,
+          "quality_rating": "Fair",
+          "final_rank": 24,
+          "category_rank": "24/32"
+        },
+        {
+          "req_id": "REQ-015",
+          "requirement": "The student shall post the discussion forum reply.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 15,
+          "ambiguity_score": 0.73,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.73)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 21.9,
+          "conflict_penalty": 0.0,
+          "final_score": 78.1,
+          "quality_rating": "Fair",
+          "final_rank": 25,
+          "category_rank": "25/32"
+        },
+        {
+          "req_id": "REQ-014",
+          "requirement": "The student shall view the grades from the dashboard.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 14,
+          "ambiguity_score": 0.74,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.74)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 22.2,
+          "conflict_penalty": 0.0,
+          "final_score": 77.8,
+          "quality_rating": "Fair",
+          "final_rank": 26,
+          "category_rank": "26/32"
+        },
+        {
+          "req_id": "REQ-016",
+          "requirement": "The instructor shall send the announcements.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 16,
+          "ambiguity_score": 0.74,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.74)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 22.2,
+          "conflict_penalty": 0.0,
+          "final_score": 77.8,
+          "quality_rating": "Fair",
+          "final_rank": 27,
+          "category_rank": "27/32"
+        },
+        {
+          "req_id": "REQ-026",
+          "requirement": "The system shall log the login activity.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 26,
+          "ambiguity_score": 0.74,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.74)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 22.2,
+          "conflict_penalty": 0.0,
+          "final_score": 77.8,
+          "quality_rating": "Fair",
+          "final_rank": 28,
+          "category_rank": "28/32"
+        },
+        {
+          "req_id": "REQ-010",
+          "requirement": "The instructor shall create the quizzes with deadlines.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 10,
+          "ambiguity_score": 0.75,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.75)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 22.5,
+          "conflict_penalty": 0.0,
+          "final_score": 77.5,
+          "quality_rating": "Fair",
+          "final_rank": 29,
+          "category_rank": "29/32"
+        },
+        {
+          "req_id": "REQ-017",
+          "requirement": "The instructor shall schedule the live classes.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 17,
+          "ambiguity_score": 0.76,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.76)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 22.8,
+          "conflict_penalty": 0.0,
+          "final_score": 77.2,
+          "quality_rating": "Fair",
+          "final_rank": 30,
+          "category_rank": "30/32"
+        },
+        {
+          "req_id": "REQ-021",
+          "requirement": "The student shall save the course to the wishlist.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 21,
+          "ambiguity_score": 0.77,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.77)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 23.1,
+          "conflict_penalty": 0.0,
+          "final_score": 76.9,
+          "quality_rating": "Fair",
+          "final_rank": 31,
+          "category_rank": "31/32"
+        },
+        {
+          "req_id": "REQ-013",
+          "requirement": "The instructor shall provide the assignment feedback.",
+          "moscow_category": "Must Have",
+          "confidence": 0.6,
+          "matched_keywords": [
+            "shall"
+          ],
+          "priority_weight": 4,
+          "needs_review": false,
+          "is_suggested": false,
+          "rank": 13,
+          "ambiguity_score": 0.86,
+          "conflict_score": 0.0,
+          "has_ambiguity": true,
+          "has_conflict": false,
+          "quality_issues": [
+            "Ambiguity detected (score: 0.86)"
+          ],
+          "base_score": 100,
+          "ambiguity_penalty": 25.8,
+          "conflict_penalty": 0.0,
+          "final_score": 74.2,
+          "quality_rating": "Fair",
+          "final_rank": 32,
+          "category_rank": "32/32"
+        }
+      ],
+      "filename": null,
+      "timestamp": "2026-04-16T18:15:37.200Z",
+      "uploader": "ahad@gmail.com"
+    }
+  ]
+}
